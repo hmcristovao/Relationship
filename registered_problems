@@ -1,0 +1,3 @@
+1. Ver pasta CXL não reconhecido
+CMAPTOLLS não consegue ler arquvos CXL com short-comment contendo alguns caracteres. Investigar e descobrir essa limitação.
+

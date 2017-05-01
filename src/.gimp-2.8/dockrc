@@ -1,0 +1,61 @@
+# recently closed docks
+
+(GimpSessionInfo "Caixa de ferramentas - Opções de ferramentas"
+    (factory-entry "gimp-toolbox-window")
+    (position 1081 79)
+    (size 224 552)
+    (open-on-exit)
+    (gimp-toolbox
+        (book
+            (current-page 0)
+            (dockable "gimp-tool-options"
+                (tab-style automatic)
+                (aux-info
+                    (show-button-bar "true"))))))
+(GimpSessionInfo "Camadas, Canais, Vetores, Desfazer - Pincéis, Texturas, Degradês"
+    (factory-entry "gimp-dock-window")
+    (position 1053 13)
+    (size 210 820)
+    (open-on-exit)
+    (aux-info
+        (show-image-menu "false")
+        (follow-active-image "true"))
+    (gimp-dock
+        (book
+            (current-page 3)
+            (dockable "gimp-layer-list"
+                (tab-style automatic)
+                (preview-size 32)
+                (aux-info
+                    (show-button-bar "true")))
+            (dockable "gimp-channel-list"
+                (tab-style automatic)
+                (preview-size 32)
+                (aux-info
+                    (show-button-bar "true")))
+            (dockable "gimp-vectors-list"
+                (tab-style automatic)
+                (preview-size 32)
+                (aux-info
+                    (show-button-bar "true")))
+            (dockable "gimp-undo-history"
+                (tab-style automatic)
+                (aux-info
+                    (show-button-bar "true"))))
+        (book
+            (position 420)
+            (current-page 0)
+            (dockable "gimp-brush-grid"
+                (tab-style automatic)
+                (aux-info
+                    (show-button-bar "true")))
+            (dockable "gimp-pattern-grid"
+                (tab-style automatic)
+                (aux-info
+                    (show-button-bar "true")))
+            (dockable "gimp-gradient-list"
+                (tab-style automatic)
+                (aux-info
+                    (show-button-bar "true"))))))
+
+# end of recently closed docks
