@@ -9,7 +9,7 @@ field -> works in the field
 fields -> works in the fields
 subject	-> has subject
 core#broader -> is broader of
-leaderName	-> is leader
+leaderName	-> is led
 author	-> is author
 genre -> has genre
 core#related -> is related to
