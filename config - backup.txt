@@ -135,10 +135,9 @@ graphStreamVisualization = 	false
 
 // to fix a bug in Gephi Tool Kit - calculate wrong the quantity of connected component
 // turn the flag to true and put original concepts that is getting alone (put '.' to empty)
-// Attention: do not put '.' in the final of concept  
 isFixBugInGephiToolKit = true
-originalConceptWithGephiToolKitBug0 = Knowledge organization
-originalConceptWithGephiToolKitBug1 = .
+originalConceptWithGephiToolKitBug0 = Knowledge organization.
+originalConceptWithGephiToolKitBug1 = Tim Berners-Lee.
 originalConceptWithGephiToolKitBug2 = .
 originalConceptWithGephiToolKitBug3 = .
 originalConceptWithGephiToolKitBug4 = .
