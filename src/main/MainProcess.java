@@ -8,6 +8,8 @@ import graph.NodeData;
 import graph.QuantityNodesEdges;
 import graph.StreamGraphData.DeletedStatus;
 import graph.SystemGraphData;
+import gui.DisplayGraph;
+import gui.EdgeType;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -17,12 +19,17 @@ import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.swing.JFrame;
+
 import map.Proposition;
 
 import org.graphstream.graph.Edge;
 import org.graphstream.graph.Node;
 import org.graphstream.stream.gephi.JSONSender;
 
+import edu.uci.ics.jung.graph.DirectedSparseGraph;
+import edu.uci.ics.jung.graph.DirectedSparseMultigraph;
+import edu.uci.ics.jung.graph.Graph;
 import parsersystem.*;
 import rdf.SetQuerySparql;
 import user.*;
@@ -213,7 +220,15 @@ public class MainProcess {
             
 			buildGexfGraphFileFromConceptMap();
 			buildTxtFileFromConceptMap();
-			
+			//--------------------Inserting code to test the DisplayGraph class -------------------------------------
+			JFrame graphFrame = new JFrame("Graph Frame Test");
+			graphFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+			Graph<String, EdgeType> graphTest = new DirectedSparseMultigraph<>();
+			graphTest = DisplayGraph.parseTxtIntoGraph();
+			graphFrame.getContentPane().add(DisplayGraph.GenerateVisualGraph(graphTest));
+			graphFrame.pack();
+			graphFrame.setVisible(true);
+			//-------------------------------------End Test Code---------------------------------------
 			upgradeConceptMap_heuristic_08_changeAmpersandCharacterInCxlFile();
 			upgradeConceptMap_heuristic_09_putNewLineInCategory();
 			upgradeConceptMap_heuristic_10_putNewLineInLongSentence();
