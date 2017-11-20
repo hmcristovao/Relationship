@@ -13,6 +13,8 @@ import edu.uci.ics.jung.graph.DirectedSparseMultigraph;
 import edu.uci.ics.jung.graph.Graph;
 import edu.uci.ics.jung.graph.SparseMultigraph;
 import edu.uci.ics.jung.visualization.BasicVisualizationServer;
+import edu.uci.ics.jung.visualization.VisualizationViewer;
+import edu.uci.ics.jung.visualization.control.DefaultModalGraphMouse;
 import edu.uci.ics.jung.visualization.decorators.ToStringLabeller;
 import edu.uci.ics.jung.visualization.renderers.Renderer.VertexLabel.Position;
 import main.WholeSystem;
@@ -29,32 +31,43 @@ public class DisplayGraph {
 			fileReader = new FileReader(fileName);
 			bufferedReader = new BufferedReader(fileReader);
 			String sCurrentLine;
-			String composedTermOrigin;
-		    String composedTermRelation;
-		    String composedTermTarget;
+			String composedTermOrigin ="";
+		    String composedTermRelation = "";
+		    String composedTermTarget = "";
+		    boolean origin = false;
+		    boolean relation = false;
+		    boolean target = false;
 		    while ((sCurrentLine = bufferedReader.readLine()) != null) {
 				System.out.println(sCurrentLine);
 				Scanner scanTerm = new Scanner(sCurrentLine);
-			    scanTerm.useDelimiter("\t");
+				//assumes the line has a certain structure: Term \t Relation \t Target
+				scanTerm.useDelimiter("\t");
 			    if (scanTerm.hasNext()){
-			      //assumes the line has a certain structure: Term \t Relation \t Target
 			      composedTermOrigin = scanTerm.next();
-			      composedTermRelation = scanTerm.next();
-			      composedTermTarget = scanTerm.next();
-			      EdgeType edge = new EdgeType(composedTermRelation);
-			      graphFromTxtFile.addEdge(edge,composedTermOrigin, composedTermTarget);
-			      
-			    } else {
-			    	break;
+			      origin = true;
 			    }
+			    if (scanTerm.hasNext()) {
+			      composedTermRelation = scanTerm.next();
+			      relation = true;
+			    }
+			    if (scanTerm.hasNext()){
+			      composedTermTarget = scanTerm.next();
+			      target = true;
+			    }
+			    if (relation == true){
+			      EdgeType edge = new EdgeType(composedTermRelation);
+			      graphFromTxtFile.addEdge(edge,composedTermOrigin, composedTermTarget); 
+			    } else if (origin == true) {
+			    	graphFromTxtFile.addVertex(composedTermOrigin);
+			    }
+			    origin = false;
+			    relation = false;
+			    target = false;
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
 		} finally {
 			try {
-				//if (bufferedReader != null){
-				//	bufferedReader.close();
-				//}
 				if (fileReader != null){
 					fileReader.close();
 				}
@@ -66,14 +79,17 @@ public class DisplayGraph {
 	return graphFromTxtFile;
 	}
 	
-	public static BasicVisualizationServer<String,EdgeType> GenerateVisualGraph(Graph<String, EdgeType> receivedGraph){
+	public static VisualizationViewer<String,EdgeType> GenerateVisualGraph(Graph<String, EdgeType> receivedGraph){
 		//Define layout style -- To do: add a button to allow the user to choose it 
 		 Layout<String, EdgeType> layout = new CircleLayout<String, EdgeType>(receivedGraph);
 		 layout.setSize(new Dimension(1000,1000)); 
-		 BasicVisualizationServer<String,EdgeType> visualizationServer = new BasicVisualizationServer<String, EdgeType>(layout);
+		 VisualizationViewer<String,EdgeType> visualizationServer = new VisualizationViewer<String, EdgeType>(layout);
 		 visualizationServer.getRenderContext().setVertexLabelTransformer(new ToStringLabeller());
 		 visualizationServer.getRenderContext().setEdgeLabelTransformer(new EdgeLabelTransformer());
 		 visualizationServer.getRenderer().getVertexLabelRenderer().setPosition(Position.CNTR);
+		 DefaultModalGraphMouse graphMouse = new DefaultModalGraphMouse();
+		 graphMouse.setMode(DefaultModalGraphMouse.Mode.PICKING);
+		 visualizationServer.setGraphMouse(graphMouse);
 		 return visualizationServer;
 	}
 	
