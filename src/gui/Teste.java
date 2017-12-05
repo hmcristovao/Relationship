@@ -1,5 +1,7 @@
 package gui;
 
+
+
 import javax.swing.JFrame;
 
 import edu.uci.ics.jung.graph.DirectedSparseGraph;
@@ -18,5 +20,6 @@ public class Teste {
 	graphFrame.getContentPane().add(DisplayGraph.GenerateVisualGraph(graphTest));
 	graphFrame.pack();
 	graphFrame.setVisible(true);
+	
 	}
 }

@@ -8,22 +8,19 @@ import java.util.Scanner;
 
 import edu.uci.ics.jung.algorithms.layout.CircleLayout;
 import edu.uci.ics.jung.algorithms.layout.Layout;
-import edu.uci.ics.jung.graph.DirectedSparseGraph;
 import edu.uci.ics.jung.graph.DirectedSparseMultigraph;
 import edu.uci.ics.jung.graph.Graph;
-import edu.uci.ics.jung.graph.SparseMultigraph;
-import edu.uci.ics.jung.visualization.BasicVisualizationServer;
+import edu.uci.ics.jung.visualization.GraphZoomScrollPane;
 import edu.uci.ics.jung.visualization.VisualizationViewer;
 import edu.uci.ics.jung.visualization.control.DefaultModalGraphMouse;
 import edu.uci.ics.jung.visualization.decorators.ToStringLabeller;
 import edu.uci.ics.jung.visualization.renderers.Renderer.VertexLabel.Position;
-import main.WholeSystem;
 
 public class DisplayGraph {
 	public static Graph<String, EdgeType> parseTxtIntoGraph(){
-		final String fileName = WholeSystem.configTable.getString("baseDirectory")+"\\"+WholeSystem.configTable.getString("testName")+"\\"+
-		          WholeSystem.configTable.getString("nameTxtConceptMapFile");
-		//String fileName = "E:\\Documents\\UFES\\TCC\\Relationship\\teste2\\conceptmap_teste2.txt";      
+		//final String fileName = WholeSystem.configTable.getString("baseDirectory")+"\\"+WholeSystem.configTable.getString("testName")+"\\"+
+		//          WholeSystem.configTable.getString("nameTxtConceptMapFile");
+		String fileName = "E:\\Documents\\UFES\\TCC\\Relationship\\teste2\\conceptmap_teste2.txt";      
 		BufferedReader bufferedReader = null;
 		FileReader fileReader = null;
 		Graph<String, EdgeType> graphFromTxtFile = new DirectedSparseMultigraph<String, EdgeType>();
@@ -79,7 +76,7 @@ public class DisplayGraph {
 	return graphFromTxtFile;
 	}
 	
-	public static VisualizationViewer<String,EdgeType> GenerateVisualGraph(Graph<String, EdgeType> receivedGraph){
+	public static GraphZoomScrollPane GenerateVisualGraph(Graph<String, EdgeType> receivedGraph){
 		//Define layout style -- To do: add a button to allow the user to choose it 
 		 Layout<String, EdgeType> layout = new CircleLayout<String, EdgeType>(receivedGraph);
 		 layout.setSize(new Dimension(1000,1000)); 
@@ -90,7 +87,8 @@ public class DisplayGraph {
 		 DefaultModalGraphMouse graphMouse = new DefaultModalGraphMouse();
 		 graphMouse.setMode(DefaultModalGraphMouse.Mode.PICKING);
 		 visualizationServer.setGraphMouse(graphMouse);
-		 return visualizationServer;
+		 GraphZoomScrollPane scrollPanel = new GraphZoomScrollPane(visualizationServer);
+		 return scrollPanel;
 	}
 	
 }
