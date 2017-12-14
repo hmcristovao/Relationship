@@ -1,0 +1,2155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2017-12-13">
+    <creator>Gephi 0.8.1</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="componentnumber" title="Component ID" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="strongcompnum" title="Strongly-Connected ID" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="nextedge0" title="nextedge0" type="string" />
+      <attribute id="nextedge1" title="nextedge1" type="string" />
+      <attribute id="nextedge2" title="nextedge2" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Organization of information">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="7" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="466.62305" y="399.02527" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Knowledge organization" label="Knowledge organization">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="6" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="242.12115" y="447.68677" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Knowledge Organization">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="8" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-459.87207" y="-341.69135" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Information organization">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="9" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="39.95923" y="140.71063" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Knowledge organization (management)">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-159.82513" y="433.57874" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Library science">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="1" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-482.41962" y="203.63574" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Information science">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="2" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-390.90198" y="-265.9198" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Knowledge">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="3" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="89.8689" y="-286.4051" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Epistemology">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="4" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-39.587585" y="506.2326" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Library cataloging and classification">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="5" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-32.249115" y="-217.18872" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="SemWeb">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="17" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-158.60065" y="111.43225" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Semantic Web" label="Semantic Web">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="16" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="186.93439" y="339.35962" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Notation3">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="66" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="450.03107" y="-382.6385" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Resource Description Framework">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="67" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-364.43976" y="2.9454346" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Farshad Fotouhi">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="68" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-126.6456" y="278.56976" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="DBpedia">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="69" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="488.99554" y="-1.6412964" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Stardog">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="70" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="129.49365" y="-338.81073" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Wendy Hall">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="71" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="265.6692" y="143.9867" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="UMBEL">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="72" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="241.72064" y="227.00269" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Deborah McGuinness">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="73" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="54.760315" y="-171.2537" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="RDFa">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="74" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="450.57928" y="-166.31989" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Turtle (syntax)">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="75" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="334.71527" y="-451.977" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Criticism of the Semantic Web">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="76" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="178.8424" y="-469.14597" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Web 3.0">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="77" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="200.98389" y="7.680359" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="XML">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="78" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-95.88547" y="235.80359" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Open Web Platform">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="79" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-247.972" y="24.930115" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Schema.org">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="80" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-334.8122" y="357.87024" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Sesame (framework)">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="81" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-155.42877" y="455.8297" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Nigel Shadbolt">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="82" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-469.20737" y="207.32886" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="David Karger">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="83" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="422.22125" y="161.40112" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Tabulator">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="84" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-6.822754" y="72.28931" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Ian Horrocks">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="85" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="146.01105" y="-412.15985" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="TriX (syntax)">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="86" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-86.01224" y="176.30579" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Tim Finin">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="87" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="111.06964" y="-118.98642" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="RDF Schema">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="88" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="346.20953" y="339.72284" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="The semantic web">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="89" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="20.54596" y="-418.58337" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Internet ages">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="10" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="283.46997" y="59.38745" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Emerging technologies">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="11" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="306.07465" y="-147.00937" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Knowledge engineering">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="12" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="146.79224" y="-105.790924" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Web services">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="13" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="333.48596" y="-112.32266" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Semantic Web">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="14" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-391.0728" y="498.1518" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Buzzwords">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="15" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="13.126648" y="-402.6879" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Web Medica Acreditada">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="90" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="177.682" y="377.59174" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Semantinet">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="91" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-153.92871" y="-44.564087" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="StrixDB">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="92" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-187.79944" y="466.57782" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="N-Triples">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="93" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-319.32993" y="383.83185" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Carole Goble">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="94" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-270.05826" y="-88.61752" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Semantic web">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="95" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="228.29065" y="392.06824" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="YAGO (database)">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="96" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="477.13983" y="34.832764" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Amit Sheth">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="97" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-307.22327" y="273.05798" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Frank van Harmelen">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="98" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="281.82025" y="311.26233" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="GNOWSYS">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="99" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-294.93857" y="33.61969" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="JRDF (framework)">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="100" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-314.01608" y="324.52698" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Web Ontology Language">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="101" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="122.53412" y="-103.74817" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Extended Semantic Web Conference">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="102" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="462.36084" y="104.37842" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Mulgara (software)">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="103" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="152.17798" y="-353.19" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="James Hendler">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="104" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-138.82559" y="-59.40851" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="JSON-LD">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="105" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-312.84485" y="-177.49835" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Semantic internet">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="106" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="303.64563" y="-240.40768" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Regator">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="107" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-291.56598" y="235.5904" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Jena (framework)">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="108" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-258.4933" y="414.93634" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="International Semantic Web Conference">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="109" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="96.214966" y="-389.5717" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Joseph G. Davis">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="110" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="35.58081" y="-209.16345" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Semantic integrity">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="111" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="220.3258" y="174.91113" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="David De Roure">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="112" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-128.47372" y="447.0442" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="TriG (syntax)">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="113" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="234.42212" y="-107.8219" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Otlet">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="143" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-72.87009" y="-356.2649" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Paul Otlet" label="Paul Otlet">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="142" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="85.742065" y="-355.64584" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Suzanne Briet">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="144" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="233.07556" y="-23.343079" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Belgian librarians">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="114" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-129.6713" y="87.35956" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Fred Kilgour">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="115" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-72.098816" y="-474.3557" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Gerard Salton">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="116" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="313.047" y="84.2879" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Information science">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="117" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-102.10184" y="373.70972" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Brussels">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="118" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-167.61243" y="-405.41968" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Douglas Engelbart">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="119" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="113.994934" y="-410.72968" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Belgium">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="120" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-138.03763" y="-352.79956" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Ted Nelson">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="121" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-169.79382" y="280.67126" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Belgian Christians">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="122" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-156.23846" y="-441.7595" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Edmond Picard">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="123" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="192.01776" y="130.0199" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Melvil Dewey">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="124" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-417.34424" y="-133.13303" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Michael Buckland">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="125" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="218.1175" y="-107.55615" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Free University of Brussels alumni">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="126" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="457.29138" y="-441.7615" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Vannevar Bush">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="127" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-434.8308" y="-292.7601" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Henri La Fontaine">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="128" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="319.43994" y="18.008057" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:1868 births">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="129" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-37.13138" y="-291.01868" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Alexander Ivanovich Mikhailov">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="130" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-217.97131" y="-179.75449" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Robert M. Hayes">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="131" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-284.6927" y="349.50226" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Luciano Floridi">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="132" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-4.5092163" y="-110.90524" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Jesse Shera">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="133" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="204.7099" y="45.780518" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="J. C. R. Licklider">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="134" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-57.259796" y="-205.79437" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Warren Weaver">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="135" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-95.099884" y="254.09088" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="S. R. Ranganathan">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="136" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-255.0109" y="-59.042725" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Belgian scientists">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="137" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="14.388977" y="-162.59753" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Tim Berners-Lee" label="Tim Berners-Lee">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="65" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="463.78912" y="198.71674" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Belgian bibliographers">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="138" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="452.76788" y="-359.15375" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:1944 deaths">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="139" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="409.09363" y="73.85254" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Belgian inventors">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="140" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-370.87103" y="-480.82068" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Andries van Dam">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="141" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="18.800598" y="-121.0506" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Tim berners-lee">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="145" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="87.523315" y="-329.47577" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Weaving the Web">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="146" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-37.84973" y="475.6482" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Sir Timothy John Berners-Lee, OM, KBE, FRS, FREng, FRSA">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="147" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-137.99268" y="22.26416" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Sir Timothy John Berners-Lee">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="148" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="237.51672" y="75.7594" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="World Wide Web Consortium">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="149" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="132.61603" y="-412.1748" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Shuji Nakamura">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="150" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-315.45547" y="273.7779" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Tim bl">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="151" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-436.35788" y="167.17883" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Tim berners lee">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="152" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-488.7519" y="-46.3497" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="World Wide Web Foundation">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="153" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-473.1129" y="499.25" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="London">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="18" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="148.60358" y="-36.374634" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Plessey">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="19" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="265.0916" y="-8.983368" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:UNESCO Niels Bohr Medal recipients">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="20" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-11.672333" y="485.24274" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="England">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="21" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-65.46011" y="445.93872" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Internet pioneers">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="22" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="333.9533" y="-164.00735" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Members of the Order of Merit">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="23" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="380.87305" y="-206.54355" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Tim Berners-Lee  2">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="24" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="200.97302" y="39.905823" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:People with social media presence">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="25" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="448.43414" y="-318.35138" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="List of Fellows of the Royal Society of Arts">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="26" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="438.7381" y="-123.69107" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Massachusetts Institute of Technology">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="27" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-398.99182" y="-63.25641" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Webby Award winners">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="28" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="14.964111" y="274.20776" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Order of the British Empire">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="29" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-359.39148" y="316.02747" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Fellows of The Queen's College, Oxford">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="30" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="203.10742" y="-141.76315" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:People educated at Emanuel School">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="31" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="351.0" y="-315.20535" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Tim Berners-Lee  1">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="32" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-156.45816" y="171.84125" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Conway Berners-Lee">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="33" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-36.061127" y="-266.66138" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Computer scientist">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="34" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-188.62192" y="-395.66855" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Mary Lee Woods">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="35" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="448.64844" y="-383.4183" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Fellows of the American Academy of Arts and Sciences">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="36" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="316.93402" y="330.68066" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Unitarian Universalists">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="37" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-241.16235" y="446.79382" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:People from Barnes, London">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="38" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-310.72418" y="-363.59094" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:English inventors">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="39" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="336.61053" y="398.953" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Royal Medal winners">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="40" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-151.0845" y="-155.37363" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:English Unitarians">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="41" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="368.90137" y="298.65045" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Knights Commander of the Order of the British Empire">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="42" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-237.33527" y="-311.71844" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:TED speakers">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="43" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-480.38852" y="-45.954285" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Members of the United States National Academy of Sciences">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="44" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-208.19257" y="377.8932" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:People from London">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="45" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="119.41168" y="166.22888" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="University of Southampton">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="46" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-5.8309326" y="-196.48718" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Fellows of the Royal Society">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="47" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="85.21271" y="306.44708" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Awards and honours presented to Tim Berners-Lee">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="48" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="121.32367" y="279.39868" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:English expatriates in the United States">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="49" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="162.59723" y="-415.99338" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:1955 births">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="50" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="264.09467" y="-9.146545" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:World Wide Web Consortium">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="51" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="437.04352" y="-354.73947" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Royal Society">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="52" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-157.3313" y="-165.09167" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Hypertext Transfer Protocol">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="53" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="443.56165" y="-58.054413" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Members of the United States National Academy of Engineering">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="54" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-87.94406" y="-339.99042" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:History of the Internet">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="55" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-380.59787" y="386.2329" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Massachusetts Institute of Technology staff">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="56" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-440.70493" y="4.59256" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Fellows of the British Computer Society">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="57" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="290.78424" y="170.20813" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Fellows of the Royal Academy of Engineering">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="58" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="505.71448" y="310.40295" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Alumni of The Queen's College, Oxford">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="59" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-137.8671" y="269.09882" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Japan Prize laureates">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="60" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-104.27481" y="243.65326" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Royal Academy of Engineering">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="61" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="385.0999" y="70.41864" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:English computer scientists">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="62" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-346.964" y="195.57758" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Order of Merit">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="63" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="224.68542" y="-224.70157" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="DFBCS">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="64" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-284.1555" y="253.67505" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Jon Postel">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="154" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="111.06439" y="-296.373" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="TimBL">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="155" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-75.52847" y="-64.09036" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Dr. Tim Berners-Lee">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="156" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="468.26202" y="401.22534" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Libwww">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="157" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="328.0722" y="-237.64206" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Line Mode Browser">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="158" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-455.3894" y="495.1297" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Tim Bernes Lee">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="159" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="201.46881" y="302.27716" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Timothy Berners-Lee">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="160" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-465.03995" y="-427.83963" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Tim Berners Lee">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="161" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="118.81561" y="-320.71234" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Tim-Berners Lee">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="162" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-419.09686" y="-33.694794" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="ENQUIRE">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="163" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="17.72107" y="-356.65494" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Sir Tim Berners-Lee">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="164" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="262.81494" y="232.04742" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="History of the World Wide Web">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="165" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="305.6142" y="225.3999" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Timothy John Berners-Lee">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="166" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-43.7034" y="253.61981" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="World Wide Web Consortium  1">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="167" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-290.44135" y="-320.8776" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="13926 Berners-Lee">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="168" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="215.65039" y="394.2682" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Sir Tim Berners Lee">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="169" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-248.61966" y="-116.20563" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Timbl">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="170" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="168.3042" y="-175.04016" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="WorldWideWeb">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="171" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="441.8896" y="-366.5523" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Berners-Lee">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="172" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-243.35825" y="188.57153" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Tim Bernes-Lee">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="173" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="31.141968" y="269.5556" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Tim Burners Lee">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="174" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-452.51712" y="53.447327" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="TBL">
+        <attvalues>
+          <attvalue for="componentnumber" value="1" />
+          <attvalue for="strongcompnum" value="175" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="426.0965" y="-71.94119" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+    </nodes>
+    <edges>
+      <edge id="wikiPageRedirects[Organization of information--Knowledge organization]" source="Organization of information" target="Knowledge organization" label="wikiPageRedirects[Organization of information--Knowledge organization]">
+        <attvalues />
+      </edge>
+      <edge id="rdf-schema#seeAlso[Knowledge organization--Knowledge organization (management)]" source="Knowledge organization" target="Knowledge organization (management)" label="rdf-schema#seeAlso[Knowledge organization--Knowledge organization (management)]">
+        <attvalues />
+      </edge>
+      <edge id="subject[Knowledge organization--Category:Library science]" source="Knowledge organization" target="Category:Library science" label="subject[Knowledge organization--Category:Library science]">
+        <attvalues />
+      </edge>
+      <edge id="subject#000[Knowledge organization--Category:Information science]" source="Knowledge organization" target="Category:Information science" label="subject#000[Knowledge organization--Category:Information science]">
+        <attvalues />
+      </edge>
+      <edge id="subject#001[Knowledge organization--Category:Knowledge]" source="Knowledge organization" target="Category:Knowledge" label="subject#001[Knowledge organization--Category:Knowledge]">
+        <attvalues />
+      </edge>
+      <edge id="subject#002[Knowledge organization--Category:Epistemology]" source="Knowledge organization" target="Category:Epistemology" label="subject#002[Knowledge organization--Category:Epistemology]">
+        <attvalues />
+      </edge>
+      <edge id="subject#003[Knowledge organization--Category:Library cataloging and classification]" source="Knowledge organization" target="Category:Library cataloging and classification" label="subject#003[Knowledge organization--Category:Library cataloging and classification]">
+        <attvalues />
+      </edge>
+      <edge id="wikiPageRedirects#000[Knowledge Organization--Knowledge organization]" source="Knowledge Organization" target="Knowledge organization" label="wikiPageRedirects#000[Knowledge Organization--Knowledge organization]">
+        <attvalues />
+      </edge>
+      <edge id="wikiPageRedirects#001[Information organization--Knowledge organization]" source="Information organization" target="Knowledge organization" label="wikiPageRedirects#001[Information organization--Knowledge organization]">
+        <attvalues />
+      </edge>
+      <edge id="wikiPageRedirects#002[SemWeb--Semantic Web]" source="SemWeb" target="Semantic Web" label="wikiPageRedirects#002[SemWeb--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="subject#004[Semantic Web--Category:Internet ages]" source="Semantic Web" target="Category:Internet ages" label="subject#004[Semantic Web--Category:Internet ages]">
+        <attvalues />
+      </edge>
+      <edge id="subject#005[Semantic Web--Category:Emerging technologies]" source="Semantic Web" target="Category:Emerging technologies" label="subject#005[Semantic Web--Category:Emerging technologies]">
+        <attvalues />
+      </edge>
+      <edge id="subject#006[Semantic Web--Category:Knowledge engineering]" source="Semantic Web" target="Category:Knowledge engineering" label="subject#006[Semantic Web--Category:Knowledge engineering]">
+        <attvalues />
+      </edge>
+      <edge id="subject#007[Semantic Web--Category:Web services]" source="Semantic Web" target="Category:Web services" label="subject#007[Semantic Web--Category:Web services]">
+        <attvalues />
+      </edge>
+      <edge id="subject#008[Semantic Web--Category:Semantic Web]" source="Semantic Web" target="Category:Semantic Web" label="subject#008[Semantic Web--Category:Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="subject#009[Semantic Web--Category:Buzzwords]" source="Semantic Web" target="Category:Buzzwords" label="subject#009[Semantic Web--Category:Buzzwords]">
+        <attvalues />
+      </edge>
+      <edge id="genre[Notation3--Semantic Web]" source="Notation3" target="Semantic Web" label="genre[Notation3--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="owner[Notation3--Tim Berners-Lee]" source="Notation3" target="Tim Berners-Lee" label="owner[Notation3--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
+      <edge id="domain[Resource Description Framework--Semantic Web]" source="Resource Description Framework" target="Semantic Web" label="domain[Resource Description Framework--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="field[Farshad Fotouhi--Semantic Web]" source="Farshad Fotouhi" target="Semantic Web" label="field[Farshad Fotouhi--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="genre#000[DBpedia--Semantic Web]" source="DBpedia" target="Semantic Web" label="genre#000[DBpedia--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="genre#001[Stardog--Semantic Web]" source="Stardog" target="Semantic Web" label="genre#001[Stardog--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="field#000[Wendy Hall--Semantic Web]" source="Wendy Hall" target="Semantic Web" label="field#000[Wendy Hall--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="genre#002[UMBEL--Semantic Web]" source="UMBEL" target="Semantic Web" label="genre#002[UMBEL--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="knownFor[Deborah McGuinness--Semantic Web]" source="Deborah McGuinness" target="Semantic Web" label="knownFor[Deborah McGuinness--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="domain#000[RDFa--Semantic Web]" source="RDFa" target="Semantic Web" label="domain#000[RDFa--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="genre#004[Turtle (syntax)--Semantic Web]" source="Turtle (syntax)" target="Semantic Web" label="genre#004[Turtle (syntax)--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="wikiPageRedirects#003[Criticism of the Semantic Web--Semantic Web]" source="Criticism of the Semantic Web" target="Semantic Web" label="wikiPageRedirects#003[Criticism of the Semantic Web--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="wikiPageRedirects#004[Web 3.0--Semantic Web]" source="Web 3.0" target="Semantic Web" label="wikiPageRedirects#004[Web 3.0--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="genre#005[XML--Semantic Web]" source="XML" target="Semantic Web" label="genre#005[XML--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="domain#001[Open Web Platform--Semantic Web]" source="Open Web Platform" target="Semantic Web" label="domain#001[Open Web Platform--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="domain#002[Schema.org--Semantic Web]" source="Schema.org" target="Semantic Web" label="domain#002[Schema.org--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="genre#006[Sesame (framework)--Semantic Web]" source="Sesame (framework)" target="Semantic Web" label="genre#006[Sesame (framework)--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="knownFor#000[Nigel Shadbolt--Semantic Web]" source="Nigel Shadbolt" target="Semantic Web" label="knownFor#000[Nigel Shadbolt--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="fields[David Karger--Semantic Web]" source="David Karger" target="Semantic Web" label="fields[David Karger--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="genre#007[Tabulator--Semantic Web]" source="Tabulator" target="Semantic Web" label="genre#007[Tabulator--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="author#001[Tabulator--Tim Berners-Lee]" source="Tabulator" target="Tim Berners-Lee" label="author#001[Tabulator--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
+      <edge id="field#003[Ian Horrocks--Semantic Web]" source="Ian Horrocks" target="Semantic Web" label="field#003[Ian Horrocks--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="genre#009[TriX (syntax)--Semantic Web]" source="TriX (syntax)" target="Semantic Web" label="genre#009[TriX (syntax)--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="fields#000[Tim Finin--Semantic Web]" source="Tim Finin" target="Semantic Web" label="fields#000[Tim Finin--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="domain#003[RDF Schema--Semantic Web]" source="RDF Schema" target="Semantic Web" label="domain#003[RDF Schema--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="wikiPageRedirects#005[The semantic web--Semantic Web]" source="The semantic web" target="Semantic Web" label="wikiPageRedirects#005[The semantic web--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="product[Web Medica Acreditada--Semantic Web]" source="Web Medica Acreditada" target="Semantic Web" label="product[Web Medica Acreditada--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="genre#010[Semantinet--Semantic Web]" source="Semantinet" target="Semantic Web" label="genre#010[Semantinet--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="genre#011[StrixDB--Semantic Web]" source="StrixDB" target="Semantic Web" label="genre#011[StrixDB--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="genre#013[N-Triples--Semantic Web]" source="N-Triples" target="Semantic Web" label="genre#013[N-Triples--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="field#005[Carole Goble--Semantic Web]" source="Carole Goble" target="Semantic Web" label="field#005[Carole Goble--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="wikiPageRedirects#006[Semantic web--Semantic Web]" source="Semantic web" target="Semantic Web" label="wikiPageRedirects#006[Semantic web--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="genre#014[YAGO (database)--Semantic Web]" source="YAGO (database)" target="Semantic Web" label="genre#014[YAGO (database)--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="fields#001[Amit Sheth--Semantic Web]" source="Amit Sheth" target="Semantic Web" label="fields#001[Amit Sheth--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="fields#002[Frank van Harmelen--Semantic Web]" source="Frank van Harmelen" target="Semantic Web" label="fields#002[Frank van Harmelen--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="genre#016[GNOWSYS--Semantic Web]" source="GNOWSYS" target="Semantic Web" label="genre#016[GNOWSYS--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="genre#018[JRDF (framework)--Semantic Web]" source="JRDF (framework)" target="Semantic Web" label="genre#018[JRDF (framework)--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="domain#004[Web Ontology Language--Semantic Web]" source="Web Ontology Language" target="Semantic Web" label="domain#004[Web Ontology Language--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="discipline[Extended Semantic Web Conference--Semantic Web]" source="Extended Semantic Web Conference" target="Semantic Web" label="discipline[Extended Semantic Web Conference--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="genre#020[Mulgara (software)--Semantic Web]" source="Mulgara (software)" target="Semantic Web" label="genre#020[Mulgara (software)--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="fields#003[James Hendler--Semantic Web]" source="James Hendler" target="Semantic Web" label="fields#003[James Hendler--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="genre#022[JSON-LD--Semantic Web]" source="JSON-LD" target="Semantic Web" label="genre#022[JSON-LD--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="wikiPageRedirects#007[Semantic internet--Semantic Web]" source="Semantic internet" target="Semantic Web" label="wikiPageRedirects#007[Semantic internet--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="type[Regator--Semantic Web]" source="Regator" target="Semantic Web" label="type[Regator--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="genre#023[Jena (framework)--Semantic Web]" source="Jena (framework)" target="Semantic Web" label="genre#023[Jena (framework)--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="discipline#000[International Semantic Web Conference--Semantic Web]" source="International Semantic Web Conference" target="Semantic Web" label="discipline#000[International Semantic Web Conference--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="field#008[Joseph G. Davis--Semantic Web]" source="Joseph G. Davis" target="Semantic Web" label="field#008[Joseph G. Davis--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="wikiPageRedirects#008[Semantic integrity--Semantic Web]" source="Semantic integrity" target="Semantic Web" label="wikiPageRedirects#008[Semantic integrity--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="fields#004[David De Roure--Semantic Web]" source="David De Roure" target="Semantic Web" label="fields#004[David De Roure--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="genre#024[TriG (syntax)--Semantic Web]" source="TriG (syntax)" target="Semantic Web" label="genre#024[TriG (syntax)--Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="wikiPageRedirects#009[Otlet--Paul Otlet]" source="Otlet" target="Paul Otlet" label="wikiPageRedirects#009[Otlet--Paul Otlet]">
+        <attvalues />
+      </edge>
+      <edge id="subject#010[Paul Otlet--Category:Belgian librarians]" source="Paul Otlet" target="Category:Belgian librarians" label="subject#010[Paul Otlet--Category:Belgian librarians]">
+        <attvalues />
+      </edge>
+      <edge id="influenced[Paul Otlet--Fred Kilgour]" source="Paul Otlet" target="Fred Kilgour" label="influenced[Paul Otlet--Fred Kilgour]">
+        <attvalues />
+      </edge>
+      <edge id="influenced#000[Paul Otlet--Gerard Salton]" source="Paul Otlet" target="Gerard Salton" label="influenced#000[Paul Otlet--Gerard Salton]">
+        <attvalues />
+      </edge>
+      <edge id="field#011[Paul Otlet--Information science]" source="Paul Otlet" target="Information science" label="field#011[Paul Otlet--Information science]">
+        <attvalues />
+      </edge>
+      <edge id="birthPlace[Paul Otlet--Brussels]" source="Paul Otlet" target="Brussels" label="birthPlace[Paul Otlet--Brussels]">
+        <attvalues>
+          <attvalue for="nextedge0" value="deathPlace" />
+        </attvalues>
+      </edge>
+      <edge id="influenced#001[Paul Otlet--Douglas Engelbart]" source="Paul Otlet" target="Douglas Engelbart" label="influenced#001[Paul Otlet--Douglas Engelbart]">
+        <attvalues />
+      </edge>
+      <edge id="nationality[Paul Otlet--Belgium]" source="Paul Otlet" target="Belgium" label="nationality[Paul Otlet--Belgium]">
+        <attvalues>
+          <attvalue for="nextedge0" value="deathPlace" />
+        </attvalues>
+      </edge>
+      <edge id="influenced#002[Paul Otlet--Ted Nelson]" source="Paul Otlet" target="Ted Nelson" label="influenced#002[Paul Otlet--Ted Nelson]">
+        <attvalues />
+      </edge>
+      <edge id="subject#011[Paul Otlet--Category:Belgian Christians]" source="Paul Otlet" target="Category:Belgian Christians" label="subject#011[Paul Otlet--Category:Belgian Christians]">
+        <attvalues />
+      </edge>
+      <edge id="influencedBy[Paul Otlet--Edmond Picard]" source="Paul Otlet" target="Edmond Picard" label="influencedBy[Paul Otlet--Edmond Picard]">
+        <attvalues />
+      </edge>
+      <edge id="influencedBy#000[Paul Otlet--Melvil Dewey]" source="Paul Otlet" target="Melvil Dewey" label="influencedBy#000[Paul Otlet--Melvil Dewey]">
+        <attvalues />
+      </edge>
+      <edge id="influenced#004[Paul Otlet--Michael Buckland]" source="Paul Otlet" target="Michael Buckland" label="influenced#004[Paul Otlet--Michael Buckland]">
+        <attvalues />
+      </edge>
+      <edge id="subject#012[Paul Otlet--Category:Free University of Brussels alumni]" source="Paul Otlet" target="Category:Free University of Brussels alumni" label="subject#012[Paul Otlet--Category:Free University of Brussels alumni]">
+        <attvalues />
+      </edge>
+      <edge id="influenced#005[Paul Otlet--Vannevar Bush]" source="Paul Otlet" target="Vannevar Bush" label="influenced#005[Paul Otlet--Vannevar Bush]">
+        <attvalues />
+      </edge>
+      <edge id="influences#000[Paul Otlet--Henri La Fontaine]" source="Paul Otlet" target="Henri La Fontaine" label="influences#000[Paul Otlet--Henri La Fontaine]">
+        <attvalues />
+      </edge>
+      <edge id="subject#013[Paul Otlet--Category:1868 births]" source="Paul Otlet" target="Category:1868 births" label="subject#013[Paul Otlet--Category:1868 births]">
+        <attvalues />
+      </edge>
+      <edge id="influenced#007[Paul Otlet--Alexander Ivanovich Mikhailov]" source="Paul Otlet" target="Alexander Ivanovich Mikhailov" label="influenced#007[Paul Otlet--Alexander Ivanovich Mikhailov]">
+        <attvalues />
+      </edge>
+      <edge id="influenced#008[Paul Otlet--Robert M. Hayes]" source="Paul Otlet" target="Robert M. Hayes" label="influenced#008[Paul Otlet--Robert M. Hayes]">
+        <attvalues />
+      </edge>
+      <edge id="influenced#009[Paul Otlet--Luciano Floridi]" source="Paul Otlet" target="Luciano Floridi" label="influenced#009[Paul Otlet--Luciano Floridi]">
+        <attvalues />
+      </edge>
+      <edge id="influenced#011[Paul Otlet--Jesse Shera]" source="Paul Otlet" target="Jesse Shera" label="influenced#011[Paul Otlet--Jesse Shera]">
+        <attvalues />
+      </edge>
+      <edge id="influenced#014[Paul Otlet--J. C. R. Licklider]" source="Paul Otlet" target="J. C. R. Licklider" label="influenced#014[Paul Otlet--J. C. R. Licklider]">
+        <attvalues />
+      </edge>
+      <edge id="influenced#015[Paul Otlet--Warren Weaver]" source="Paul Otlet" target="Warren Weaver" label="influenced#015[Paul Otlet--Warren Weaver]">
+        <attvalues />
+      </edge>
+      <edge id="influenced#021[Paul Otlet--S. R. Ranganathan]" source="Paul Otlet" target="S. R. Ranganathan" label="influenced#021[Paul Otlet--S. R. Ranganathan]">
+        <attvalues />
+      </edge>
+      <edge id="subject#014[Paul Otlet--Category:Belgian scientists]" source="Paul Otlet" target="Category:Belgian scientists" label="subject#014[Paul Otlet--Category:Belgian scientists]">
+        <attvalues />
+      </edge>
+      <edge id="influenced#025[Paul Otlet--Tim Berners-Lee]" source="Paul Otlet" target="Tim Berners-Lee" label="influenced#025[Paul Otlet--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
+      <edge id="subject#015[Paul Otlet--Category:Belgian bibliographers]" source="Paul Otlet" target="Category:Belgian bibliographers" label="subject#015[Paul Otlet--Category:Belgian bibliographers]">
+        <attvalues />
+      </edge>
+      <edge id="subject#016[Paul Otlet--Category:1944 deaths]" source="Paul Otlet" target="Category:1944 deaths" label="subject#016[Paul Otlet--Category:1944 deaths]">
+        <attvalues />
+      </edge>
+      <edge id="subject#017[Paul Otlet--Category:Belgian inventors]" source="Paul Otlet" target="Category:Belgian inventors" label="subject#017[Paul Otlet--Category:Belgian inventors]">
+        <attvalues />
+      </edge>
+      <edge id="influenced#027[Paul Otlet--Andries van Dam]" source="Paul Otlet" target="Andries van Dam" label="influenced#027[Paul Otlet--Andries van Dam]">
+        <attvalues />
+      </edge>
+      <edge id="influences[Suzanne Briet--Paul Otlet]" source="Suzanne Briet" target="Paul Otlet" label="influences[Suzanne Briet--Paul Otlet]">
+        <attvalues>
+          <attvalue for="nextedge0" value="influencedBy" />
+        </attvalues>
+      </edge>
+      <edge id="birthPlace#003[Tim Berners-Lee--London]" source="Tim Berners-Lee" target="London" label="birthPlace#003[Tim Berners-Lee--London]">
+        <attvalues />
+      </edge>
+      <edge id="employer[Tim Berners-Lee--Plessey]" source="Tim Berners-Lee" target="Plessey" label="employer[Tim Berners-Lee--Plessey]">
+        <attvalues />
+      </edge>
+      <edge id="subject#018[Tim Berners-Lee--Category:UNESCO Niels Bohr Medal recipients]" source="Tim Berners-Lee" target="Category:UNESCO Niels Bohr Medal recipients" label="subject#018[Tim Berners-Lee--Category:UNESCO Niels Bohr Medal recipients]">
+        <attvalues />
+      </edge>
+      <edge id="birthPlace#004[Tim Berners-Lee--England]" source="Tim Berners-Lee" target="England" label="birthPlace#004[Tim Berners-Lee--England]">
+        <attvalues />
+      </edge>
+      <edge id="subject#019[Tim Berners-Lee--Category:Internet pioneers]" source="Tim Berners-Lee" target="Category:Internet pioneers" label="subject#019[Tim Berners-Lee--Category:Internet pioneers]">
+        <attvalues />
+      </edge>
+      <edge id="subject#020[Tim Berners-Lee--Category:Members of the Order of Merit]" source="Tim Berners-Lee" target="Category:Members of the Order of Merit" label="subject#020[Tim Berners-Lee--Category:Members of the Order of Merit]">
+        <attvalues />
+      </edge>
+      <edge id="personFunction[Tim Berners-Lee--Tim Berners-Lee  2]" source="Tim Berners-Lee" target="Tim Berners-Lee  2" label="personFunction[Tim Berners-Lee--Tim Berners-Lee  2]">
+        <attvalues />
+      </edge>
+      <edge id="subject#021[Tim Berners-Lee--Category:People with social media presence]" source="Tim Berners-Lee" target="Category:People with social media presence" label="subject#021[Tim Berners-Lee--Category:People with social media presence]">
+        <attvalues />
+      </edge>
+      <edge id="honorificSuffix[Tim Berners-Lee--List of Fellows of the Royal Society of Arts]" source="Tim Berners-Lee" target="List of Fellows of the Royal Society of Arts" label="honorificSuffix[Tim Berners-Lee--List of Fellows of the Royal Society of Arts]">
+        <attvalues />
+      </edge>
+      <edge id="employer#000[Tim Berners-Lee--Massachusetts Institute of Technology]" source="Tim Berners-Lee" target="Massachusetts Institute of Technology" label="employer#000[Tim Berners-Lee--Massachusetts Institute of Technology]">
+        <attvalues />
+      </edge>
+      <edge id="subject#022[Tim Berners-Lee--Category:Webby Award winners]" source="Tim Berners-Lee" target="Category:Webby Award winners" label="subject#022[Tim Berners-Lee--Category:Webby Award winners]">
+        <attvalues />
+      </edge>
+      <edge id="honorificSuffix#000[Tim Berners-Lee--Order of the British Empire]" source="Tim Berners-Lee" target="Order of the British Empire" label="honorificSuffix#000[Tim Berners-Lee--Order of the British Empire]">
+        <attvalues />
+      </edge>
+      <edge id="subject#023[Tim Berners-Lee--Category:Fellows of The Queen's College, Oxford]" source="Tim Berners-Lee" target="Category:Fellows of The Queen's College, Oxford" label="subject#023[Tim Berners-Lee--Category:Fellows of The Queen's College, Oxford]">
+        <attvalues />
+      </edge>
+      <edge id="subject#024[Tim Berners-Lee--Category:People educated at Emanuel School]" source="Tim Berners-Lee" target="Category:People educated at Emanuel School" label="subject#024[Tim Berners-Lee--Category:People educated at Emanuel School]">
+        <attvalues />
+      </edge>
+      <edge id="occupation[Tim Berners-Lee--Tim Berners-Lee  1]" source="Tim Berners-Lee" target="Tim Berners-Lee  1" label="occupation[Tim Berners-Lee--Tim Berners-Lee  1]">
+        <attvalues />
+      </edge>
+      <edge id="parent[Tim Berners-Lee--Conway Berners-Lee]" source="Tim Berners-Lee" target="Conway Berners-Lee" label="parent[Tim Berners-Lee--Conway Berners-Lee]">
+        <attvalues>
+          <attvalue for="nextedge0" value="parents" />
+          <attvalue for="nextedge1" value="children" />
+          <attvalue for="nextedge2" value="child" />
+        </attvalues>
+      </edge>
+      <edge id="occupation#000[Tim Berners-Lee--Computer scientist]" source="Tim Berners-Lee" target="Computer scientist" label="occupation#000[Tim Berners-Lee--Computer scientist]">
+        <attvalues />
+      </edge>
+      <edge id="parent#000[Tim Berners-Lee--Mary Lee Woods]" source="Tim Berners-Lee" target="Mary Lee Woods" label="parent#000[Tim Berners-Lee--Mary Lee Woods]">
+        <attvalues>
+          <attvalue for="nextedge0" value="parents" />
+          <attvalue for="nextedge1" value="children" />
+          <attvalue for="nextedge2" value="child" />
+        </attvalues>
+      </edge>
+      <edge id="subject#025[Tim Berners-Lee--Category:Fellows of the American Academy of Arts and Sciences]" source="Tim Berners-Lee" target="Category:Fellows of the American Academy of Arts and Sciences" label="subject#025[Tim Berners-Lee--Category:Fellows of the American Academy of Arts and Sciences]">
+        <attvalues />
+      </edge>
+      <edge id="subject#026[Tim Berners-Lee--Category:Unitarian Universalists]" source="Tim Berners-Lee" target="Category:Unitarian Universalists" label="subject#026[Tim Berners-Lee--Category:Unitarian Universalists]">
+        <attvalues />
+      </edge>
+      <edge id="subject#027[Tim Berners-Lee--Category:People from Barnes, London]" source="Tim Berners-Lee" target="Category:People from Barnes, London" label="subject#027[Tim Berners-Lee--Category:People from Barnes, London]">
+        <attvalues />
+      </edge>
+      <edge id="subject#028[Tim Berners-Lee--Category:English inventors]" source="Tim Berners-Lee" target="Category:English inventors" label="subject#028[Tim Berners-Lee--Category:English inventors]">
+        <attvalues />
+      </edge>
+      <edge id="subject#029[Tim Berners-Lee--Category:Royal Medal winners]" source="Tim Berners-Lee" target="Category:Royal Medal winners" label="subject#029[Tim Berners-Lee--Category:Royal Medal winners]">
+        <attvalues />
+      </edge>
+      <edge id="subject#030[Tim Berners-Lee--Category:English Unitarians]" source="Tim Berners-Lee" target="Category:English Unitarians" label="subject#030[Tim Berners-Lee--Category:English Unitarians]">
+        <attvalues />
+      </edge>
+      <edge id="subject#031[Tim Berners-Lee--Category:Knights Commander of the Order of the British Empire]" source="Tim Berners-Lee" target="Category:Knights Commander of the Order of the British Empire" label="subject#031[Tim Berners-Lee--Category:Knights Commander of the Order of the British Empire]">
+        <attvalues />
+      </edge>
+      <edge id="subject#032[Tim Berners-Lee--Category:TED speakers]" source="Tim Berners-Lee" target="Category:TED speakers" label="subject#032[Tim Berners-Lee--Category:TED speakers]">
+        <attvalues />
+      </edge>
+      <edge id="subject#033[Tim Berners-Lee--Category:Members of the United States National Academy of Sciences]" source="Tim Berners-Lee" target="Category:Members of the United States National Academy of Sciences" label="subject#033[Tim Berners-Lee--Category:Members of the United States National Academy of Sciences]">
+        <attvalues />
+      </edge>
+      <edge id="subject#034[Tim Berners-Lee--Category:People from London]" source="Tim Berners-Lee" target="Category:People from London" label="subject#034[Tim Berners-Lee--Category:People from London]">
+        <attvalues />
+      </edge>
+      <edge id="employer#001[Tim Berners-Lee--University of Southampton]" source="Tim Berners-Lee" target="University of Southampton" label="employer#001[Tim Berners-Lee--University of Southampton]">
+        <attvalues />
+      </edge>
+      <edge id="subject#035[Tim Berners-Lee--Category:Fellows of the Royal Society]" source="Tim Berners-Lee" target="Category:Fellows of the Royal Society" label="subject#035[Tim Berners-Lee--Category:Fellows of the Royal Society]">
+        <attvalues />
+      </edge>
+      <edge id="award[Tim Berners-Lee--Awards and honours presented to Tim Berners-Lee]" source="Tim Berners-Lee" target="Awards and honours presented to Tim Berners-Lee" label="award[Tim Berners-Lee--Awards and honours presented to Tim Berners-Lee]">
+        <attvalues>
+          <attvalue for="nextedge0" value="awards" />
+        </attvalues>
+      </edge>
+      <edge id="subject#036[Tim Berners-Lee--Category:English expatriates in the United States]" source="Tim Berners-Lee" target="Category:English expatriates in the United States" label="subject#036[Tim Berners-Lee--Category:English expatriates in the United States]">
+        <attvalues />
+      </edge>
+      <edge id="subject#037[Tim Berners-Lee--Category:1955 births]" source="Tim Berners-Lee" target="Category:1955 births" label="subject#037[Tim Berners-Lee--Category:1955 births]">
+        <attvalues />
+      </edge>
+      <edge id="subject#038[Tim Berners-Lee--Category:World Wide Web Consortium]" source="Tim Berners-Lee" target="Category:World Wide Web Consortium" label="subject#038[Tim Berners-Lee--Category:World Wide Web Consortium]">
+        <attvalues />
+      </edge>
+      <edge id="honorificSuffix#001[Tim Berners-Lee--Royal Society]" source="Tim Berners-Lee" target="Royal Society" label="honorificSuffix#001[Tim Berners-Lee--Royal Society]">
+        <attvalues />
+      </edge>
+      <edge id="subject#039[Tim Berners-Lee--Category:Hypertext Transfer Protocol]" source="Tim Berners-Lee" target="Category:Hypertext Transfer Protocol" label="subject#039[Tim Berners-Lee--Category:Hypertext Transfer Protocol]">
+        <attvalues />
+      </edge>
+      <edge id="subject#040[Tim Berners-Lee--Category:Members of the United States National Academy of Engineering]" source="Tim Berners-Lee" target="Category:Members of the United States National Academy of Engineering" label="subject#040[Tim Berners-Lee--Category:Members of the United States National Academy of Engineering]">
+        <attvalues />
+      </edge>
+      <edge id="subject#041[Tim Berners-Lee--Category:History of the Internet]" source="Tim Berners-Lee" target="Category:History of the Internet" label="subject#041[Tim Berners-Lee--Category:History of the Internet]">
+        <attvalues />
+      </edge>
+      <edge id="subject#042[Tim Berners-Lee--Category:Massachusetts Institute of Technology staff]" source="Tim Berners-Lee" target="Category:Massachusetts Institute of Technology staff" label="subject#042[Tim Berners-Lee--Category:Massachusetts Institute of Technology staff]">
+        <attvalues />
+      </edge>
+      <edge id="subject#043[Tim Berners-Lee--Category:Fellows of the British Computer Society]" source="Tim Berners-Lee" target="Category:Fellows of the British Computer Society" label="subject#043[Tim Berners-Lee--Category:Fellows of the British Computer Society]">
+        <attvalues />
+      </edge>
+      <edge id="subject#044[Tim Berners-Lee--Category:Fellows of the Royal Academy of Engineering]" source="Tim Berners-Lee" target="Category:Fellows of the Royal Academy of Engineering" label="subject#044[Tim Berners-Lee--Category:Fellows of the Royal Academy of Engineering]">
+        <attvalues />
+      </edge>
+      <edge id="subject#045[Tim Berners-Lee--Category:Alumni of The Queen's College, Oxford]" source="Tim Berners-Lee" target="Category:Alumni of The Queen's College, Oxford" label="subject#045[Tim Berners-Lee--Category:Alumni of The Queen's College, Oxford]">
+        <attvalues />
+      </edge>
+      <edge id="subject#046[Tim Berners-Lee--Category:Japan Prize laureates]" source="Tim Berners-Lee" target="Category:Japan Prize laureates" label="subject#046[Tim Berners-Lee--Category:Japan Prize laureates]">
+        <attvalues />
+      </edge>
+      <edge id="honorificSuffix#002[Tim Berners-Lee--Royal Academy of Engineering]" source="Tim Berners-Lee" target="Royal Academy of Engineering" label="honorificSuffix#002[Tim Berners-Lee--Royal Academy of Engineering]">
+        <attvalues />
+      </edge>
+      <edge id="subject#047[Tim Berners-Lee--Category:English computer scientists]" source="Tim Berners-Lee" target="Category:English computer scientists" label="subject#047[Tim Berners-Lee--Category:English computer scientists]">
+        <attvalues />
+      </edge>
+      <edge id="honorificSuffix#003[Tim Berners-Lee--Order of Merit]" source="Tim Berners-Lee" target="Order of Merit" label="honorificSuffix#003[Tim Berners-Lee--Order of Merit]">
+        <attvalues />
+      </edge>
+      <edge id="honorificSuffix#004[Tim Berners-Lee--DFBCS]" source="Tim Berners-Lee" target="DFBCS" label="honorificSuffix#004[Tim Berners-Lee--DFBCS]">
+        <attvalues />
+      </edge>
+      <edge id="wikiPageRedirects#010[Tim berners-lee--Tim Berners-Lee]" source="Tim berners-lee" target="Tim Berners-Lee" label="wikiPageRedirects#010[Tim berners-lee--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
+      <edge id="author[Weaving the Web--Tim Berners-Lee]" source="Weaving the Web" target="Tim Berners-Lee" label="author[Weaving the Web--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
+      <edge id="wikiPageRedirects#011[Sir Timothy John Berners-Lee, OM, KBE, FRS, FREng, FRSA--Tim Berners-Lee]" source="Sir Timothy John Berners-Lee, OM, KBE, FRS, FREng, FRSA" target="Tim Berners-Lee" label="wikiPageRedirects#011[Sir Timothy John Berners-Lee, OM, KBE, FRS, FREng, FRSA--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
+      <edge id="wikiPageRedirects#012[Sir Timothy John Berners-Lee--Tim Berners-Lee]" source="Sir Timothy John Berners-Lee" target="Tim Berners-Lee" label="wikiPageRedirects#012[Sir Timothy John Berners-Lee--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
+      <edge id="leaderName[World Wide Web Consortium--Tim Berners-Lee]" source="World Wide Web Consortium" target="Tim Berners-Lee" label="leaderName[World Wide Web Consortium--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
+      <edge id="before[Shuji Nakamura--Tim Berners-Lee]" source="Shuji Nakamura" target="Tim Berners-Lee" label="before[Shuji Nakamura--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
+      <edge id="wikiPageRedirects#013[Tim bl--Tim Berners-Lee]" source="Tim bl" target="Tim Berners-Lee" label="wikiPageRedirects#013[Tim bl--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
+      <edge id="wikiPageRedirects#014[Tim berners lee--Tim Berners-Lee]" source="Tim berners lee" target="Tim Berners-Lee" label="wikiPageRedirects#014[Tim berners lee--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
+      <edge id="keyPeople[World Wide Web Foundation--Tim Berners-Lee]" source="World Wide Web Foundation" target="Tim Berners-Lee" label="keyPeople[World Wide Web Foundation--Tim Berners-Lee]">
+        <attvalues>
+          <attvalue for="nextedge0" value="founder" />
+          <attvalue for="nextedge1" value="keyPerson" />
+          <attvalue for="nextedge2" value="foundedBy" />
+        </attvalues>
+      </edge>
+      <edge id="influenced#031[Jon Postel--Tim Berners-Lee]" source="Jon Postel" target="Tim Berners-Lee" label="influenced#031[Jon Postel--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
+      <edge id="wikiPageRedirects#015[TimBL--Tim Berners-Lee]" source="TimBL" target="Tim Berners-Lee" label="wikiPageRedirects#015[TimBL--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
+      <edge id="wikiPageRedirects#016[Dr. Tim Berners-Lee--Tim Berners-Lee]" source="Dr. Tim Berners-Lee" target="Tim Berners-Lee" label="wikiPageRedirects#016[Dr. Tim Berners-Lee--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
+      <edge id="author#003[Libwww--Tim Berners-Lee]" source="Libwww" target="Tim Berners-Lee" label="author#003[Libwww--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
+      <edge id="author#004[Line Mode Browser--Tim Berners-Lee]" source="Line Mode Browser" target="Tim Berners-Lee" label="author#004[Line Mode Browser--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
+      <edge id="wikiPageRedirects#017[Tim Bernes Lee--Tim Berners-Lee]" source="Tim Bernes Lee" target="Tim Berners-Lee" label="wikiPageRedirects#017[Tim Bernes Lee--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
+      <edge id="wikiPageRedirects#018[Timothy Berners-Lee--Tim Berners-Lee]" source="Timothy Berners-Lee" target="Tim Berners-Lee" label="wikiPageRedirects#018[Timothy Berners-Lee--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
+      <edge id="wikiPageRedirects#019[Tim Berners Lee--Tim Berners-Lee]" source="Tim Berners Lee" target="Tim Berners-Lee" label="wikiPageRedirects#019[Tim Berners Lee--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
+      <edge id="wikiPageRedirects#020[Tim-Berners Lee--Tim Berners-Lee]" source="Tim-Berners Lee" target="Tim Berners-Lee" label="wikiPageRedirects#020[Tim-Berners Lee--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
+      <edge id="inventor[ENQUIRE--Tim Berners-Lee]" source="ENQUIRE" target="Tim Berners-Lee" label="inventor[ENQUIRE--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
+      <edge id="wikiPageRedirects#021[Sir Tim Berners-Lee--Tim Berners-Lee]" source="Sir Tim Berners-Lee" target="Tim Berners-Lee" label="wikiPageRedirects#021[Sir Tim Berners-Lee--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
+      <edge id="inventor#000[History of the World Wide Web--Tim Berners-Lee]" source="History of the World Wide Web" target="Tim Berners-Lee" label="inventor#000[History of the World Wide Web--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
+      <edge id="wikiPageRedirects#022[Timothy John Berners-Lee--Tim Berners-Lee]" source="Timothy John Berners-Lee" target="Tim Berners-Lee" label="wikiPageRedirects#022[Timothy John Berners-Lee--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
+      <edge id="person[World Wide Web Consortium  1--Tim Berners-Lee]" source="World Wide Web Consortium  1" target="Tim Berners-Lee" label="person[World Wide Web Consortium  1--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
+      <edge id="namedAfter[13926 Berners-Lee--Tim Berners-Lee]" source="13926 Berners-Lee" target="Tim Berners-Lee" label="namedAfter[13926 Berners-Lee--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
+      <edge id="wikiPageRedirects#023[Sir Tim Berners Lee--Tim Berners-Lee]" source="Sir Tim Berners Lee" target="Tim Berners-Lee" label="wikiPageRedirects#023[Sir Tim Berners Lee--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
+      <edge id="wikiPageRedirects#024[Timbl--Tim Berners-Lee]" source="Timbl" target="Tim Berners-Lee" label="wikiPageRedirects#024[Timbl--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
+      <edge id="developer[WorldWideWeb--Tim Berners-Lee]" source="WorldWideWeb" target="Tim Berners-Lee" label="developer[WorldWideWeb--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
+      <edge id="wikiPageDisambiguates[Berners-Lee--Tim Berners-Lee]" source="Berners-Lee" target="Tim Berners-Lee" label="wikiPageDisambiguates[Berners-Lee--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
+      <edge id="wikiPageRedirects#025[Tim Bernes-Lee--Tim Berners-Lee]" source="Tim Bernes-Lee" target="Tim Berners-Lee" label="wikiPageRedirects#025[Tim Bernes-Lee--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
+      <edge id="wikiPageRedirects#026[Tim Burners Lee--Tim Berners-Lee]" source="Tim Burners Lee" target="Tim Berners-Lee" label="wikiPageRedirects#026[Tim Burners Lee--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
+      <edge id="wikiPageDisambiguates#000[TBL--Tim Berners-Lee]" source="TBL" target="Tim Berners-Lee" label="wikiPageDisambiguates#000[TBL--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
+    </edges>
+  </graph>
+</gexf>

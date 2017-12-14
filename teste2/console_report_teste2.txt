@@ -1,0 +1,35 @@
+- Starting process.
+- Building directory structure to output files in H:\\New folder\\git\\Relationship\teste2
+- Parsing configuration file config.txt - 62 itens.
+- Parsing user terms - 4 terms parsed.
+- Parsing useless concepts - 26 concepts parsed.
+- Parsing vocabulary - 55 sentences parsed.
+- Reading RDFs files names to put in table - 9233 RDFs files identified.
+- Reading my knowledge base file - 839 nodes parsed.
+
+*** Iteration 0 ***
+- Assembling queries - 4 new queries assembled.
+- Collecting RDFs - 254 new RDFs triples collected (0 in internet, 254 in file).
+- Looking for concepts with zero RDFs - neither concept found.
+- Building Stream Graph Data - 176 new nodes, 176 new edges in Stream Graph - 2 useless RDFs.
+- Creating edge hash table - 32 edges.
+- Quantities Stream Graph built: 176 nodes, 175 edges.
+- Verifying whether apply N-degree filter: iteration (0: >= 1), nodes count (176: > 10000) - not ok.
+- Building Gephi Graph Data, Nodes Table Hash and Nodes Table Array from Stream Graph - 176 nodes, 176 edges in the graph structure.
+- Classifying connected component - quantity of connected components: 2.
+- Calculating level of relationship between original concepts - level: 3/6 (50% complete).
+- Building GEXF Graph File (generated file: H:\\New folder\\git\\Relationship\teste2\graph_teste2_t1_iteration00.gexf).
+- Verifying exit conditions: maximum iteration (0: = 10) 
+  or [ minimum iteration (0: >= 4) and connected component (2: = 1) ]
+  or [ minimum iteration (0: >= 8) and relationship level between original concepts (3: = 0) ]
+- Calculating distance measures of the whole network - 176 nodes, 175 edges.
+- Storing distance measures of the whole network to main node table.
+- Calculating eigenvector measure of the whole network - 176 nodes, 175 edges.
+- Storing eigenvector measures of the whole network to main node table.
+- Sorting measures of the whole network.
+- Building sub-graphs ranks.
+- Building sub-graphs tables belong to connected components.
+- Sorting connected components ranks.
+- Selecting largest nodes by betweenness+closeness - 8 new selected concepts.
+- Selecting largest nodes by eigenvector - 4 new selected concepts.
+- Reporting selected nodes to new iteration.

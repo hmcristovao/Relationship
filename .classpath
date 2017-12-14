@@ -6,12 +6,11 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/GephiToolKit"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/Gephi Toolkit"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/GraphStream"/>
-	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/Jena"/>
-	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/JsonGephi"/>
-	<classpathentry exported="true" kind="lib" path="C:/Development/API Json-Gephi/gs-gephi.jar"/>
-	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/JGraphX"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JUNG"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/JENA"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/Json Gephi"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/JUNG"/>
+	<classpathentry exported="true" kind="lib" path="H:/New folder/Workspace/Relationship/Relationship/lib/gephi-toolkit-0.8.7-all/gephi-toolkit.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

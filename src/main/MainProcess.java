@@ -225,7 +225,7 @@ public class MainProcess {
 			graphFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 			Graph<String, EdgeType> graphTest = new DirectedSparseMultigraph<>();
 			graphTest = DisplayGraph.parseTxtIntoGraph();
-			graphFrame.getContentPane().add(DisplayGraph.GenerateVisualGraph(graphTest));
+			graphFrame.getContentPane().add(DisplayGraph.GenerateVisualGraph(graphTest, 0));
 			graphFrame.pack();
 			graphFrame.setVisible(true);
 			//-------------------------------------End Test Code---------------------------------------

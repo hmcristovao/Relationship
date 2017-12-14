@@ -1,0 +1,280 @@
+
+=============================================================================================
+Built directory structure to output files in H:\\New folder\\git\\Relationship\teste2
+
+=============================================================================================
+Quantity of configuration parsed: 62 (file: config.txt)
+
+   additionNewConceptWithoutCategory = true
+   backGroundcolorOriginalConcept = 200.200.200.255
+   baseDirectory = H:\\New folder\\git\\Relationship
+   borderThicknessConceptWithHint = 2
+   conceptsMinMaxRange = 8
+   conceptsQuantityCalculationFactor = 5
+   dbpediaServer = http://dbpedia.org/sparql
+   dirConceptMap = conceptMap
+   dirGraph = graph
+   dirLog = log
+   dirRdfsPersistenceFiles = persistenceRdfs
+   gephiVisualization = false
+   graphStreamVisualization = false
+   isBetweennessCloseness = true
+   isEigenvector = false
+   isEnableUselessTable = true
+   isFixBugInGephiToolKit = true
+   isKeepNeighborsOfOriginalConcepts = false
+   isSelected = false
+   isUniqueConnectedComponentToApplyNdegreeFilter = false
+   iterationTriggerApplyNDegreeFilterAlgorithm = 1
+   kCoreFilter = 2
+   knowledgeBasePlace = 1
+   maxBetweennessCloseness = 5
+   maxEigenvector = 5
+   maxIteration = 10
+   maxLineLengthConcept = 15
+   maxLineLengthLinkPhrase = 15
+   minIterationToVerifyRelationshipBetweenOriginalConcepts = 8
+   minIterationToVerifyUniqueConnectedComponent = 4
+   nDegreeFilter = 2
+   nameCompleteReportFile = complete_report_teste2.txt
+   nameConsoleErrorFile = consoleErr_teste2.txt
+   nameConsoleReportFile = console_report_teste2.txt
+   nameCxlConceptMapFile = conceptmap_teste2.cxl
+   nameGexfGraphFile = graph_teste2.gexf
+   nameMyKnowledgeBaseFile = myKnowledgeBase\\base.txt
+   nameQueryDefaultFile = query_model\\query.txt
+   nameShortReportFile = short_report_teste2.txt
+   nameTxtConceptMapFile = conceptmap_teste2.txt
+   nameUselessConceptsFile = vocabulary\\uselessconcepts.txt
+   nameUserTermsFile = terms.txt
+   nameVocabularyFile = vocabulary\\linkvocabulary.txt
+   originalConceptWithGephiToolKitBug0 = Riot Games
+   originalConceptWithGephiToolKitBug1 = .
+   originalConceptWithGephiToolKitBug2 = .
+   originalConceptWithGephiToolKitBug3 = .
+   originalConceptWithGephiToolKitBug4 = .
+   originalConceptWithGephiToolKitBug5 = .
+   originalConceptWithGephiToolKitBug6 = .
+   originalConceptWithGephiToolKitBug7 = .
+   originalConceptWithGephiToolKitBug8 = .
+   originalConceptWithGephiToolKitBug9 = .
+   precisionBetweennessCloseness = 0.5
+   precisionEigenvector = 0.5
+   proporcionBetweennessCloseness = 2.0
+   proporcionBetweennessOnly = 10
+   proporcionEigenvector = 1.0
+   quantityNodesShortReport = 0
+   quantityNodesToApplyKcoreFilter = 700
+   quantityNodesToApplyNdegreeFilter = 10000
+   testName = teste2
+
+
+=============================================================================================
+Quantity of terms parsed: 4 (file: terms.txt)
+- Knowledge organization - original (it: 0)
+- Semantic Web - original (it: 0)
+- Paul Otlet - original (it: 0)
+- Tim Berners-Lee - original (it: 0)
+
+
+=============================================================================================
+Quantity of useless concepts parsed: 26 (file: vocabulary\\uselessconcepts.txt)
+
+Useless concepts parsed:
+   Category:Academic disciplines (count: 0)
+   Category:Articles (count: 0)
+   Category:Articles containing video clips (count: 0)
+   Category:Articles missing birth or death information (count: 0)
+   Category:Births by year (count: 0)
+   Category:Catalysts and potential catalysts of change (count: 0)
+   Category:Concepts (count: 0)
+   Category:Container (count: 0)
+   Category:Contents (count: 0)
+   Category:Fundamental categories (count: 0)
+   Category:Glossaries (count: 0)
+   Category:Indexes of topics (count: 0)
+   Category:Living people (count: 0)
+   Category:MacArthur Fellows (count: 0)
+   Category:Main topic classifications (count: 0)
+   Category:Matter (count: 0)
+   Category:Missing middle or first names (count: 0)
+   Category:Mythemes (count: 0)
+   Category:Portals (count: 0)
+   Category:Possibly living people (count: 0)
+   Category:Sociological terminology (count: 0)
+   Category:Sociology index (count: 0)
+   Category:Wikipedia categories (count: 0)
+   Category:Year of birth uncertain (count: 0)
+   Category:Year of death unknown (count: 0)
+   Connectome: How the Brain's Wiring Makes Us Who We Are (count: 0)
+
+
+=============================================================================================
+Quantity of vocabulary sentences parsed: 55 (file: vocabulary\\linkvocabulary.txt)
+
+Vocabulary table parsed:
+   almaMater => has alma matter
+   author => is author
+   birthPlace => birth place
+   citizenship => has citizenship in
+   core#broader => is part of
+   core#related => is related to
+   core#subject => core subject
+   deathPlace => death place
+   designer => was designed for
+   developer => was developed for
+   doctoralAdvisor => had as doctoral advisor
+   doctoralStudent => had as doctoral student
+   doctoralStudents => had as doctoral student
+   east => is in the east
+   field => works in the field
+   fields => works in the fields
+   focus => has focus in
+   foundationPlace => has place foundation
+   genre => has genre
+   industry => is a industry of
+   influenced => influenced
+   influencedBy => influenced by
+   influences => received influences of
+   isPartOf => is part of
+   knownFor => is known for
+   leaderName => is led
+   license => has license
+   location => has location in
+   locationCountry => is located in
+   mainInterest => has as main interest
+   mainInterests => has as main interest
+   nationality => has the nationality
+   nonFictionSubject => is non-fiction subject of
+   north => is in the north
+   northeast => is in the northeast
+   northwest => is in the northwest
+   notableIdea => notable idea
+   occupation => has occupacion
+   owl#differentFrom => is different of
+   owner => is owned by
+   placeOfBirth => birth place
+   rdf-schema#seeAlso => see also
+   residence => has residence in
+   schoolTradition => has school tradition
+   shortDescription => has short description
+   skills => has skills
+   south => is in the south
+   southeast => is in the southeast
+   southwest => is in the southwest
+   subdivisionType => is a subdivision of
+   subject => has subject
+   type => is a type of
+   west => is in the west
+   wikiPageDisambiguates => maybe
+   wikiPageRedirects => see also
+
+
+=============================================================================================
+RDFs files identified: 9233.
+
+=============================================================================================
+Quantity of nodes of the my knowledge base parsed: 839 (file: myKnowledgeBase\\base.txt)
+
+
+=============================================================================================
+
+*********************************************************************************************
+Iteration 0
+*********************************************************************************************
+
+
+=============================================================================================
+Queries assembled: 4
+
+Concept number 1: Knowledge organization - original (it: 0)
+Concept number 2: Semantic Web - original (it: 0)
+Concept number 3: Paul Otlet - original (it: 0)
+Concept number 4: Tim Berners-Lee - original (it: 0)
+
+=============================================================================================
+Total collected RDFs: 254 (0 in internet, 254 in file)
+
+00012 RDFs to concept "Knowledge organization"
+00075 RDFs to concept "Semantic Web"
+00063 RDFs to concept "Paul Otlet"
+00104 RDFs to concept "Tim Berners-Lee"
+
+=============================================================================================
+Concepts with zero RDFs: neither
+
+=============================================================================================
+Stream Graph Data created (graph used in the preview): 
+176 new nodes, 176 new edges in the visualization graph.
+176 total nodes, 175 total edges
+2 useless RDFs.
+
+Graph stream (resume):
+
+Total nodes (counted):  176
+Total nodes (real):     176
+Total edges (counted):  176
+Total duplicated nodes: 332
+Total duplicated edges: 332
+Total deleted nodes: 0
+Total deleted edges: 0
+
+Edge hash table created:
+(32 edges).
+
+=============================================================================================
+Do not apply N-degree filter iteration (0: >= 1), nodes count (176: > 10000)
+
+=============================================================================================
+Built Gephi Graph Data, Nodes Table Hash and Nodes Table Array from Stream Graph
+176 nodes, 176 edges in the graph structure.
+Real quantities: 176 nodes, 175 edges
+
+=============================================================================================
+Connected component classified
+2 connected components.
+
+=============================================================================================
+level: 3/6 (50% complete).Calculated level of relationship between original concepts
+
+
+=============================================================================================
+GEXF graph file generated: H:\\New folder\\git\\Relationship\teste2\graph_teste2_t1_iteration00.gexf
+
+=============================================================================================
+Verification of exit conditions of loop
+maximum iteration (0: = 10) 
+  or [ minimum iteration (0: >= 4) and connected component (2: = 1) ]
+  or [ minimum iteration (0: >= 8) and relationship level between original concepts (3: = 0) ]
+
+=============================================================================================
+Distance measures of the whole network calculated.
+(betweenness and closeness to 176 nodes, 175 edges)
+
+=============================================================================================
+Stored distance measures of the whole network to main node table.
+
+=============================================================================================
+Eigenvector measure of the whole network calculated.
+(eigenvector to 176 nodes, 175 edges)
+
+=============================================================================================
+Stored eigenvector measures of the whole network to main node table.
+
+=============================================================================================
+Sorted measures of the whole network.
+
+=============================================================================================
+Sub-graphs ranks built.
+
+=============================================================================================
+Sub-graphs tables belong to connected components built.
+
+=============================================================================================
+Connected components ranks sorted.
+
+=============================================================================================
+Largest nodes by betweenness+closeness: 8 nodes.
+
+=============================================================================================
+Largest nodes by eigenvector: 4 nodes.
