@@ -1,0 +1,17 @@
+Marc Mazas / 10/2012
+
+Some icons have been duplicated from the org.eclipse.jdt.ui._xyz.jar
+ in the Eclipse plugins directory and then modified.
+
+To edit and save gif icons with background transparency set, I used IrfanView (4.3.3):
+- on "Save" or "Save as", check "Show options dialog"
+  in the dialog box, in the Gif frame,
+   check "Save interlaced" and
+   either check "Set transparency value to palette entry" and set number to "11" (or other)
+    which is found:
+    either by picking the background color with the "Color-picker" tool,
+     then with the "Display pen and brush settings" tool click on the Color image,
+     and in the "Color selection" dialog find the Index at the bottom,
+    or by clicking on the color in the "Paint" dialog which opens the same
+     "Color selection" dialog,
+   or check "Choose transparent color during saving", and on save click on a pixel in the image

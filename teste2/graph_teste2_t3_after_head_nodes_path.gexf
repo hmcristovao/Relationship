@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" version="1.2" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
-  <meta lastmodifieddate="2017-12-13">
+  <meta lastmodifieddate="2018-04-18">
     <creator>Gephi 0.8.1</creator>
     <description></description>
   </meta>
@@ -15,143 +15,141 @@
     </attributes>
     <attributes class="edge" mode="static">
       <attribute id="nextedge0" title="nextedge0" type="string" />
-      <attribute id="nextedge1" title="nextedge1" type="string" />
-      <attribute id="nextedge2" title="nextedge2" type="string" />
     </attributes>
     <nodes>
-      <node id="Information science" label="Information science">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="3" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="-97.8512" y="260.68652" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Knowledge organization" label="Knowledge organization">
+      <node id="XML database" label="XML database">
         <attvalues>
           <attvalue for="componentnumber" value="0" />
           <attvalue for="strongcompnum" value="4" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="89.58331" y="494.37335" z="0.0" />
+        <viz:position x="-80.87042" y="-200.48718" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Knowledge organization" label="Knowledge organization">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="9" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-105.16113" y="-390.22113" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="E-services">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="12" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="105.85858" y="-462.51654" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Datafication">
         <attvalues>
           <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="6" />
+          <attvalue for="strongcompnum" value="13" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="200.51929" y="-194.04062" z="0.0" />
+        <viz:position x="-244.37793" y="373.46844" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
-      <node id="Category:World Wide Web">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="7" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="0.88272095" y="480.7539" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Category:Triplestores">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="14" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="141.8678" y="335.57147" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Category:Fellows of the British Computer Society">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="15" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="268.909" y="197.34937" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Category:Information science" label="Category:Information science">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="2" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="-284.55585" y="443.42407" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Internationalized resource identifier" label="Internationalized resource identifier">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="20" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="-140.26181" y="-306.46027" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Order of the British Empire" label="Order of the British Empire">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="21" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="-305.94897" y="-9.047028" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Category:Open data">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="22" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="177.28497" y="51.973145" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Category:Information technology" label="Category:Information technology">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="1" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="-187.20218" y="174.36066" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Semantic Web" label="Semantic Web">
+      <node id="World Wide Web Consortium" label="World Wide Web Consortium">
         <attvalues>
           <attvalue for="componentnumber" value="0" />
           <attvalue for="strongcompnum" value="23" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="425.78442" y="90.229004" z="0.0" />
+        <viz:position x="-259.46948" y="387.08887" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Paul Otlet" label="Paul Otlet">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="24" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-361.21954" y="-36.4364" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Information science" label="Category:Information science">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="7" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-477.658" y="31.558044" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Knowledge">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="8" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-420.73346" y="-386.85828" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Suzanne Briet" label="Suzanne Briet">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="26" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="210.14282" y="72.68463" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Web development">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="14" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-360.58392" y="68.8407" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Technology by type" label="Category:Technology by type">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="5" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-402.08728" y="364.55847" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Semantic Web" label="Semantic Web">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="29" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="491.3783" y="454.71948" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Notation3" label="Notation3">
         <attvalues>
           <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="33" />
+          <attvalue for="strongcompnum" value="32" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-111.378784" y="-265.86923" z="0.0" />
+        <viz:position x="-109.14114" y="0.824646" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Resource Description Framework" label="Resource Description Framework">
         <attvalues>
           <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="32" />
+          <attvalue for="strongcompnum" value="31" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="152.55756" y="-481.86783" z="0.0" />
+        <viz:position x="-350.30646" y="-220.95883" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Farshad Fotouhi" label="Farshad Fotouhi">
         <attvalues>
           <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="35" />
+          <attvalue for="strongcompnum" value="34" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="250.47559" y="99.82306" z="0.0" />
+        <viz:position x="469.71313" y="-145.574" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="DBpedia" label="DBpedia">
@@ -160,7 +158,7 @@
           <attvalue for="strongcompnum" value="37" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="314.1084" y="-226.10635" z="0.0" />
+        <viz:position x="72.55438" y="-16.576965" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Stardog" label="Stardog">
@@ -169,7 +167,7 @@
           <attvalue for="strongcompnum" value="39" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="241.69824" y="-118.68759" z="0.0" />
+        <viz:position x="63.03528" y="452.5744" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Wendy Hall" label="Wendy Hall">
@@ -178,7 +176,7 @@
           <attvalue for="strongcompnum" value="40" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-384.17285" y="21.041748" z="0.0" />
+        <viz:position x="148.13916" y="208.2121" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="UMBEL" label="UMBEL">
@@ -187,7 +185,7 @@
           <attvalue for="strongcompnum" value="42" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="228.90656" y="267.04944" z="0.0" />
+        <viz:position x="160.80377" y="-115.26419" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Chunked transfer encoding">
@@ -196,7 +194,7 @@
           <attvalue for="strongcompnum" value="43" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="64.05121" y="78.14685" z="0.0" />
+        <viz:position x="-338.4938" y="253.60931" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="RDFa" label="RDFa">
@@ -205,295 +203,295 @@
           <attvalue for="strongcompnum" value="44" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="505.88513" y="-429.41583" z="0.0" />
+        <viz:position x="97.304565" y="387.70148" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Turtle (syntax)" label="Turtle (syntax)">
         <attvalues>
           <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="46" />
+          <attvalue for="strongcompnum" value="45" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-361.03864" y="374.63177" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Metadata">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="47" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="-283.72736" y="378.50818" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Informatics">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="49" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="-252.23253" y="378.49976" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="XML" label="XML">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="50" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="-64.540375" y="496.13458" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Richard Susskind">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="51" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="-350.13498" y="325.59955" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Schema.org" label="Schema.org">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="52" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="349.96082" y="161.65015" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Category:Knowledge representation" label="Category:Knowledge representation">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="9" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="359.1194" y="495.0876" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Nigel Shadbolt">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="54" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="-448.3743" y="-194.86356" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Linked Data Platform">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="55" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="-376.8375" y="-277.96423" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Tabulator" label="Tabulator">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="56" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="-175.59589" y="-34.22769" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Category:XML" label="Category:XML">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="24" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="455.5617" y="315.67175" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Linked data">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="36" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="442.98352" y="-151.3064" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Category:Data management" label="Category:Data management">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="5" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="353.94904" y="60.529358" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Information technology" label="Information technology">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="48" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="-74.531494" y="402.39948" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Category:Resource Description Framework" label="Category:Resource Description Framework">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="13" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="-224.32666" y="-482.17618" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Category:English computer scientists">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="26" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="386.37195" y="-271.74042" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Category:Emerging technologies" label="Category:Emerging technologies">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="17" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="-337.73303" y="415.6574" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Category:Knowledge engineering" label="Category:Knowledge engineering">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="8" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="-378.45895" y="95.590454" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Category:Web services">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="18" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="-195.00757" y="-480.80157" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Category:Semantic Web" label="Category:Semantic Web">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="11" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="323.24158" y="-171.06732" z="0.0" />
+        <viz:position x="197.8905" y="52.978333" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Application layer protocols">
         <attvalues>
           <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="19" />
+          <attvalue for="strongcompnum" value="20" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-374.0364" y="5.76709" z="0.0" />
+        <viz:position x="-392.69797" y="229.35919" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
-      <node id="Category:Web development">
+      <node id="Disruptive innovation" label="Disruptive innovation">
         <attvalues>
           <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="25" />
+          <attvalue for="strongcompnum" value="46" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-128.52386" y="-141.42505" z="0.0" />
+        <viz:position x="-420.15433" y="342.94067" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
-      <node id="Tim Berners-Lee" label="Tim Berners-Lee">
+      <node id="XML" label="XML">
         <attvalues>
           <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="29" />
+          <attvalue for="strongcompnum" value="47" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-487.1892" y="34.80011" z="0.0" />
+        <viz:position x="-183.29474" y="-478.43472" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
-      <node id="Category:World Wide Web Consortium standards" label="Category:World Wide Web Consortium standards">
+      <node id="Category:Knowledge representation" label="Category:Knowledge representation">
         <attvalues>
           <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="12" />
+          <attvalue for="strongcompnum" value="11" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="476.71326" y="-218.9642" z="0.0" />
+        <viz:position x="358.5244" y="-385.72833" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
-      <node id="N-Triples">
+      <node id="Schema.org" label="Schema.org">
         <attvalues>
           <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="45" />
+          <attvalue for="strongcompnum" value="48" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="189.58636" y="-101.04538" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Carole Goble" label="Carole Goble">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="58" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="59.555847" y="-136.87326" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Data classification (data management)">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="59" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="-267.41583" y="-129.8483" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Semantic grid">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="57" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="144.47925" y="-458.6147" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Jeni Tennison" label="Jeni Tennison">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="53" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="-253.02791" y="-386.85117" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="James Clark (programmer)">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="60" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="217.62067" y="-381.9195" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Hypertext Transfer Protocol" label="Hypertext Transfer Protocol">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="61" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="-91.38565" y="-170.73083" z="0.0" />
+        <viz:position x="-432.5821" y="-367.44205" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="United States">
         <attvalues>
           <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="30" />
+          <attvalue for="strongcompnum" value="15" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="452.70282" y="-464.34323" z="0.0" />
+        <viz:position x="83.494446" y="-141.7244" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Information architecture">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="49" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-304.213" y="-59.35739" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Thomas Reardon">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="52" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="60.836548" y="-414.76532" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Tabulator" label="Tabulator">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="53" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="385.04272" y="-226.58304" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="England">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="17" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-424.1269" y="84.68689" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Information technology" label="Information technology">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="51" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-5.652771" y="-489.40573" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Media technology">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="50" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="104.729126" y="-78.29462" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Data steward">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="54" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-169.45224" y="-6.478302" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Technology">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="25" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-131.97394" y="219.01392" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Royal Academy of Engineering">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="18" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="173.4555" y="-419.22052" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Emerging technologies" label="Category:Emerging technologies">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="27" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="190.3628" y="361.688" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Knowledge engineering" label="Category:Knowledge engineering">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="10" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="491.44818" y="416.78632" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Web services">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="16" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-479.16068" y="379.35437" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Semantic Web" label="Category:Semantic Web">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="28" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="191.42139" y="-260.87543" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Java (programming language)">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="35" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-357.27133" y="410.21735" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Emerging technologies" label="Emerging technologies">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="55" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="435.58917" y="340.3391" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Multimedia">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="33" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-445.4936" y="331.90234" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Open data">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="36" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-472.63727" y="-378.74847" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Internationalized resource identifier" label="Internationalized resource identifier">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="56" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-260.20294" y="-143.97745" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Carole Goble" label="Carole Goble">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="57" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="119.51019" y="25.371155" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Data management" label="Category:Data management">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="60.398865" y="126.53894" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Order of the British Empire" label="Order of the British Empire">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="19" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="30.03003" y="27.773499" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Jeni Tennison" label="Jeni Tennison">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="58" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="304.3996" y="136.39594" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Category:Information technology" label="Category:Information technology">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="6" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-235.35617" y="266.8548" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Richard Susskind">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="59" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="500.4984" y="82.581604" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Ontology alignment">
+        <attvalues>
+          <attvalue for="componentnumber" value="0" />
+          <attvalue for="strongcompnum" value="60" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-60.456238" y="-146.33746" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Web Ontology Language">
@@ -502,177 +500,108 @@
           <attvalue for="strongcompnum" value="41" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-454.8139" y="-385.79526" z="0.0" />
+        <viz:position x="469.9997" y="116.67395" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
-      <node id="Integrated Operations in the High North">
+      <node id="Category:XML" label="Category:XML">
         <attvalues>
           <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="62" />
+          <attvalue for="strongcompnum" value="3" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="444.5271" y="-176.60236" z="0.0" />
+        <viz:position x="-325.99493" y="371.03772" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
-      <node id="E-services">
+      <node id="Linked Data Platform">
         <attvalues>
           <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="63" />
+          <attvalue for="strongcompnum" value="61" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="181.6596" y="-133.64948" z="0.0" />
+        <viz:position x="-270.45416" y="-183.90182" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
-      <node id="Category:Technological change" label="Category:Technological change">
+      <node id="Tim Berners-Lee" label="Tim Berners-Lee">
         <attvalues>
           <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="16" />
+          <attvalue for="strongcompnum" value="22" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-393.92755" y="53.252747" z="0.0" />
+        <viz:position x="-320.29993" y="-416.40308" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Software-defined storage">
         <attvalues>
           <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="64" />
+          <attvalue for="strongcompnum" value="62" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="7.4680176" y="-34.086304" z="0.0" />
+        <viz:position x="-219.49075" y="100.73639" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
-      <node id="World Wide Web Consortium" label="World Wide Web Consortium">
+      <node id="Category:Resource Description Framework" label="Category:Resource Description Framework">
         <attvalues>
           <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="31" />
+          <attvalue for="strongcompnum" value="30" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="183.0877" y="416.18774" z="0.0" />
+        <viz:position x="212.02814" y="419.61932" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
-      <node id="Category:NoSQL">
+      <node id="Category:Structured storage">
         <attvalues>
           <attvalue for="componentnumber" value="0" />
           <attvalue for="strongcompnum" value="38" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="36.129456" y="-139.91617" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Category:Technology by type" label="Category:Technology by type">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="0" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="419.16742" y="336.07922" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Henrik Frystyk Nielsen">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="65" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="322.83972" y="-364.16382" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Multimedia">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="34" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="264.65106" y="375.0918" z="0.0" />
+        <viz:position x="25.063538" y="250.19226" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:World Wide Web Consortium" label="Category:World Wide Web Consortium">
         <attvalues>
           <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="10" />
+          <attvalue for="strongcompnum" value="1" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-18.479675" y="-360.51855" z="0.0" />
+        <viz:position x="268.5019" y="357.19324" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
-      <node id="Disruptive innovation" label="Disruptive innovation">
+      <node id="Category:World Wide Web Consortium standards" label="Category:World Wide Web Consortium standards">
         <attvalues>
           <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="66" />
+          <attvalue for="strongcompnum" value="2" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="164.29034" y="52.637512" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="TriG (syntax)">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="67" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="-99.96741" y="210.86359" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Thomas Reardon">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="68" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="-118.52377" y="99.433655" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Paul Otlet" label="Paul Otlet">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="69" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="-9.251892" y="140.14594" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="Suzanne Briet" label="Suzanne Briet">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="70" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="20.923584" y="98.83661" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="England">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="27" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="-466.61053" y="26.41565" z="0.0" />
+        <viz:position x="34.306396" y="138.9295" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Hypertext Transfer Protocol" label="Category:Hypertext Transfer Protocol">
         <attvalues>
           <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="28" />
+          <attvalue for="strongcompnum" value="21" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-102.94049" y="429.54565" z="0.0" />
-        <viz:color r="153" g="153" b="153" />
-      </node>
-      <node id="XML database" label="XML database">
-        <attvalues>
-          <attvalue for="componentnumber" value="0" />
-          <attvalue for="strongcompnum" value="71" />
-        </attvalues>
-        <viz:size value="1.0" />
-        <viz:position x="-331.966" y="-180.12491" z="0.0" />
+        <viz:position x="420.20587" y="-50.48416" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
     </nodes>
     <edges>
-      <edge id="subject#1221[Information science--Category:Information science]" source="Information science" target="Category:Information science" label="subject#1221[Information science--Category:Information science]">
+      <edge id="subject#1328[XML database--Category:Data management]" source="XML database" target="Category:Data management" label="subject#1328[XML database--Category:Data management]">
+        <attvalues />
+      </edge>
+      <edge id="subject#1661[XML database--Category:XML]" source="XML database" target="Category:XML" label="subject#1661[XML database--Category:XML]">
         <attvalues />
       </edge>
       <edge id="subject#000[Knowledge organization--Category:Information science]" source="Knowledge organization" target="Category:Information science" label="subject#000[Knowledge organization--Category:Information science]">
+        <attvalues />
+      </edge>
+      <edge id="subject#001[Knowledge organization--Category:Knowledge]" source="Knowledge organization" target="Category:Knowledge" label="subject#001[Knowledge organization--Category:Knowledge]">
+        <attvalues />
+      </edge>
+      <edge id="subject#943[E-services--Category:Knowledge representation]" source="E-services" target="Category:Knowledge representation" label="subject#943[E-services--Category:Knowledge representation]">
+        <attvalues />
+      </edge>
+      <edge id="subject#1899[E-services--Category:Information technology]" source="E-services" target="Category:Information technology" label="subject#1899[E-services--Category:Information technology]">
         <attvalues />
       </edge>
       <edge id="subject#1053[Datafication--Category:Information science]" source="Datafication" target="Category:Information science" label="subject#1053[Datafication--Category:Information science]">
@@ -681,31 +610,36 @@
       <edge id="subject#1276[Datafication--Category:Data management]" source="Datafication" target="Category:Data management" label="subject#1276[Datafication--Category:Data management]">
         <attvalues />
       </edge>
-      <edge id="core#broader#137[Category:Triplestores--Category:Resource Description Framework]" source="Category:Triplestores" target="Category:Resource Description Framework" label="core#broader#137[Category:Triplestores--Category:Resource Description Framework]">
+      <edge id="subject#1040[World Wide Web Consortium--Category:Web development]" source="World Wide Web Consortium" target="Category:Web development" label="subject#1040[World Wide Web Consortium--Category:Web development]">
         <attvalues />
       </edge>
-      <edge id="core#broader#021[Category:Triplestores--Category:Semantic Web]" source="Category:Triplestores" target="Category:Semantic Web" label="core#broader#021[Category:Triplestores--Category:Semantic Web]">
+      <edge id="headquarters#001[World Wide Web Consortium--United States]" source="World Wide Web Consortium" target="United States" label="headquarters#001[World Wide Web Consortium--United States]">
+        <attvalues />
+      </edge>
+      <edge id="subject#1042[World Wide Web Consortium--Category:Web services]" source="World Wide Web Consortium" target="Category:Web services" label="subject#1042[World Wide Web Consortium--Category:Web services]">
+        <attvalues />
+      </edge>
+      <edge id="leaderName[World Wide Web Consortium--Tim Berners-Lee]" source="World Wide Web Consortium" target="Tim Berners-Lee" label="leaderName[World Wide Web Consortium--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
+      <edge id="subject#786[World Wide Web Consortium--Category:World Wide Web Consortium]" source="World Wide Web Consortium" target="Category:World Wide Web Consortium" label="subject#786[World Wide Web Consortium--Category:World Wide Web Consortium]">
+        <attvalues />
+      </edge>
+      <edge id="influenced#025[Paul Otlet--Tim Berners-Lee]" source="Paul Otlet" target="Tim Berners-Lee" label="influenced#025[Paul Otlet--Tim Berners-Lee]">
         <attvalues />
       </edge>
       <edge id="core#broader#168[Category:Information science--Category:Information technology]" source="Category:Information science" target="Category:Information technology" label="core#broader#168[Category:Information science--Category:Information technology]">
         <attvalues />
       </edge>
-      <edge id="subject#210[Internationalized resource identifier--Category:Emerging technologies]" source="Internationalized resource identifier" target="Category:Emerging technologies" label="subject#210[Internationalized resource identifier--Category:Emerging technologies]">
+      <edge id="influences[Suzanne Briet--Paul Otlet]" source="Suzanne Briet" target="Paul Otlet" label="influences[Suzanne Briet--Paul Otlet]">
+        <attvalues>
+          <attvalue for="nextedge0" value="influencedBy" />
+        </attvalues>
+      </edge>
+      <edge id="subject#1051[Suzanne Briet--Category:Information science]" source="Suzanne Briet" target="Category:Information science" label="subject#1051[Suzanne Briet--Category:Information science]">
         <attvalues />
       </edge>
-      <edge id="subject#777[Internationalized resource identifier--Category:Web services]" source="Internationalized resource identifier" target="Category:Web services" label="subject#777[Internationalized resource identifier--Category:Web services]">
-        <attvalues />
-      </edge>
-      <edge id="subject#462[Internationalized resource identifier--Category:Semantic Web]" source="Internationalized resource identifier" target="Category:Semantic Web" label="subject#462[Internationalized resource identifier--Category:Semantic Web]">
-        <attvalues />
-      </edge>
-      <edge id="subject#778[Internationalized resource identifier--Category:Application layer protocols]" source="Internationalized resource identifier" target="Category:Application layer protocols" label="subject#778[Internationalized resource identifier--Category:Application layer protocols]">
-        <attvalues />
-      </edge>
-      <edge id="core#broader#195[Category:Open data--Category:Data management]" source="Category:Open data" target="Category:Data management" label="core#broader#195[Category:Open data--Category:Data management]">
-        <attvalues />
-      </edge>
-      <edge id="core#broader#059[Category:Information technology--Category:Technology by type]" source="Category:Information technology" target="Category:Technology by type" label="core#broader#059[Category:Information technology--Category:Technology by type]">
+      <edge id="mainInterest#002[Suzanne Briet--Technology]" source="Suzanne Briet" target="Technology" label="mainInterest#002[Suzanne Briet--Technology]">
         <attvalues />
       </edge>
       <edge id="subject#005[Semantic Web--Category:Emerging technologies]" source="Semantic Web" target="Category:Emerging technologies" label="subject#005[Semantic Web--Category:Emerging technologies]">
@@ -726,10 +660,13 @@
       <edge id="containerFor[Notation3--Resource Description Framework]" source="Notation3" target="Resource Description Framework" label="containerFor[Notation3--Resource Description Framework]">
         <attvalues />
       </edge>
+      <edge id="owner[Notation3--Tim Berners-Lee]" source="Notation3" target="Tim Berners-Lee" label="owner[Notation3--Tim Berners-Lee]">
+        <attvalues />
+      </edge>
       <edge id="subject#048[Notation3--Category:Resource Description Framework]" source="Notation3" target="Category:Resource Description Framework" label="subject#048[Notation3--Category:Resource Description Framework]">
         <attvalues />
       </edge>
-      <edge id="owner[Notation3--Tim Berners-Lee]" source="Notation3" target="Tim Berners-Lee" label="owner[Notation3--Tim Berners-Lee]">
+      <edge id="owner#001[Resource Description Framework--World Wide Web Consortium]" source="Resource Description Framework" target="World Wide Web Consortium" label="owner#001[Resource Description Framework--World Wide Web Consortium]">
         <attvalues />
       </edge>
       <edge id="domain[Resource Description Framework--Semantic Web]" source="Resource Description Framework" target="Semantic Web" label="domain[Resource Description Framework--Semantic Web]">
@@ -738,19 +675,16 @@
       <edge id="subject#055[Resource Description Framework--Category:Knowledge representation]" source="Resource Description Framework" target="Category:Knowledge representation" label="subject#055[Resource Description Framework--Category:Knowledge representation]">
         <attvalues />
       </edge>
+      <edge id="subject#053[Resource Description Framework--Category:Semantic Web]" source="Resource Description Framework" target="Category:Semantic Web" label="subject#053[Resource Description Framework--Category:Semantic Web]">
+        <attvalues />
+      </edge>
       <edge id="subject#054[Resource Description Framework--Category:XML]" source="Resource Description Framework" target="Category:XML" label="subject#054[Resource Description Framework--Category:XML]">
         <attvalues />
       </edge>
       <edge id="subject#059[Resource Description Framework--Category:Resource Description Framework]" source="Resource Description Framework" target="Category:Resource Description Framework" label="subject#059[Resource Description Framework--Category:Resource Description Framework]">
         <attvalues />
       </edge>
-      <edge id="subject#053[Resource Description Framework--Category:Semantic Web]" source="Resource Description Framework" target="Category:Semantic Web" label="subject#053[Resource Description Framework--Category:Semantic Web]">
-        <attvalues />
-      </edge>
       <edge id="subject#052[Resource Description Framework--Category:World Wide Web Consortium standards]" source="Resource Description Framework" target="Category:World Wide Web Consortium standards" label="subject#052[Resource Description Framework--Category:World Wide Web Consortium standards]">
-        <attvalues />
-      </edge>
-      <edge id="owner#001[Resource Description Framework--World Wide Web Consortium]" source="Resource Description Framework" target="World Wide Web Consortium" label="owner#001[Resource Description Framework--World Wide Web Consortium]">
         <attvalues />
       </edge>
       <edge id="field[Farshad Fotouhi--Semantic Web]" source="Farshad Fotouhi" target="Semantic Web" label="field[Farshad Fotouhi--Semantic Web]">
@@ -762,58 +696,49 @@
       <edge id="field#016[Farshad Fotouhi--Multimedia]" source="Farshad Fotouhi" target="Multimedia" label="field#016[Farshad Fotouhi--Multimedia]">
         <attvalues />
       </edge>
-      <edge id="subject#070[DBpedia--Category:World Wide Web]" source="DBpedia" target="Category:World Wide Web" label="subject#070[DBpedia--Category:World Wide Web]">
-        <attvalues />
-      </edge>
-      <edge id="subject#069[DBpedia--Category:Open data]" source="DBpedia" target="Category:Open data" label="subject#069[DBpedia--Category:Open data]">
-        <attvalues />
-      </edge>
       <edge id="genre#000[DBpedia--Semantic Web]" source="DBpedia" target="Semantic Web" label="genre#000[DBpedia--Semantic Web]">
-        <attvalues />
-      </edge>
-      <edge id="genre#030[DBpedia--Linked data]" source="DBpedia" target="Linked data" label="genre#030[DBpedia--Linked data]">
         <attvalues />
       </edge>
       <edge id="subject#071[DBpedia--Category:Semantic Web]" source="DBpedia" target="Category:Semantic Web" label="subject#071[DBpedia--Category:Semantic Web]">
         <attvalues />
       </edge>
-      <edge id="subject#642[Stardog--Category:Triplestores]" source="Stardog" target="Category:Triplestores" label="subject#642[Stardog--Category:Triplestores]">
+      <edge id="programmingLanguage#001[DBpedia--Java (programming language)]" source="DBpedia" target="Java (programming language)" label="programmingLanguage#001[DBpedia--Java (programming language)]">
+        <attvalues />
+      </edge>
+      <edge id="subject#069[DBpedia--Category:Open data]" source="DBpedia" target="Category:Open data" label="subject#069[DBpedia--Category:Open data]">
         <attvalues />
       </edge>
       <edge id="genre#001[Stardog--Semantic Web]" source="Stardog" target="Semantic Web" label="genre#001[Stardog--Semantic Web]">
         <attvalues />
       </edge>
-      <edge id="subject#640[Stardog--Category:Resource Description Framework]" source="Stardog" target="Category:Resource Description Framework" label="subject#640[Stardog--Category:Resource Description Framework]">
-        <attvalues />
-      </edge>
       <edge id="subject#535[Stardog--Category:Semantic Web]" source="Stardog" target="Category:Semantic Web" label="subject#535[Stardog--Category:Semantic Web]">
         <attvalues />
       </edge>
-      <edge id="subject#643[Stardog--Category:NoSQL]" source="Stardog" target="Category:NoSQL" label="subject#643[Stardog--Category:NoSQL]">
+      <edge id="programmingLanguage#047[Stardog--Java (programming language)]" source="Stardog" target="Java (programming language)" label="programmingLanguage#047[Stardog--Java (programming language)]">
         <attvalues />
       </edge>
-      <edge id="subject#645[Wendy Hall--Category:Fellows of the British Computer Society]" source="Wendy Hall" target="Category:Fellows of the British Computer Society" label="subject#645[Wendy Hall--Category:Fellows of the British Computer Society]">
+      <edge id="subject#640[Stardog--Category:Resource Description Framework]" source="Stardog" target="Category:Resource Description Framework" label="subject#640[Stardog--Category:Resource Description Framework]">
         <attvalues />
       </edge>
-      <edge id="award#002[Wendy Hall--Order of the British Empire]" source="Wendy Hall" target="Order of the British Empire" label="award#002[Wendy Hall--Order of the British Empire]">
+      <edge id="subject#641[Stardog--Category:Structured storage]" source="Stardog" target="Category:Structured storage" label="subject#641[Stardog--Category:Structured storage]">
         <attvalues />
       </edge>
       <edge id="field#000[Wendy Hall--Semantic Web]" source="Wendy Hall" target="Semantic Web" label="field#000[Wendy Hall--Semantic Web]">
         <attvalues />
       </edge>
-      <edge id="subject#658[Wendy Hall--Category:English computer scientists]" source="Wendy Hall" target="Category:English computer scientists" label="subject#658[Wendy Hall--Category:English computer scientists]">
+      <edge id="award#001[Wendy Hall--Royal Academy of Engineering]" source="Wendy Hall" target="Royal Academy of Engineering" label="award#001[Wendy Hall--Royal Academy of Engineering]">
         <attvalues />
       </edge>
       <edge id="field#022[Wendy Hall--Multimedia]" source="Wendy Hall" target="Multimedia" label="field#022[Wendy Hall--Multimedia]">
+        <attvalues />
+      </edge>
+      <edge id="award#002[Wendy Hall--Order of the British Empire]" source="Wendy Hall" target="Order of the British Empire" label="award#002[Wendy Hall--Order of the British Empire]">
         <attvalues />
       </edge>
       <edge id="genre#002[UMBEL--Semantic Web]" source="UMBEL" target="Semantic Web" label="genre#002[UMBEL--Semantic Web]">
         <attvalues />
       </edge>
       <edge id="subject#663[UMBEL--Category:Knowledge representation]" source="UMBEL" target="Category:Knowledge representation" label="subject#663[UMBEL--Category:Knowledge representation]">
-        <attvalues />
-      </edge>
-      <edge id="genre#044[UMBEL--Linked data]" source="UMBEL" target="Linked data" label="genre#044[UMBEL--Linked data]">
         <attvalues />
       </edge>
       <edge id="subject#502[UMBEL--Category:Semantic Web]" source="UMBEL" target="Category:Semantic Web" label="subject#502[UMBEL--Category:Semantic Web]">
@@ -834,16 +759,16 @@
       <edge id="baseStandards#001[RDFa--Resource Description Framework]" source="RDFa" target="Resource Description Framework" label="baseStandards#001[RDFa--Resource Description Framework]">
         <attvalues />
       </edge>
-      <edge id="subject#613[RDFa--Category:Resource Description Framework]" source="RDFa" target="Category:Resource Description Framework" label="subject#613[RDFa--Category:Resource Description Framework]">
-        <attvalues />
-      </edge>
       <edge id="subject#549[RDFa--Category:Semantic Web]" source="RDFa" target="Category:Semantic Web" label="subject#549[RDFa--Category:Semantic Web]">
         <attvalues />
       </edge>
-      <edge id="subject#610[RDFa--Category:World Wide Web Consortium standards]" source="RDFa" target="Category:World Wide Web Consortium standards" label="subject#610[RDFa--Category:World Wide Web Consortium standards]">
+      <edge id="relatedStandards#004[RDFa--Web Ontology Language]" source="RDFa" target="Web Ontology Language" label="relatedStandards#004[RDFa--Web Ontology Language]">
         <attvalues />
       </edge>
-      <edge id="relatedStandards#004[RDFa--Web Ontology Language]" source="RDFa" target="Web Ontology Language" label="relatedStandards#004[RDFa--Web Ontology Language]">
+      <edge id="subject#613[RDFa--Category:Resource Description Framework]" source="RDFa" target="Category:Resource Description Framework" label="subject#613[RDFa--Category:Resource Description Framework]">
+        <attvalues />
+      </edge>
+      <edge id="subject#610[RDFa--Category:World Wide Web Consortium standards]" source="RDFa" target="Category:World Wide Web Consortium standards" label="subject#610[RDFa--Category:World Wide Web Consortium standards]">
         <attvalues />
       </edge>
       <edge id="genre#004[Turtle (syntax)--Semantic Web]" source="Turtle (syntax)" target="Semantic Web" label="genre#004[Turtle (syntax)--Semantic Web]">
@@ -855,21 +780,10 @@
       <edge id="subject#617[Turtle (syntax)--Category:Resource Description Framework]" source="Turtle (syntax)" target="Category:Resource Description Framework" label="subject#617[Turtle (syntax)--Category:Resource Description Framework]">
         <attvalues />
       </edge>
-      <edge id="extendedFrom#000[Turtle (syntax)--N-Triples]" source="Turtle (syntax)" target="N-Triples" label="extendedFrom#000[Turtle (syntax)--N-Triples]">
-        <attvalues>
-          <attvalue for="nextedge0" value="extendedTo" />
-        </attvalues>
-      </edge>
-      <edge id="subject#968[Metadata--Category:Knowledge representation]" source="Metadata" target="Category:Knowledge representation" label="subject#968[Metadata--Category:Knowledge representation]">
+      <edge id="subject#670[Disruptive innovation--Category:Technology by type]" source="Disruptive innovation" target="Category:Technology by type" label="subject#670[Disruptive innovation--Category:Technology by type]">
         <attvalues />
       </edge>
-      <edge id="subject#1334[Metadata--Category:Data management]" source="Metadata" target="Category:Data management" label="subject#1334[Metadata--Category:Data management]">
-        <attvalues />
-      </edge>
-      <edge id="subject#1211[Informatics--Category:Information science]" source="Informatics" target="Category:Information science" label="subject#1211[Informatics--Category:Information science]">
-        <attvalues />
-      </edge>
-      <edge id="owl#differentFrom#006[Informatics--Information technology]" source="Informatics" target="Information technology" label="owl#differentFrom#006[Informatics--Information technology]">
+      <edge id="owner#005[XML--World Wide Web Consortium]" source="XML" target="World Wide Web Consortium" label="owner#005[XML--World Wide Web Consortium]">
         <attvalues />
       </edge>
       <edge id="genre#005[XML--Semantic Web]" source="XML" target="Semantic Web" label="genre#005[XML--Semantic Web]">
@@ -878,7 +792,13 @@
       <edge id="containerFor#003[XML--Resource Description Framework]" source="XML" target="Resource Description Framework" label="containerFor#003[XML--Resource Description Framework]">
         <attvalues />
       </edge>
+      <edge id="subject#623[XML--Category:Application layer protocols]" source="XML" target="Category:Application layer protocols" label="subject#623[XML--Category:Application layer protocols]">
+        <attvalues />
+      </edge>
       <edge id="extendedFrom#017[XML--XML]" source="XML" target="XML" label="extendedFrom#017[XML--XML]">
+        <attvalues />
+      </edge>
+      <edge id="subject#532[XML--Category:Semantic Web]" source="XML" target="Category:Semantic Web" label="subject#532[XML--Category:Semantic Web]">
         <attvalues />
       </edge>
       <edge id="subject#624[XML--Category:XML]" source="XML" target="Category:XML" label="subject#624[XML--Category:XML]">
@@ -887,22 +807,13 @@
       <edge id="subject#828[XML--Category:Resource Description Framework]" source="XML" target="Category:Resource Description Framework" label="subject#828[XML--Category:Resource Description Framework]">
         <attvalues />
       </edge>
-      <edge id="subject#532[XML--Category:Semantic Web]" source="XML" target="Category:Semantic Web" label="subject#532[XML--Category:Semantic Web]">
-        <attvalues />
-      </edge>
-      <edge id="subject#623[XML--Category:Application layer protocols]" source="XML" target="Category:Application layer protocols" label="subject#623[XML--Category:Application layer protocols]">
-        <attvalues />
-      </edge>
       <edge id="subject#619[XML--Category:World Wide Web Consortium standards]" source="XML" target="Category:World Wide Web Consortium standards" label="subject#619[XML--Category:World Wide Web Consortium standards]">
         <attvalues />
       </edge>
-      <edge id="owner#005[XML--World Wide Web Consortium]" source="XML" target="World Wide Web Consortium" label="owner#005[XML--World Wide Web Consortium]">
+      <edge id="core#broader#145[Category:Knowledge representation--Category:Information science]" source="Category:Knowledge representation" target="Category:Information science" label="core#broader#145[Category:Knowledge representation--Category:Information science]">
         <attvalues />
       </edge>
-      <edge id="honours#011[Richard Susskind--Order of the British Empire]" source="Richard Susskind" target="Order of the British Empire" label="honours#011[Richard Susskind--Order of the British Empire]">
-        <attvalues />
-      </edge>
-      <edge id="fields#005[Richard Susskind--Information technology]" source="Richard Susskind" target="Information technology" label="fields#005[Richard Susskind--Information technology]">
+      <edge id="core#broader#016[Category:Knowledge representation--Category:Knowledge engineering]" source="Category:Knowledge representation" target="Category:Knowledge engineering" label="core#broader#016[Category:Knowledge representation--Category:Knowledge engineering]">
         <attvalues />
       </edge>
       <edge id="subject#636[Schema.org--Category:Information science]" source="Schema.org" target="Category:Information science" label="subject#636[Schema.org--Category:Information science]">
@@ -923,36 +834,22 @@
       <edge id="subject#570[Schema.org--Category:Semantic Web]" source="Schema.org" target="Category:Semantic Web" label="subject#570[Schema.org--Category:Semantic Web]">
         <attvalues />
       </edge>
-      <edge id="relatedStandards#012[Schema.org--N-Triples]" source="Schema.org" target="N-Triples" label="relatedStandards#012[Schema.org--N-Triples]">
-        <attvalues />
-      </edge>
       <edge id="relatedStandards#014[Schema.org--Web Ontology Language]" source="Schema.org" target="Web Ontology Language" label="relatedStandards#014[Schema.org--Web Ontology Language]">
         <attvalues />
       </edge>
-      <edge id="core#broader#145[Category:Knowledge representation--Category:Information science]" source="Category:Knowledge representation" target="Category:Information science" label="core#broader#145[Category:Knowledge representation--Category:Information science]">
+      <edge id="subject#1160[Information architecture--Category:Information science]" source="Information architecture" target="Category:Information science" label="subject#1160[Information architecture--Category:Information science]">
         <attvalues />
       </edge>
-      <edge id="core#broader#016[Category:Knowledge representation--Category:Knowledge engineering]" source="Category:Knowledge representation" target="Category:Knowledge engineering" label="core#broader#016[Category:Knowledge representation--Category:Knowledge engineering]">
+      <edge id="subject#1314[Information architecture--Category:Data management]" source="Information architecture" target="Category:Data management" label="subject#1314[Information architecture--Category:Data management]">
         <attvalues />
       </edge>
-      <edge id="knownFor#000[Nigel Shadbolt--Semantic Web]" source="Nigel Shadbolt" target="Semantic Web" label="knownFor#000[Nigel Shadbolt--Semantic Web]">
+      <edge id="subject#1937[Information architecture--Category:Information technology]" source="Information architecture" target="Category:Information technology" label="subject#1937[Information architecture--Category:Information technology]">
         <attvalues />
       </edge>
-      <edge id="doctoralStudents[Nigel Shadbolt--Jeni Tennison]" source="Nigel Shadbolt" target="Jeni Tennison" label="doctoralStudents[Nigel Shadbolt--Jeni Tennison]">
-        <attvalues>
-          <attvalue for="nextedge0" value="doctoralStudent" />
-        </attvalues>
-      </edge>
-      <edge id="subject#817[Linked Data Platform--Category:Resource Description Framework]" source="Linked Data Platform" target="Category:Resource Description Framework" label="subject#817[Linked Data Platform--Category:Resource Description Framework]">
+      <edge id="knownFor#018[Thomas Reardon--World Wide Web Consortium]" source="Thomas Reardon" target="World Wide Web Consortium" label="knownFor#018[Thomas Reardon--World Wide Web Consortium]">
         <attvalues />
       </edge>
-      <edge id="subject#510[Linked Data Platform--Category:Semantic Web]" source="Linked Data Platform" target="Category:Semantic Web" label="subject#510[Linked Data Platform--Category:Semantic Web]">
-        <attvalues />
-      </edge>
-      <edge id="subject#1839[Linked Data Platform--Category:Hypertext Transfer Protocol]" source="Linked Data Platform" target="Category:Hypertext Transfer Protocol" label="subject#1839[Linked Data Platform--Category:Hypertext Transfer Protocol]">
-        <attvalues />
-      </edge>
-      <edge id="subject#051[Tabulator--Category:Triplestores]" source="Tabulator" target="Category:Triplestores" label="subject#051[Tabulator--Category:Triplestores]">
+      <edge id="field#066[Thomas Reardon--Information technology]" source="Thomas Reardon" target="Information technology" label="field#066[Thomas Reardon--Information technology]">
         <attvalues />
       </edge>
       <edge id="genre#007[Tabulator--Semantic Web]" source="Tabulator" target="Semantic Web" label="genre#007[Tabulator--Semantic Web]">
@@ -964,31 +861,28 @@
       <edge id="author#001[Tabulator--Tim Berners-Lee]" source="Tabulator" target="Tim Berners-Lee" label="author#001[Tabulator--Tim Berners-Lee]">
         <attvalues />
       </edge>
-      <edge id="core#broader#231[Category:XML--Category:World Wide Web Consortium standards]" source="Category:XML" target="Category:World Wide Web Consortium standards" label="core#broader#231[Category:XML--Category:World Wide Web Consortium standards]">
-        <attvalues />
-      </edge>
-      <edge id="subject#1275[Linked data--Category:Data management]" source="Linked data" target="Category:Data management" label="subject#1275[Linked data--Category:Data management]">
-        <attvalues />
-      </edge>
-      <edge id="subject#553[Linked data--Category:Semantic Web]" source="Linked data" target="Category:Semantic Web" label="subject#553[Linked data--Category:Semantic Web]">
+      <edge id="subject#2213[Information technology--Category:Media technology]" source="Information technology" target="Category:Media technology" label="subject#2213[Information technology--Category:Media technology]">
         <attvalues />
       </edge>
       <edge id="subject#1895[Information technology--Category:Information technology]" source="Information technology" target="Category:Information technology" label="subject#1895[Information technology--Category:Information technology]">
         <attvalues />
       </edge>
-      <edge id="core#broader#033[Category:Resource Description Framework--Category:Semantic Web]" source="Category:Resource Description Framework" target="Category:Semantic Web" label="core#broader#033[Category:Resource Description Framework--Category:Semantic Web]">
+      <edge id="core#broader#072[Category:Media technology--Category:Technology by type]" source="Category:Media technology" target="Category:Technology by type" label="core#broader#072[Category:Media technology--Category:Technology by type]">
         <attvalues />
       </edge>
-      <edge id="core#broader#130[Category:Resource Description Framework--Category:World Wide Web Consortium standards]" source="Category:Resource Description Framework" target="Category:World Wide Web Consortium standards" label="core#broader#130[Category:Resource Description Framework--Category:World Wide Web Consortium standards]">
+      <edge id="subject#907[Data steward--Category:Knowledge representation]" source="Data steward" target="Category:Knowledge representation" label="subject#907[Data steward--Category:Knowledge representation]">
         <attvalues />
       </edge>
-      <edge id="core#broader#010[Category:Emerging technologies--Category:Technological change]" source="Category:Emerging technologies" target="Category:Technological change" label="core#broader#010[Category:Emerging technologies--Category:Technological change]">
+      <edge id="subject#1443[Data steward--Category:Data management]" source="Data steward" target="Category:Data management" label="subject#1443[Data steward--Category:Data management]">
         <attvalues />
       </edge>
       <edge id="core#broader#009[Category:Emerging technologies--Category:Technology by type]" source="Category:Emerging technologies" target="Category:Technology by type" label="core#broader#009[Category:Emerging technologies--Category:Technology by type]">
         <attvalues />
       </edge>
       <edge id="core#broader#019[Category:Knowledge engineering--Category:Information science]" source="Category:Knowledge engineering" target="Category:Information science" label="core#broader#019[Category:Knowledge engineering--Category:Information science]">
+        <attvalues />
+      </edge>
+      <edge id="core#broader#018[Category:Knowledge engineering--Category:Knowledge]" source="Category:Knowledge engineering" target="Category:Knowledge" label="core#broader#018[Category:Knowledge engineering--Category:Knowledge]">
         <attvalues />
       </edge>
       <edge id="core#broader#028[Category:Semantic Web--Category:Knowledge representation]" source="Category:Semantic Web" target="Category:Knowledge representation" label="core#broader#028[Category:Semantic Web--Category:Knowledge representation]">
@@ -1000,61 +894,34 @@
       <edge id="core#broader#030[Category:Semantic Web--Category:World Wide Web Consortium]" source="Category:Semantic Web" target="Category:World Wide Web Consortium" label="core#broader#030[Category:Semantic Web--Category:World Wide Web Consortium]">
         <attvalues />
       </edge>
-      <edge id="subject#043[Tim Berners-Lee--Category:Fellows of the British Computer Society]" source="Tim Berners-Lee" target="Category:Fellows of the British Computer Society" label="subject#043[Tim Berners-Lee--Category:Fellows of the British Computer Society]">
+      <edge id="rdf-schema#seeAlso#002[Emerging technologies--Technology]" source="Emerging technologies" target="Technology" label="rdf-schema#seeAlso#002[Emerging technologies--Technology]">
         <attvalues />
       </edge>
-      <edge id="honorificSuffix#000[Tim Berners-Lee--Order of the British Empire]" source="Tim Berners-Lee" target="Order of the British Empire" label="honorificSuffix#000[Tim Berners-Lee--Order of the British Empire]">
+      <edge id="subject#163[Emerging technologies--Category:Emerging technologies]" source="Emerging technologies" target="Category:Emerging technologies" label="subject#163[Emerging technologies--Category:Emerging technologies]">
         <attvalues />
       </edge>
-      <edge id="subject#047[Tim Berners-Lee--Category:English computer scientists]" source="Tim Berners-Lee" target="Category:English computer scientists" label="subject#047[Tim Berners-Lee--Category:English computer scientists]">
+      <edge id="core#broader#195[Category:Open data--Category:Data management]" source="Category:Open data" target="Category:Data management" label="core#broader#195[Category:Open data--Category:Data management]">
         <attvalues />
       </edge>
-      <edge id="subject#038[Tim Berners-Lee--Category:World Wide Web Consortium]" source="Tim Berners-Lee" target="Category:World Wide Web Consortium" label="subject#038[Tim Berners-Lee--Category:World Wide Web Consortium]">
+      <edge id="subject#778[Internationalized resource identifier--Category:Application layer protocols]" source="Internationalized resource identifier" target="Category:Application layer protocols" label="subject#778[Internationalized resource identifier--Category:Application layer protocols]">
         <attvalues />
       </edge>
-      <edge id="birthPlace#004[Tim Berners-Lee--England]" source="Tim Berners-Lee" target="England" label="birthPlace#004[Tim Berners-Lee--England]">
+      <edge id="subject#210[Internationalized resource identifier--Category:Emerging technologies]" source="Internationalized resource identifier" target="Category:Emerging technologies" label="subject#210[Internationalized resource identifier--Category:Emerging technologies]">
         <attvalues />
       </edge>
-      <edge id="subject#039[Tim Berners-Lee--Category:Hypertext Transfer Protocol]" source="Tim Berners-Lee" target="Category:Hypertext Transfer Protocol" label="subject#039[Tim Berners-Lee--Category:Hypertext Transfer Protocol]">
+      <edge id="subject#777[Internationalized resource identifier--Category:Web services]" source="Internationalized resource identifier" target="Category:Web services" label="subject#777[Internationalized resource identifier--Category:Web services]">
         <attvalues />
       </edge>
-      <edge id="core#broader#127[Category:World Wide Web Consortium standards--Category:World Wide Web Consortium]" source="Category:World Wide Web Consortium standards" target="Category:World Wide Web Consortium" label="core#broader#127[Category:World Wide Web Consortium standards--Category:World Wide Web Consortium]">
-        <attvalues />
-      </edge>
-      <edge id="genre#013[N-Triples--Semantic Web]" source="N-Triples" target="Semantic Web" label="genre#013[N-Triples--Semantic Web]">
-        <attvalues />
-      </edge>
-      <edge id="containerFor#005[N-Triples--Resource Description Framework]" source="N-Triples" target="Resource Description Framework" label="containerFor#005[N-Triples--Resource Description Framework]">
-        <attvalues />
-      </edge>
-      <edge id="owner#010[N-Triples--World Wide Web Consortium]" source="N-Triples" target="World Wide Web Consortium" label="owner#010[N-Triples--World Wide Web Consortium]">
-        <attvalues />
-      </edge>
-      <edge id="subject#1806[Carole Goble--Category:Fellows of the British Computer Society]" source="Carole Goble" target="Category:Fellows of the British Computer Society" label="subject#1806[Carole Goble--Category:Fellows of the British Computer Society]">
-        <attvalues />
-      </edge>
-      <edge id="award#243[Carole Goble--Order of the British Empire]" source="Carole Goble" target="Order of the British Empire" label="award#243[Carole Goble--Order of the British Empire]">
+      <edge id="subject#462[Internationalized resource identifier--Category:Semantic Web]" source="Internationalized resource identifier" target="Category:Semantic Web" label="subject#462[Internationalized resource identifier--Category:Semantic Web]">
         <attvalues />
       </edge>
       <edge id="field#005[Carole Goble--Semantic Web]" source="Carole Goble" target="Semantic Web" label="field#005[Carole Goble--Semantic Web]">
         <attvalues />
       </edge>
-      <edge id="knownFor#023[Carole Goble--Semantic grid]" source="Carole Goble" target="Semantic grid" label="knownFor#023[Carole Goble--Semantic grid]">
+      <edge id="award#2083[Carole Goble--Royal Academy of Engineering]" source="Carole Goble" target="Royal Academy of Engineering" label="award#2083[Carole Goble--Royal Academy of Engineering]">
         <attvalues />
       </edge>
-      <edge id="subject#1877[Data classification (data management)--Category:Information technology]" source="Data classification (data management)" target="Category:Information technology" label="subject#1877[Data classification (data management)--Category:Information technology]">
-        <attvalues />
-      </edge>
-      <edge id="subject#1361[Data classification (data management)--Category:Data management]" source="Data classification (data management)" target="Category:Data management" label="subject#1361[Data classification (data management)--Category:Data management]">
-        <attvalues />
-      </edge>
-      <edge id="subject#482[Semantic grid--Category:Semantic Web]" source="Semantic grid" target="Category:Semantic Web" label="subject#482[Semantic grid--Category:Semantic Web]">
-        <attvalues />
-      </edge>
-      <edge id="honorificSuffix#272[Jeni Tennison--Order of the British Empire]" source="Jeni Tennison" target="Order of the British Empire" label="honorificSuffix#272[Jeni Tennison--Order of the British Empire]">
-        <attvalues />
-      </edge>
-      <edge id="subject#575[Jeni Tennison--Category:Semantic Web]" source="Jeni Tennison" target="Category:Semantic Web" label="subject#575[Jeni Tennison--Category:Semantic Web]">
+      <edge id="award#243[Carole Goble--Order of the British Empire]" source="Carole Goble" target="Order of the British Empire" label="award#243[Carole Goble--Order of the British Empire]">
         <attvalues />
       </edge>
       <edge id="residence#002[Jeni Tennison--England]" source="Jeni Tennison" target="England" label="residence#002[Jeni Tennison--England]">
@@ -1062,22 +929,34 @@
           <attvalue for="nextedge0" value="placeOfBirth" />
         </attvalues>
       </edge>
-      <edge id="knownFor#007[James Clark (programmer)--XML]" source="James Clark (programmer)" target="XML" label="knownFor#007[James Clark (programmer)--XML]">
+      <edge id="subject#575[Jeni Tennison--Category:Semantic Web]" source="Jeni Tennison" target="Category:Semantic Web" label="subject#575[Jeni Tennison--Category:Semantic Web]">
         <attvalues />
       </edge>
-      <edge id="subject#808[James Clark (programmer)--Category:World Wide Web Consortium]" source="James Clark (programmer)" target="Category:World Wide Web Consortium" label="subject#808[James Clark (programmer)--Category:World Wide Web Consortium]">
+      <edge id="honorificSuffix#272[Jeni Tennison--Order of the British Empire]" source="Jeni Tennison" target="Order of the British Empire" label="honorificSuffix#272[Jeni Tennison--Order of the British Empire]">
         <attvalues />
       </edge>
-      <edge id="subject#2211[Hypertext Transfer Protocol--Category:World Wide Web]" source="Hypertext Transfer Protocol" target="Category:World Wide Web" label="subject#2211[Hypertext Transfer Protocol--Category:World Wide Web]">
+      <edge id="core#broader#059[Category:Information technology--Category:Technology by type]" source="Category:Information technology" target="Category:Technology by type" label="core#broader#059[Category:Information technology--Category:Technology by type]">
         <attvalues />
       </edge>
-      <edge id="subject#2208[Hypertext Transfer Protocol--Category:Application layer protocols]" source="Hypertext Transfer Protocol" target="Category:Application layer protocols" label="subject#2208[Hypertext Transfer Protocol--Category:Application layer protocols]">
+      <edge id="fields#005[Richard Susskind--Information technology]" source="Richard Susskind" target="Information technology" label="fields#005[Richard Susskind--Information technology]">
         <attvalues />
       </edge>
-      <edge id="subject#1593[Hypertext Transfer Protocol--Category:World Wide Web Consortium standards]" source="Hypertext Transfer Protocol" target="Category:World Wide Web Consortium standards" label="subject#1593[Hypertext Transfer Protocol--Category:World Wide Web Consortium standards]">
+      <edge id="honours#011[Richard Susskind--Order of the British Empire]" source="Richard Susskind" target="Order of the British Empire" label="honours#011[Richard Susskind--Order of the British Empire]">
         <attvalues />
       </edge>
-      <edge id="subject#1832[Hypertext Transfer Protocol--Category:Hypertext Transfer Protocol]" source="Hypertext Transfer Protocol" target="Category:Hypertext Transfer Protocol" label="subject#1832[Hypertext Transfer Protocol--Category:Hypertext Transfer Protocol]">
+      <edge id="subject#1082[Ontology alignment--Category:Information science]" source="Ontology alignment" target="Category:Information science" label="subject#1082[Ontology alignment--Category:Information science]">
+        <attvalues />
+      </edge>
+      <edge id="subject#860[Ontology alignment--Category:Knowledge representation]" source="Ontology alignment" target="Category:Knowledge representation" label="subject#860[Ontology alignment--Category:Knowledge representation]">
+        <attvalues />
+      </edge>
+      <edge id="subject#410[Ontology alignment--Category:Knowledge engineering]" source="Ontology alignment" target="Category:Knowledge engineering" label="subject#410[Ontology alignment--Category:Knowledge engineering]">
+        <attvalues />
+      </edge>
+      <edge id="subject#459[Ontology alignment--Category:Semantic Web]" source="Ontology alignment" target="Category:Semantic Web" label="subject#459[Ontology alignment--Category:Semantic Web]">
+        <attvalues />
+      </edge>
+      <edge id="owner#012[Web Ontology Language--World Wide Web Consortium]" source="Web Ontology Language" target="World Wide Web Consortium" label="owner#012[Web Ontology Language--World Wide Web Consortium]">
         <attvalues />
       </edge>
       <edge id="domain#004[Web Ontology Language--Semantic Web]" source="Web Ontology Language" target="Semantic Web" label="domain#004[Web Ontology Language--Semantic Web]">
@@ -1086,124 +965,67 @@
       <edge id="baseStandards#002[Web Ontology Language--Resource Description Framework]" source="Web Ontology Language" target="Resource Description Framework" label="baseStandards#002[Web Ontology Language--Resource Description Framework]">
         <attvalues />
       </edge>
-      <edge id="subject#827[Web Ontology Language--Category:Resource Description Framework]" source="Web Ontology Language" target="Category:Resource Description Framework" label="subject#827[Web Ontology Language--Category:Resource Description Framework]">
+      <edge id="subject#474[Web Ontology Language--Category:Semantic Web]" source="Web Ontology Language" target="Category:Semantic Web" label="subject#474[Web Ontology Language--Category:Semantic Web]">
         <attvalues />
       </edge>
-      <edge id="subject#474[Web Ontology Language--Category:Semantic Web]" source="Web Ontology Language" target="Category:Semantic Web" label="subject#474[Web Ontology Language--Category:Semantic Web]">
+      <edge id="subject#827[Web Ontology Language--Category:Resource Description Framework]" source="Web Ontology Language" target="Category:Resource Description Framework" label="subject#827[Web Ontology Language--Category:Resource Description Framework]">
         <attvalues />
       </edge>
       <edge id="subject#1613[Web Ontology Language--Category:World Wide Web Consortium standards]" source="Web Ontology Language" target="Category:World Wide Web Consortium standards" label="subject#1613[Web Ontology Language--Category:World Wide Web Consortium standards]">
         <attvalues />
       </edge>
-      <edge id="owner#012[Web Ontology Language--World Wide Web Consortium]" source="Web Ontology Language" target="World Wide Web Consortium" label="owner#012[Web Ontology Language--World Wide Web Consortium]">
+      <edge id="core#broader#231[Category:XML--Category:World Wide Web Consortium standards]" source="Category:XML" target="Category:World Wide Web Consortium standards" label="core#broader#231[Category:XML--Category:World Wide Web Consortium standards]">
         <attvalues />
       </edge>
-      <edge id="subject#1214[Integrated Operations in the High North--Category:Information science]" source="Integrated Operations in the High North" target="Category:Information science" label="subject#1214[Integrated Operations in the High North--Category:Information science]">
+      <edge id="subject#510[Linked Data Platform--Category:Semantic Web]" source="Linked Data Platform" target="Category:Semantic Web" label="subject#510[Linked Data Platform--Category:Semantic Web]">
         <attvalues />
       </edge>
-      <edge id="subject#997[Integrated Operations in the High North--Category:Knowledge representation]" source="Integrated Operations in the High North" target="Category:Knowledge representation" label="subject#997[Integrated Operations in the High North--Category:Knowledge representation]">
+      <edge id="subject#817[Linked Data Platform--Category:Resource Description Framework]" source="Linked Data Platform" target="Category:Resource Description Framework" label="subject#817[Linked Data Platform--Category:Resource Description Framework]">
         <attvalues />
       </edge>
-      <edge id="subject#417[Integrated Operations in the High North--Category:Knowledge engineering]" source="Integrated Operations in the High North" target="Category:Knowledge engineering" label="subject#417[Integrated Operations in the High North--Category:Knowledge engineering]">
+      <edge id="subject#1839[Linked Data Platform--Category:Hypertext Transfer Protocol]" source="Linked Data Platform" target="Category:Hypertext Transfer Protocol" label="subject#1839[Linked Data Platform--Category:Hypertext Transfer Protocol]">
         <attvalues />
       </edge>
-      <edge id="subject#582[Integrated Operations in the High North--Category:Semantic Web]" source="Integrated Operations in the High North" target="Category:Semantic Web" label="subject#582[Integrated Operations in the High North--Category:Semantic Web]">
+      <edge id="birthPlace#004[Tim Berners-Lee--England]" source="Tim Berners-Lee" target="England" label="birthPlace#004[Tim Berners-Lee--England]">
         <attvalues />
       </edge>
-      <edge id="subject#1899[E-services--Category:Information technology]" source="E-services" target="Category:Information technology" label="subject#1899[E-services--Category:Information technology]">
+      <edge id="honorificSuffix#002[Tim Berners-Lee--Royal Academy of Engineering]" source="Tim Berners-Lee" target="Royal Academy of Engineering" label="honorificSuffix#002[Tim Berners-Lee--Royal Academy of Engineering]">
         <attvalues />
       </edge>
-      <edge id="subject#943[E-services--Category:Knowledge representation]" source="E-services" target="Category:Knowledge representation" label="subject#943[E-services--Category:Knowledge representation]">
+      <edge id="honorificSuffix#000[Tim Berners-Lee--Order of the British Empire]" source="Tim Berners-Lee" target="Order of the British Empire" label="honorificSuffix#000[Tim Berners-Lee--Order of the British Empire]">
         <attvalues />
       </edge>
-      <edge id="subject#1881[Software-defined storage--Category:Information technology]" source="Software-defined storage" target="Category:Information technology" label="subject#1881[Software-defined storage--Category:Information technology]">
+      <edge id="subject#038[Tim Berners-Lee--Category:World Wide Web Consortium]" source="Tim Berners-Lee" target="Category:World Wide Web Consortium" label="subject#038[Tim Berners-Lee--Category:World Wide Web Consortium]">
+        <attvalues />
+      </edge>
+      <edge id="subject#039[Tim Berners-Lee--Category:Hypertext Transfer Protocol]" source="Tim Berners-Lee" target="Category:Hypertext Transfer Protocol" label="subject#039[Tim Berners-Lee--Category:Hypertext Transfer Protocol]">
         <attvalues />
       </edge>
       <edge id="subject#114[Software-defined storage--Category:Emerging technologies]" source="Software-defined storage" target="Category:Emerging technologies" label="subject#114[Software-defined storage--Category:Emerging technologies]">
         <attvalues />
       </edge>
-      <edge id="subject#1042[World Wide Web Consortium--Category:Web services]" source="World Wide Web Consortium" target="Category:Web services" label="subject#1042[World Wide Web Consortium--Category:Web services]">
+      <edge id="subject#1881[Software-defined storage--Category:Information technology]" source="Software-defined storage" target="Category:Information technology" label="subject#1881[Software-defined storage--Category:Information technology]">
         <attvalues />
       </edge>
-      <edge id="subject#1040[World Wide Web Consortium--Category:Web development]" source="World Wide Web Consortium" target="Category:Web development" label="subject#1040[World Wide Web Consortium--Category:Web development]">
+      <edge id="core#broader#033[Category:Resource Description Framework--Category:Semantic Web]" source="Category:Resource Description Framework" target="Category:Semantic Web" label="core#broader#033[Category:Resource Description Framework--Category:Semantic Web]">
         <attvalues />
       </edge>
-      <edge id="leaderName[World Wide Web Consortium--Tim Berners-Lee]" source="World Wide Web Consortium" target="Tim Berners-Lee" label="leaderName[World Wide Web Consortium--Tim Berners-Lee]">
+      <edge id="core#broader#130[Category:Resource Description Framework--Category:World Wide Web Consortium standards]" source="Category:Resource Description Framework" target="Category:World Wide Web Consortium standards" label="core#broader#130[Category:Resource Description Framework--Category:World Wide Web Consortium standards]">
         <attvalues />
       </edge>
-      <edge id="headquarters#001[World Wide Web Consortium--United States]" source="World Wide Web Consortium" target="United States" label="headquarters#001[World Wide Web Consortium--United States]">
+      <edge id="core#broader#224[Category:Structured storage--Category:Data management]" source="Category:Structured storage" target="Category:Data management" label="core#broader#224[Category:Structured storage--Category:Data management]">
         <attvalues />
       </edge>
-      <edge id="subject#786[World Wide Web Consortium--Category:World Wide Web Consortium]" source="World Wide Web Consortium" target="Category:World Wide Web Consortium" label="subject#786[World Wide Web Consortium--Category:World Wide Web Consortium]">
-        <attvalues />
-      </edge>
-      <edge id="core#broader#225[Category:NoSQL--Category:Data management]" source="Category:NoSQL" target="Category:Data management" label="core#broader#225[Category:NoSQL--Category:Data management]">
-        <attvalues />
-      </edge>
-      <edge id="subject#787[Henrik Frystyk Nielsen--Category:World Wide Web Consortium]" source="Henrik Frystyk Nielsen" target="Category:World Wide Web Consortium" label="subject#787[Henrik Frystyk Nielsen--Category:World Wide Web Consortium]">
-        <attvalues />
-      </edge>
-      <edge id="subject#1847[Henrik Frystyk Nielsen--Category:Hypertext Transfer Protocol]" source="Henrik Frystyk Nielsen" target="Category:Hypertext Transfer Protocol" label="subject#1847[Henrik Frystyk Nielsen--Category:Hypertext Transfer Protocol]">
-        <attvalues />
-      </edge>
-      <edge id="subject#697[Disruptive innovation--Category:Technological change]" source="Disruptive innovation" target="Category:Technological change" label="subject#697[Disruptive innovation--Category:Technological change]">
-        <attvalues />
-      </edge>
-      <edge id="subject#670[Disruptive innovation--Category:Technology by type]" source="Disruptive innovation" target="Category:Technology by type" label="subject#670[Disruptive innovation--Category:Technology by type]">
-        <attvalues />
-      </edge>
-      <edge id="genre#024[TriG (syntax)--Semantic Web]" source="TriG (syntax)" target="Semantic Web" label="genre#024[TriG (syntax)--Semantic Web]">
-        <attvalues />
-      </edge>
-      <edge id="containerFor#000[TriG (syntax)--Resource Description Framework]" source="TriG (syntax)" target="Resource Description Framework" label="containerFor#000[TriG (syntax)--Resource Description Framework]">
-        <attvalues />
-      </edge>
-      <edge id="extendedFrom[TriG (syntax)--Turtle (syntax)]" source="TriG (syntax)" target="Turtle (syntax)" label="extendedFrom[TriG (syntax)--Turtle (syntax)]">
-        <attvalues />
-      </edge>
-      <edge id="subject#811[TriG (syntax)--Category:Resource Description Framework]" source="TriG (syntax)" target="Category:Resource Description Framework" label="subject#811[TriG (syntax)--Category:Resource Description Framework]">
-        <attvalues />
-      </edge>
-      <edge id="field#066[Thomas Reardon--Information technology]" source="Thomas Reardon" target="Information technology" label="field#066[Thomas Reardon--Information technology]">
-        <attvalues />
-      </edge>
-      <edge id="knownFor#018[Thomas Reardon--World Wide Web Consortium]" source="Thomas Reardon" target="World Wide Web Consortium" label="knownFor#018[Thomas Reardon--World Wide Web Consortium]">
-        <attvalues />
-      </edge>
-      <edge id="field#011[Paul Otlet--Information science]" source="Paul Otlet" target="Information science" label="field#011[Paul Otlet--Information science]">
-        <attvalues />
-      </edge>
-      <edge id="influenced#025[Paul Otlet--Tim Berners-Lee]" source="Paul Otlet" target="Tim Berners-Lee" label="influenced#025[Paul Otlet--Tim Berners-Lee]">
-        <attvalues />
-      </edge>
-      <edge id="schoolTradition[Suzanne Briet--Information science]" source="Suzanne Briet" target="Information science" label="schoolTradition[Suzanne Briet--Information science]">
-        <attvalues>
-          <attvalue for="nextedge0" value="mainInterests" />
-          <attvalue for="nextedge1" value="philosophicalSchool" />
-          <attvalue for="nextedge2" value="philosophicalSchool" />
-        </attvalues>
-      </edge>
-      <edge id="subject#1051[Suzanne Briet--Category:Information science]" source="Suzanne Briet" target="Category:Information science" label="subject#1051[Suzanne Briet--Category:Information science]">
-        <attvalues />
-      </edge>
-      <edge id="influences[Suzanne Briet--Paul Otlet]" source="Suzanne Briet" target="Paul Otlet" label="influences[Suzanne Briet--Paul Otlet]">
-        <attvalues>
-          <attvalue for="nextedge0" value="influencedBy" />
-        </attvalues>
-      </edge>
-      <edge id="core#broader#259[Category:Hypertext Transfer Protocol--Category:Application layer protocols]" source="Category:Hypertext Transfer Protocol" target="Category:Application layer protocols" label="core#broader#259[Category:Hypertext Transfer Protocol--Category:Application layer protocols]">
+      <edge id="core#broader#127[Category:World Wide Web Consortium standards--Category:World Wide Web Consortium]" source="Category:World Wide Web Consortium standards" target="Category:World Wide Web Consortium" label="core#broader#127[Category:World Wide Web Consortium standards--Category:World Wide Web Consortium]">
         <attvalues />
       </edge>
       <edge id="core#broader#258[Category:Hypertext Transfer Protocol--Category:Web development]" source="Category:Hypertext Transfer Protocol" target="Category:Web development" label="core#broader#258[Category:Hypertext Transfer Protocol--Category:Web development]">
         <attvalues />
       </edge>
+      <edge id="core#broader#259[Category:Hypertext Transfer Protocol--Category:Application layer protocols]" source="Category:Hypertext Transfer Protocol" target="Category:Application layer protocols" label="core#broader#259[Category:Hypertext Transfer Protocol--Category:Application layer protocols]">
+        <attvalues />
+      </edge>
       <edge id="core#broader#229[Category:Hypertext Transfer Protocol--Category:World Wide Web Consortium standards]" source="Category:Hypertext Transfer Protocol" target="Category:World Wide Web Consortium standards" label="core#broader#229[Category:Hypertext Transfer Protocol--Category:World Wide Web Consortium standards]">
-        <attvalues />
-      </edge>
-      <edge id="subject#1661[XML database--Category:XML]" source="XML database" target="Category:XML" label="subject#1661[XML database--Category:XML]">
-        <attvalues />
-      </edge>
-      <edge id="subject#1328[XML database--Category:Data management]" source="XML database" target="Category:Data management" label="subject#1328[XML database--Category:Data management]">
         <attvalues />
       </edge>
     </edges>

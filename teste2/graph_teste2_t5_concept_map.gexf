@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" version="1.2" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
-  <meta lastmodifieddate="2017-12-13">
+  <meta lastmodifieddate="2018-04-18">
     <creator>Gephi 0.8.1</creator>
     <description></description>
   </meta>
@@ -26,7 +26,7 @@
       </attribute>
     </attributes>
     <nodes>
-      <node id="Knowledge organization" label="Knowledge organization">
+      <node id="Resource Description Framework" label="Resource Description Framework">
         <attvalues>
           <attvalue for="eccentricity" value="1.0" />
           <attvalue for="closnesscentrality" value="1.0" />
@@ -36,10 +36,10 @@
           <attvalue for="strongcompnum" value="1" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-362.2389" y="166.78345" z="0.0" />
+        <viz:position x="152.75415" y="38.63684" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
-      <node id="Information science category" label="Information science category">
+      <node id="World Wide Web Consortium" label="World Wide Web Consortium">
         <attvalues>
           <attvalue for="eccentricity" value="1.0" />
           <attvalue for="closnesscentrality" value="1.0" />
@@ -49,10 +49,10 @@
           <attvalue for="strongcompnum" value="0" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="41.784363" y="-478.79358" z="0.0" />
+        <viz:position x="-394.53635" y="368.68384" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
-      <node id="Semantic Web" label="Semantic Web">
+      <node id="XML" label="XML">
         <attvalues>
           <attvalue for="eccentricity" value="1.0" />
           <attvalue for="closnesscentrality" value="1.0" />
@@ -62,7 +62,7 @@
           <attvalue for="strongcompnum" value="3" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-313.99426" y="-213.66934" z="0.0" />
+        <viz:position x="-148.07938" y="272.0141" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="World Wide Web Consortium" label="World Wide Web Consortium">
@@ -75,10 +75,10 @@
           <attvalue for="strongcompnum" value="2" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-199.84006" y="56.984375" z="0.0" />
+        <viz:position x="269.3711" y="465.60553" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
-      <node id="Tim Berners-Lee" label="Tim Berners-Lee">
+      <node id="Resource Description Framework" label="Resource Description Framework">
         <attvalues>
           <attvalue for="eccentricity" value="1.0" />
           <attvalue for="closnesscentrality" value="1.0" />
@@ -88,10 +88,10 @@
           <attvalue for="strongcompnum" value="5" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="202.81311" y="-300.15906" z="0.0" />
+        <viz:position x="266.1941" y="-324.86444" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
-      <node id="World Wide Web Consortium" label="World Wide Web Consortium">
+      <node id="Semantic Web" label="Semantic Web">
         <attvalues>
           <attvalue for="eccentricity" value="1.0" />
           <attvalue for="closnesscentrality" value="1.0" />
@@ -101,10 +101,10 @@
           <attvalue for="strongcompnum" value="4" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-152.39981" y="-450.10773" z="0.0" />
+        <viz:position x="-487.24265" y="403.05884" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
-      <node id="Paul Otlet" label="Paul Otlet">
+      <node id="XML" label="XML">
         <attvalues>
           <attvalue for="eccentricity" value="1.0" />
           <attvalue for="closnesscentrality" value="1.0" />
@@ -114,10 +114,10 @@
           <attvalue for="strongcompnum" value="7" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="258.29932" y="-47.783936" z="0.0" />
+        <viz:position x="264.5614" y="-261.9596" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
-      <node id="Tim Berners-Lee" label="Tim Berners-Lee">
+      <node id="Semantic Web" label="Semantic Web">
         <attvalues>
           <attvalue for="eccentricity" value="1.0" />
           <attvalue for="closnesscentrality" value="1.0" />
@@ -127,10 +127,10 @@
           <attvalue for="strongcompnum" value="6" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-483.4797" y="113.772705" z="0.0" />
+        <viz:position x="-257.80872" y="150.84961" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
-      <node id="Resource Description Framework" label="Resource Description Framework">
+      <node id="Notation3" label="Notation3">
         <attvalues>
           <attvalue for="eccentricity" value="1.0" />
           <attvalue for="closnesscentrality" value="1.0" />
@@ -140,10 +140,10 @@
           <attvalue for="strongcompnum" value="9" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-178.49979" y="214.98615" z="0.0" />
+        <viz:position x="-227.53238" y="480.64294" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
-      <node id="Knowledge representation category" label="Knowledge representation category">
+      <node id="Resource Description Framework" label="Resource Description Framework">
         <attvalues>
           <attvalue for="eccentricity" value="1.0" />
           <attvalue for="closnesscentrality" value="1.0" />
@@ -153,10 +153,10 @@
           <attvalue for="strongcompnum" value="8" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-281.04245" y="154.91003" z="0.0" />
+        <viz:position x="-340.46375" y="300.5221" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
-      <node id="Semantic Web" label="Semantic Web">
+      <node id="XML" label="XML">
         <attvalues>
           <attvalue for="eccentricity" value="1.0" />
           <attvalue for="closnesscentrality" value="1.0" />
@@ -166,10 +166,10 @@
           <attvalue for="strongcompnum" value="11" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="177.3794" y="-199.36057" z="0.0" />
+        <viz:position x="169.43335" y="-210.11176" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
-      <node id="Data management category" label="Data management category">
+      <node id="Resource Description Framework" label="Resource Description Framework">
         <attvalues>
           <attvalue for="eccentricity" value="1.0" />
           <attvalue for="closnesscentrality" value="1.0" />
@@ -179,10 +179,10 @@
           <attvalue for="strongcompnum" value="10" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="323.3617" y="205.71936" z="0.0" />
+        <viz:position x="-31.483765" y="-248.41766" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
-      <node id="Knowledge representation category" label="Knowledge representation category">
+      <node id="Semantic Web" label="Semantic Web">
         <attvalues>
           <attvalue for="eccentricity" value="1.0" />
           <attvalue for="closnesscentrality" value="1.0" />
@@ -192,10 +192,10 @@
           <attvalue for="strongcompnum" value="13" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-103.84015" y="-381.34277" z="0.0" />
+        <viz:position x="262.28015" y="-247.09726" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
-      <node id="Information science category" label="Information science category">
+      <node id="Web services category" label="Web services category">
         <attvalues>
           <attvalue for="eccentricity" value="1.0" />
           <attvalue for="closnesscentrality" value="1.0" />
@@ -205,10 +205,10 @@
           <attvalue for="strongcompnum" value="12" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="174.54407" y="-223.06174" z="0.0" />
+        <viz:position x="409.34662" y="-309.27048" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
-      <node id="World Wide Web Consortium" label="World Wide Web Consortium">
+      <node id="Paul Otlet" label="Paul Otlet">
         <attvalues>
           <attvalue for="eccentricity" value="1.0" />
           <attvalue for="closnesscentrality" value="1.0" />
@@ -218,7 +218,7 @@
           <attvalue for="strongcompnum" value="15" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="111.11267" y="170.45154" z="0.0" />
+        <viz:position x="124.27759" y="-327.79333" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Tim Berners-Lee" label="Tim Berners-Lee">
@@ -231,10 +231,10 @@
           <attvalue for="strongcompnum" value="14" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-209.24829" y="-252.11789" z="0.0" />
+        <viz:position x="486.45135" y="-355.6006" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
-      <node id="Resource Description Framework" label="Resource Description Framework">
+      <node id="Semantic Web" label="Semantic Web">
         <attvalues>
           <attvalue for="eccentricity" value="1.0" />
           <attvalue for="closnesscentrality" value="1.0" />
@@ -244,10 +244,10 @@
           <attvalue for="strongcompnum" value="17" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-263.0857" y="157.94409" z="0.0" />
+        <viz:position x="310.25336" y="20.341675" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
-      <node id="Semantic Web" label="Semantic Web">
+      <node id="World Wide Web Consortium" label="World Wide Web Consortium">
         <attvalues>
           <attvalue for="eccentricity" value="1.0" />
           <attvalue for="closnesscentrality" value="1.0" />
@@ -257,10 +257,10 @@
           <attvalue for="strongcompnum" value="16" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="413.43457" y="-317.51062" z="0.0" />
+        <viz:position x="-260.36285" y="-153.16293" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
-      <node id="Resource Description Framework" label="Resource Description Framework">
+      <node id="Notation3" label="Notation3">
         <attvalues>
           <attvalue for="eccentricity" value="1.0" />
           <attvalue for="closnesscentrality" value="1.0" />
@@ -270,7 +270,7 @@
           <attvalue for="strongcompnum" value="19" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-82.09189" y="-210.68793" z="0.0" />
+        <viz:position x="-41.318573" y="193.80902" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Semantic Web" label="Semantic Web">
@@ -283,7 +283,7 @@
           <attvalue for="strongcompnum" value="18" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="8.123505" y="-141.70322" z="0.0" />
+        <viz:position x="175.70038" y="159.08209" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Resource Description Framework" label="Resource Description Framework">
@@ -296,10 +296,10 @@
           <attvalue for="strongcompnum" value="21" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="434.08557" y="405.4677" z="0.0" />
+        <viz:position x="73.993835" y="-440.0005" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
-      <node id="World Wide Web Consortium" label="World Wide Web Consortium">
+      <node id="Semantic Web" label="Semantic Web">
         <attvalues>
           <attvalue for="eccentricity" value="1.0" />
           <attvalue for="closnesscentrality" value="1.0" />
@@ -309,10 +309,10 @@
           <attvalue for="strongcompnum" value="20" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="18.941956" y="-273.85208" z="0.0" />
+        <viz:position x="-474.70914" y="298.66125" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
-      <node id="Semantic Web" label="Semantic Web">
+      <node id="XML" label="XML">
         <attvalues>
           <attvalue for="eccentricity" value="1.0" />
           <attvalue for="closnesscentrality" value="1.0" />
@@ -322,10 +322,10 @@
           <attvalue for="strongcompnum" value="23" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="12.325989" y="-377.87506" z="0.0" />
+        <viz:position x="-154.16608" y="-44.161377" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
-      <node id="Knowledge representation category" label="Knowledge representation category">
+      <node id="Semantic Web" label="Semantic Web">
         <attvalues>
           <attvalue for="eccentricity" value="1.0" />
           <attvalue for="closnesscentrality" value="1.0" />
@@ -335,45 +335,174 @@
           <attvalue for="strongcompnum" value="22" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="164.6217" y="-19.646332" z="0.0" />
+        <viz:position x="318.96002" y="195.44995" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="World Wide Web Consortium" label="World Wide Web Consortium">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0" />
+          <attvalue for="closnesscentrality" value="1.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+          <attvalue for="eigencentrality" value="0.0" />
+          <attvalue for="componentnumber" value="12" />
+          <attvalue for="strongcompnum" value="25" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="206.69946" y="493.1568" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Tim Berners-Lee" label="Tim Berners-Lee">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0" />
+          <attvalue for="closnesscentrality" value="1.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+          <attvalue for="eigencentrality" value="1.0" />
+          <attvalue for="componentnumber" value="12" />
+          <attvalue for="strongcompnum" value="24" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="386.67175" y="-123.924194" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Tim Berners-Lee" label="Tim Berners-Lee">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0" />
+          <attvalue for="closnesscentrality" value="1.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+          <attvalue for="eigencentrality" value="0.0" />
+          <attvalue for="componentnumber" value="13" />
+          <attvalue for="strongcompnum" value="27" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-44.602936" y="253.3352" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="World Wide Web Consortium" label="World Wide Web Consortium">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0" />
+          <attvalue for="closnesscentrality" value="1.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+          <attvalue for="eigencentrality" value="1.0" />
+          <attvalue for="componentnumber" value="13" />
+          <attvalue for="strongcompnum" value="26" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="276.6568" y="397.40332" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="World Wide Web Consortium" label="World Wide Web Consortium">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0" />
+          <attvalue for="closnesscentrality" value="1.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+          <attvalue for="eigencentrality" value="0.0" />
+          <attvalue for="componentnumber" value="14" />
+          <attvalue for="strongcompnum" value="29" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-319.04077" y="212.56659" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Web services category" label="Web services category">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0" />
+          <attvalue for="closnesscentrality" value="1.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+          <attvalue for="eigencentrality" value="1.0" />
+          <attvalue for="componentnumber" value="14" />
+          <attvalue for="strongcompnum" value="28" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="262.3412" y="-0.9482727" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Notation3" label="Notation3">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0" />
+          <attvalue for="closnesscentrality" value="1.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+          <attvalue for="eigencentrality" value="0.0" />
+          <attvalue for="componentnumber" value="15" />
+          <attvalue for="strongcompnum" value="31" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="410.14868" y="-470.89148" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Tim Berners-Lee" label="Tim Berners-Lee">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0" />
+          <attvalue for="closnesscentrality" value="1.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+          <attvalue for="eigencentrality" value="1.0" />
+          <attvalue for="componentnumber" value="15" />
+          <attvalue for="strongcompnum" value="30" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="60.182922" y="-174.43756" z="0.0" />
+        <viz:color r="153" g="153" b="153" />
+      </node>
+      <node id="Knowledge organization" label="Knowledge organization">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0" />
+          <attvalue for="closnesscentrality" value="0.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+          <attvalue for="eigencentrality" value="0.0" />
+          <attvalue for="componentnumber" value="16" />
+          <attvalue for="strongcompnum" value="32" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="371.40375" y="145.19678" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
     </nodes>
     <edges>
-      <edge id="#0" source="Knowledge organization" target="Information science category" label="belongs to">
+      <edge id="#0" source="Resource Description Framework" target="World Wide Web Consortium" label="is owned by">
         <attvalues />
       </edge>
-      <edge id="#1" source="Semantic Web" target="World Wide Web Consortium" label="belongs to">
+      <edge id="#1" source="XML" target="World Wide Web Consortium" label="is owned by">
         <attvalues />
       </edge>
-      <edge id="#2" source="Tim Berners-Lee" target="World Wide Web Consortium" label="belongs to">
+      <edge id="#2" source="Resource Description Framework" target="Semantic Web" label="belongs to">
         <attvalues />
       </edge>
-      <edge id="#3" source="Paul Otlet" target="Tim Berners-Lee" label="influenced">
+      <edge id="#3" source="XML" target="Semantic Web" label="belongs to">
         <attvalues />
       </edge>
-      <edge id="#4" source="Resource Description Framework" target="Knowledge representation category" label="belongs to">
+      <edge id="#4" source="Notation3" target="Resource Description Framework" label="containerFor">
         <attvalues />
       </edge>
-      <edge id="#5" source="Semantic Web" target="Data management category" label="belongs to">
+      <edge id="#5" source="XML" target="Resource Description Framework" label="containerFor">
         <attvalues />
       </edge>
-      <edge id="#6" source="Knowledge representation category" target="Information science category" label="belongs to">
+      <edge id="#6" source="Semantic Web" target="Web services category" label="belongs to">
         <attvalues />
       </edge>
-      <edge id="#7" source="World Wide Web Consortium" target="Tim Berners-Lee" label="is led">
+      <edge id="#7" source="Paul Otlet" target="Tim Berners-Lee" label="influenced">
         <attvalues />
       </edge>
-      <edge id="#8" source="Resource Description Framework" target="Semantic Web" label="belongs to">
+      <edge id="#8" source="Semantic Web" target="World Wide Web Consortium" label="belongs to">
         <attvalues />
       </edge>
-      <edge id="#9" source="Resource Description Framework" target="Semantic Web" label="domain">
+      <edge id="#9" source="Notation3" target="Semantic Web" label="has genre">
         <attvalues />
       </edge>
-      <edge id="#10" source="Resource Description Framework" target="World Wide Web Consortium" label="is owned by">
+      <edge id="#10" source="Resource Description Framework" target="Semantic Web" label="domain">
         <attvalues />
       </edge>
-      <edge id="#11" source="Semantic Web" target="Knowledge representation category" label="belongs to">
+      <edge id="#11" source="XML" target="Semantic Web" label="has genre">
+        <attvalues />
+      </edge>
+      <edge id="#12" source="World Wide Web Consortium" target="Tim Berners-Lee" label="is led">
+        <attvalues />
+      </edge>
+      <edge id="#13" source="Tim Berners-Lee" target="World Wide Web Consortium" label="belongs to">
+        <attvalues />
+      </edge>
+      <edge id="#14" source="World Wide Web Consortium" target="Web services category" label="belongs to">
+        <attvalues />
+      </edge>
+      <edge id="#15" source="Notation3" target="Tim Berners-Lee" label="is owned by">
         <attvalues />
       </edge>
     </edges>

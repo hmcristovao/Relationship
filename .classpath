@@ -11,17 +11,15 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/Gephi Toolkit"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/GephiToolKit"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/GraphStream"/>
-	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/JENA"/>
-	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/Json Gephi"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Jena"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Json-Gephi"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/JUNG"/>
-	<classpathentry exported="true" kind="lib" path="H:/New folder/Workspace/Relationship/Relationship/lib/gephi-toolkit-0.8.7-all/gephi-toolkit.jar"/>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" path="/jung-algorithms"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

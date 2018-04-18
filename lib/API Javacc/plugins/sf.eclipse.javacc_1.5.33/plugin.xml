@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.1"?>
+<!-- MMa 11/2009 : changed JTB Editor class, fixed popup menu commands -->
+<!-- MMa 10/2012 : added Editor Contribution, renamed some properties, improved comments -->
+<!-- MMa 10/2014 : added markers, annotationTypes and markerAnnotationSpecification extensions -->
+<!-- MMa 11/2014 : added navigatorContent extension, updated handlers, menus, commands, definition
+                    extensions for deleting derived files, folding, placing menus and tool bars -->
+<!-- MMa 01/2015 : enhanced compile commands -->
+<!-- MMa 04/2016 : added value and dynamic variables -->
+<plugin>
+<!-- Builders Extension -->
+<!-- This defines the class used to build from a JavaCC file -->
+   <extension point="org.eclipse.core.resources.builders"
+         name="%JavaCC_Builder"
+         id="javaccbuilder">
+      <builder>
+         <run
+          class="sf.eclipse.javacc.base.Builder" >
+         </run>
+      </builder>
+   </extension>
+<!-- Markers Extension -->
+<!-- This defines the javacc markers ; note that here it is jjmarker and in other extensions or 
+     java code it is sf.eclipse.javacc.jjmarker -->
+   <extension
+         id="jjmarker"
+         name="JavaCC problems"
+         point="org.eclipse.core.resources.markers">
+      <super
+            type="org.eclipse.core.resources.problemmarker">
+      </super>
+   </extension>
+<!-- Natures Extension -->
+<!-- This defines the class used to define the JavaCC project nature -->
+   <extension point="org.eclipse.core.resources.natures"
+         name="%JavaCC_Nature"
+         id="javaccnature" >
+      <runtime>
+         <run
+          class="sf.eclipse.javacc.base.Nature">
+         </run>
+      </runtime>
+   </extension>
+<!-- Runtime Preferences Extension -->
+<!-- This defines the class used to initialize the runtime preferences -->
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="sf.eclipse.javacc.preferences.PreferencesInitializer">
+      </initializer>
+   </extension>
+<!-- Value Variables Extension -->
+<!-- This defines some value variables that can be used to set paths -->
+ <extension point="org.eclipse.core.variables.valueVariables">
+  <variable
+        description="The plugin version"
+        initializerClass="sf.eclipse.javacc.base.ValueVariableInitializer"
+        name="javacc.plugin_version"
+        readOnly="true">
+  </variable>
+  <variable
+        description="The plugin location (the absolute file system path)"
+        initializerClass="sf.eclipse.javacc.base.ValueVariableInitializer"
+        name="javacc.plugin_loc"
+        readOnly="true">
+  </variable>
+  <variable
+        description="The plugin path relative to the location of the base installation for the running platform (eclipse_home) (if possible)"
+        initializerClass="sf.eclipse.javacc.base.ValueVariableInitializer"
+        name="javacc.plugin_path"
+        readOnly="false">
+  </variable>
+  <variable
+        description="The plugin default JavaCC jar name"
+        initializerClass="sf.eclipse.javacc.base.ValueVariableInitializer"
+        name="javacc.def_javacc_jar_name"
+        readOnly="true">
+  </variable>
+  <variable
+        description="The plugin default JavaCC jar version"
+        initializerClass="sf.eclipse.javacc.base.ValueVariableInitializer"
+        name="javacc.def_javacc_jar_version"
+        readOnly="true">
+  </variable>
+  <variable
+        description="The plugin default JTB jar name"
+        initializerClass="sf.eclipse.javacc.base.ValueVariableInitializer"
+        name="javacc.def_jtb_jar_name"
+        readOnly="true">
+  </variable>
+  <variable
+        description="The plugin default JTB jar version"
+        initializerClass="sf.eclipse.javacc.base.ValueVariableInitializer"
+        name="javacc.def_jtb_jar_version"
+        readOnly="true">
+  </variable>
+  <variable
+        description="A user specified JavaCC jar name"
+        initialValue="at_user_disposal"
+        name="javacc.user_javacc_jar_name"
+        readOnly="false">
+  </variable>
+  <variable
+        description="A user specified JTB jar name"
+        initialValue="at_user_disposal"
+        name="javacc.user_jtb_jar_name"
+        readOnly="false">
+  </variable>
+ </extension>
+<!-- Dynamic Variables Extension -->
+<!-- This defines some dynamic variables that can be used to set paths -->
+ <extension point="org.eclipse.core.variables.dynamicVariables">
+  <variable
+        description="The plugin default JavaCC jar (full) path"
+        name="javacc.def_javacc_jar_path"
+        resolver="sf.eclipse.javacc.base.DynamicVariableResolver"
+        supportsArgument="false">
+  </variable>
+  <variable
+        description="The plugin default JTB jar (full) path"
+        name="javacc.def_jtb_jar_path"
+        resolver="sf.eclipse.javacc.base.DynamicVariableResolver"
+        supportsArgument="false">
+  </variable>
+  <variable
+        description="A project's (to be given as argument) RUNTIME_JJJAR preference (JavaCC jar full path) (may be empty)"
+        name="javacc.proj_javacc_jar_path"
+        resolver="sf.eclipse.javacc.base.DynamicVariableResolver"
+        supportsArgument="true">
+  </variable>
+  <variable
+        description="A project's (to be given as argument) RUNTIME_JTBJAR preference (JTB jar full path) (may be empty)"
+        name="javacc.proj_jtb_jar_path"
+        resolver="sf.eclipse.javacc.base.DynamicVariableResolver"
+        supportsArgument="true">
+  </variable>
+ </extension>
+<!-- JavaElementFilters Extension (for the Package Explorer view) -->
+<!-- This defines the class used to find the generated files -->
+   <extension
+         point="org.eclipse.jdt.ui.javaElementFilters">
+      <filter
+            class="sf.eclipse.javacc.filters.FilterGeneratedJavaCCFiles"
+            description="%JavaCC_Gen_Files_Filter"
+            enabled="false"
+            id="sf.eclipse.javacc.filters.FilterGeneratedJavaCCFiles"
+            name="%JavaCC_Gen_Files_Filter"
+            targetId="org.eclipse.jdt.ui.PackageExplorer"
+            >
+      </filter>
+   </extension>
+<!-- Common Navigator Framework content Extension (for the Navigator and Project views) -->
+<!-- This defines the class used to find the generated files (same as above) -->
+   <extension
+         point="org.eclipse.ui.navigator.navigatorContent">
+      <commonFilter
+            activeByDefault="false"
+            class="sf.eclipse.javacc.filters.FilterGeneratedJavaCCFiles"
+            description="%JavaCC_Gen_Files_Filter"
+            id="sf.eclipse.javacc.filters.CommonFilterGeneratedJavaCCFiles"
+            name="%JavaCC_Gen_Files_Filter"
+            visibleInUI="true"/> 
+   </extension>
+<!-- Common Navigator Framework viewer Extension (for the Project Explorer view) -->
+<!--  (Note that the ResourceNavigator view does not support extensibility to show other content and will
+       change in a future release of Eclipse) -->
+<!-- This links the previous filter to the view -->
+   <extension
+         point="org.eclipse.ui.navigator.viewer">
+       <viewerContentBinding 
+            viewerId="org.eclipse.ui.navigator.ProjectExplorer">
+          <includes>
+             <contentExtension pattern="sf.eclipse.javacc.filters.CommonFilterGeneratedJavaCCFiles" />
+          </includes>
+       </viewerContentBinding>
+   </extension>
+<!-- Bindings Extension -->
+<!-- This defines the default keyboard shortcuts bindings to the commands -->
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            commandId="sf.eclipse.javacc.extcompile"
+            contextId="sf.eclipse.javacc.JJEditorScope"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="F9">
+      </key>
+      <key
+            commandId="sf.eclipse.javacc.comment"
+            contextId="sf.eclipse.javacc.JJEditorScope"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="%Toggle_Comment_Keys">
+      </key>
+      <key
+            commandId="sf.eclipse.javacc.gotorule"
+            contextId="sf.eclipse.javacc.JJEditorScope"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="F3">
+      </key>
+      <key
+            commandId="sf.eclipse.javacc.format"
+            contextId="sf.eclipse.javacc.JJEditorScope"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="M1+M2+F">
+      </key>
+      <key
+            commandId="sf.eclipse.javacc.contentassist"
+            contextId="sf.eclipse.javacc.JJEditorScope"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="M1+Space">
+      </key>
+      <key
+            commandId="sf.eclipse.javacc.callhierarchy"
+            contextId="sf.eclipse.javacc.JJEditorScope"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="M1+M3+H">
+      </key>
+   </extension>
+<!-- Commands Extension -->
+<!-- This defines the commands added by the JavaCC plugin -->
+   <extension
+         point="org.eclipse.ui.commands">
+      <category
+            description="%JavaCC_Editor_Commands"
+            id="JavaCC.category"
+            name="%JavaCC_Editor">
+      </category>
+      <command
+            categoryId="JavaCC.category"
+            description="%Check_compile"
+            id="sf.eclipse.javacc.checkcompile"
+            name="%Check_compile">
+      </command>
+      <command
+            categoryId="JavaCC.category"
+            description="%Compile_with_for_ext"
+            id="sf.eclipse.javacc.extcompile"
+            name="%Compile_with_for_ext">
+      </command>
+      <command
+            categoryId="JavaCC.category"
+            description="%Compile_with_JJDoc"
+            id="sf.eclipse.javacc.doccompile"
+            name="%Compile_with_JJDoc">
+      </command>
+      <command
+            categoryId="JavaCC.category"
+            description="%Comment_lines"
+            id="sf.eclipse.javacc.comment"
+            name="%Toggle_Comment">
+      </command>
+      <command
+            categoryId="JavaCC.category"
+            description="%Format"
+            id="sf.eclipse.javacc.format"
+            name="%Format">
+      </command>
+      <command
+            categoryId="JavaCC.category"
+            description="%Goto_declaration"
+            id="sf.eclipse.javacc.gotorule"
+            name="%Goto_declaration">
+      </command>
+      <command
+            categoryId="JavaCC.category"
+            description="%Show_Call_Hierarchy"
+            id="sf.eclipse.javacc.callhierarchy"
+            name="%Show_Call_Hierarchy">
+      </command>
+      <command
+            categoryId="JavaCC.category"
+            description="%Content_Assist"
+            id="sf.eclipse.javacc.contentassist"
+            name="%Content_Assist">
+      </command>
+      <command
+            categoryId="JavaCC.category"
+            description="%Delete_Derived"
+            id="sf.eclipse.javacc.deletederivedfiles"
+            name="%Delete_Derived_Files">
+      </command>
+      <command
+            categoryId="JavaCC.category"
+            description="%Folding_collapse"
+            id="sf.eclipse.javacc.foldingcollapse"
+            name="%Folding_collapse">
+      </command>
+      <command
+            categoryId="JavaCC.category"
+            description="%Folding_collapse_all"
+            id="sf.eclipse.javacc.foldingcollapseall"
+            name="%Folding_collapse_all">
+      </command>
+      <command
+            categoryId="JavaCC.category"
+            description="%Folding_expand"
+            id="sf.eclipse.javacc.foldingexpand"
+            name="%Folding_expand">
+      </command>
+      <command
+            categoryId="JavaCC.category"
+            description="%Folding_expand_all"
+            id="sf.eclipse.javacc.foldingexpandall"
+            name="%Folding_expand_all">
+      </command>
+   </extension>
+<!-- Contexts Extension -->
+<!-- This defines the Editor context (scope) for commands and key bindings -->
+<!-- Requires 'setEditorContextMenuId(String editor.id);' in Editor contructor -->
+   <extension
+         point="org.eclipse.ui.contexts">
+      <context
+            id="sf.eclipse.javacc.JJEditorScope"
+            name="%In_JavaCC_Editor"
+            parentId="org.eclipse.jdt.ui.javaEditorScope">
+      </context>
+   </extension>
+<!-- Decorators Extension -->
+<!-- This defines the decorators added by the plugin -->
+   <extension
+         point="org.eclipse.ui.decorators">
+      <decorator
+            adaptable="true"
+            class="sf.eclipse.javacc.head.Decorator"
+            icon="icons/jj_jj_file.gif"
+            id="sf.eclipse.javacc.jjdecorator"
+            label="%Decorator"
+            state="true">
+         <enablement>
+            <objectClass
+                  name="org.eclipse.core.resources.IFile">
+            </objectClass>
+         </enablement>
+         <description>
+            %Decorator_description
+         </description>
+      </decorator>
+   </extension>
+<!-- Editors Extension -->
+<!-- This defines the binding of the Editors to the files extensions and to the custom contribution -->
+   <extension
+         point="org.eclipse.ui.editors">
+	<!-- JJEditor -->
+      <editor
+            id="sf.eclipse.javacc.editors.JJEditor"
+            class="sf.eclipse.javacc.editors.JJEditor"
+            contributorClass="org.eclipse.ui.editors.text.TextEditorActionContributor"
+            default="true"
+            extensions="jj, jjt, jtb"
+            icon="icons/jj_jj_file.gif"
+            name="%JavaCC_Editor">
+      </editor>
+   </extension>
+<!-- AnnotationTypes Extension -->
+<!-- This links the compiling markers to annotations ; see org.eclipse.core.resources.IMarker -->
+   <extension
+         point="org.eclipse.ui.editors.annotationTypes">
+      <type
+            markerSeverity="2"
+            markerType="sf.eclipse.javacc.jjmarker"
+            name="sf.eclipse.javacc.marker.error"
+            super="org.eclipse.ui.workbench.texteditor.error">
+      </type>
+      <type
+            markerSeverity="1"
+            markerType="sf.eclipse.javacc.jjmarker"
+            name="sf.eclipse.javacc.marker.warning"
+            super="org.eclipse.ui.workbench.texteditor.warning">
+      </type>
+      <type
+            markerSeverity="0"
+            markerType="sf.eclipse.javacc.jjmarker"
+            name="sf.eclipse.javacc.marker.info"
+            super="org.eclipse.ui.workbench.texteditor.info">
+      </type>
+   </extension>
+<!-- MarkerAnnotationSpecification Extension -->
+<!-- This specifies the marker annotation -->
+   <extension
+         point="org.eclipse.ui.editors.markerAnnotationSpecification">
+      <specification
+            annotationType="sf.eclipse.javacc.marker.error"
+            colorPreferenceKey="jjmarker.ecpk"
+            colorPreferenceValue="255,0,0"
+            contributesToHeader="true"
+            highlightPreferenceKey="jjmarker.ehpk"
+            highlightPreferenceValue="true"
+            includeOnPreferencePage="true"
+            isGoToNextNavigationTarget="true"
+            isGoToNextNavigationTargetKey="jjmarker.eigtnntk"
+            isGoToPreviousNavigationTarget="true"
+            isGoToPreviousNavigationTargetKey="jjmarker.eigtpntk"
+            label="JavaCC errors"
+            overviewRulerPreferenceKey="jjmarker.eorpk"
+            overviewRulerPreferenceValue="true"
+            presentationLayer="0"
+            showInNextPrevDropdownToolbarAction="true"
+            showInNextPrevDropdownToolbarActionKey="jjmarker.esinpdtak"
+            symbolicIcon="error"
+            textPreferenceKey="jjmarker.etpk"
+            textPreferenceValue="true"
+            textStylePreferenceValue="BOX"
+            verticalRulerPreferenceKey="jjmarker.evrpk"
+            verticalRulerPreferenceValue="true">
+      </specification>
+      <specification
+            annotationType="sf.eclipse.javacc.marker.warning"
+            colorPreferenceKey="jjmarker.wcpk"
+            colorPreferenceValue="255,255,0"
+            contributesToHeader="true"
+            highlightPreferenceKey="jjmarker.whpk"
+            highlightPreferenceValue="true"
+            includeOnPreferencePage="true"
+            isGoToNextNavigationTarget="true"
+            isGoToNextNavigationTargetKey="jjmarker.wigtnntk"
+            isGoToPreviousNavigationTarget="true"
+            isGoToPreviousNavigationTargetKey="jjmarker.wigtpntk"
+            label="JavaCC warnings"
+            overviewRulerPreferenceKey="jjmarker.worpk"
+            overviewRulerPreferenceValue="true"
+            presentationLayer="0"
+            showInNextPrevDropdownToolbarAction="true"
+            showInNextPrevDropdownToolbarActionKey="jjmarker.wsinpdtak"
+            symbolicIcon="warning"
+            textPreferenceKey="jjmarker.wtpk"
+            textPreferenceValue="true"
+            textStylePreferenceValue="DASHED_BOX"
+            verticalRulerPreferenceKey="jjmarker.wvrpk"
+            verticalRulerPreferenceValue="true">
+      </specification>
+      <specification
+            annotationType="sf.eclipse.javacc.marker.info"
+            colorPreferenceKey="jjmarker.icpk"
+            colorPreferenceValue="0,0,255"
+            contributesToHeader="true"
+            highlightPreferenceKey="jjmarker.ihpk"
+            highlightPreferenceValue="true"
+            includeOnPreferencePage="true"
+            isGoToNextNavigationTarget="true"
+            isGoToNextNavigationTargetKey="jjmarker.iigtnntk"
+            isGoToPreviousNavigationTarget="true"
+            isGoToPreviousNavigationTargetKey="jjmarker.iigtpntk"
+            label="JavaCC infos"
+            overviewRulerPreferenceKey="jjmarker.iorpk"
+            overviewRulerPreferenceValue="false"
+            presentationLayer="0"
+            showInNextPrevDropdownToolbarAction="true"
+            showInNextPrevDropdownToolbarActionKey="jjmarker.isinpdtak"
+            symbolicIcon="info"
+            textPreferenceKey="jjmarker.itpk"
+            textPreferenceValue="false"
+            verticalRulerPreferenceKey="jjmarker.ivrpk"
+            verticalRulerPreferenceValue="true">
+      </specification>
+   </extension>
+<!-- Document Providers Extension -->
+<!-- This defines the mappings between file types and document providers -->
+   <extension
+         point="org.eclipse.ui.editors.documentProviders">
+      <provider
+            class="org.eclipse.ui.editors.text.TextFileDocumentProvider"
+            inputTypes="org.eclipse.ui.IStorageEditorInput"
+            id="org.eclipse.ui.editors.text.StorageDocumentProvider">
+      </provider>
+   </extension>
+<!-- Document Setup Extension -->
+<!-- This defines the mappings between file types and document providers -->
+   <extension
+      id="JJDocumentSetupParticipant"
+      name="JJDocument Setup Participant "
+      point="org.eclipse.core.filebuffers.documentSetup">
+      <participant
+         extensions="jj,jjt,jtb"
+         class="sf.eclipse.javacc.editors.DocumentSetupParticipant">
+      </participant>
+   </extension>
+<!-- PreferencePages Extension (Global) -->
+<!--  This adds in the workbench preferences the JavaCC preferences page -->
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            class="sf.eclipse.javacc.preferences.PreferencePage"
+            id="sf.eclipse.javacc.preferences.PreferencePage"
+            name="%Preferences_Page">
+      </page>
+   </extension>
+<!-- PropertyPages Extension -->
+<!--  This adds ion the project property page the JavaCC Project Options page -->
+   <extension
+         point="org.eclipse.ui.propertyPages">
+      <page
+            class="sf.eclipse.javacc.options.PropertyPageJJ"
+            icon="icons/jj_settings_obj.gif"
+            id="sf.eclipse.javacc.options.PropertyPage"
+            name="%Project_Options_Page">
+         <enabledWhen>
+            <adapt type="org.eclipse.core.resources.IProject">
+               <test
+                     property="org.eclipse.core.resources.projectNature"
+                     value="org.eclipse.jdt.core.javanature">
+               </test>
+            </adapt>
+         </enabledWhen>
+      </page>
+   </extension>
+<!-- NewWizards Extension -->
+<!-- This adds a new element in the new wizard mechanism for new JavaCC files -->
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            id="sf.eclipse.javacc"
+            name="%JavaCC_Wizard">
+      </category>
+      <wizard
+            category="sf.eclipse.javacc"
+            class="sf.eclipse.javacc.wizards.NewGrammarWizard"
+            descriptionImage="icons/jjnew_wiz.gif"
+            finalPerspective="org.eclipse.jdt.ui.JavaPerspective"
+            icon="icons/jj_jj_file.gif"
+            id="sf.eclipse.javacc.wizards.WizPage"
+            name="%Template_file"
+            project="false">
+      </wizard>
+   </extension>
+<!-- JavaCC Views Extension -->
+<!--  This adds the 2 views : JavaCC Console and Call Hierarchy -->
+   <extension point="org.eclipse.ui.views">
+      <category
+        name="%JavaCC_Views"
+        id="sf.eclipse.javacc">
+      </category>
+      <view
+       name="%Console_View"
+       allowMultiple="false"
+       class="sf.eclipse.javacc.head.ConsoleView"
+       icon="icons/jj_console.gif"
+       category="sf.eclipse.javacc"
+       id="sf.eclipse.javacc.Console">
+      </view>
+      <view
+        name="%Call_Hierarchy_View"
+        allowMultiple="false"
+        class="sf.eclipse.javacc.editors.CallHierarchyView"
+        icon="icons/jj_call_hierarchy.gif"
+        category="sf.eclipse.javacc"
+        id="sf.eclipse.javacc.CallHierarchy">
+      </view>
+   </extension>
+<!-- JavaCC Expressions definitions Extension -->
+<!--  This adds different expression definitions used in commands and menus -->
+   <extension
+         point="org.eclipse.core.expressions.definitions">
+      <!-- JJEditor only -->
+      <definition id="javacc.inJJEditor.definition">
+         <with variable="activePartId">
+            <equals value="sf.eclipse.javacc.editors.JJEditor"/>
+         </with>
+      </definition>
+      <!-- Package Explorer and Project Explorer views -->
+      <definition id="javacc.inViews.definition">
+         <and>
+            <or>
+               <with variable="activePartId">
+                  <equals value="org.eclipse.jdt.ui.PackageExplorer"/>
+               </with>
+               <with variable="activePartId">
+                  <equals value="org.eclipse.ui.navigator.ProjectExplorer"/>
+               </with>
+            </or>
+            <count value="1"/>
+            <iterate ifEmpty="false">
+               <and>
+                  <instanceof value="org.eclipse.core.resources.IFile"/>
+                  <or>
+                     <test property="org.eclipse.core.resources.extension" value="jj"/>
+                     <test property="org.eclipse.core.resources.extension" value="jjt"/>
+                     <test property="org.eclipse.core.resources.extension" value="jtb"/>
+                  </or>
+               </and>
+            </iterate>
+         </and>
+      </definition>
+      <!-- A folder in the Package Explorer and Project Explorer views -->
+      <definition id="javacc.folderInViews.definition">
+         <and>
+            <or>
+               <with variable="activePartId">
+                  <equals value="org.eclipse.jdt.ui.PackageExplorer"/>
+               </with>
+               <with variable="activePartId">
+                  <equals value="org.eclipse.ui.navigator.ProjectExplorer"/>
+               </with>
+            </or>
+            <count value="1"/>
+            <iterate ifEmpty="false">
+               <adapt type="org.eclipse.core.resources.IResource">
+                  <instanceof value="org.eclipse.core.resources.IFolder"/>
+               </adapt>
+            </iterate>
+         </and>
+      </definition>
+      <!-- The JJ editor and the views -->
+      <definition id="javacc.inJJEditorOrViews.definition">
+         <or>
+            <reference definitionId="javacc.inJJEditor.definition"/>
+            <reference definitionId="javacc.inViews.definition"/>
+         </or>
+      </definition>
+   </extension>
+<!-- JavaCC Handlers Extension -->
+<!-- This defines the handlers to be called when a command is activated -->
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            class="sf.eclipse.javacc.handlers.Compile"
+            commandId="sf.eclipse.javacc.checkcompile">
+         <activeWhen>
+            <reference definitionId="javacc.inJJEditorOrViews.definition"/>
+         </activeWhen>
+      </handler>
+      <handler
+            class="sf.eclipse.javacc.handlers.Compile"
+            commandId="sf.eclipse.javacc.extcompile">
+         <activeWhen>
+            <reference definitionId="javacc.inJJEditorOrViews.definition"/>
+         </activeWhen>
+      </handler>
+      <handler
+            class="sf.eclipse.javacc.handlers.Compile"
+            commandId="sf.eclipse.javacc.doccompile">
+         <activeWhen>
+            <reference definitionId="javacc.inJJEditorOrViews.definition"/>
+         </activeWhen>
+      </handler>
+      <handler
+            class="sf.eclipse.javacc.handlers.ShowCallHierarchy"
+            commandId="sf.eclipse.javacc.callhierarchy">
+         <activeWhen>
+            <reference definitionId="javacc.inJJEditor.definition"/>
+         </activeWhen>
+      </handler>
+      <handler
+            class="sf.eclipse.javacc.handlers.ContentAssist"
+            commandId="sf.eclipse.javacc.contentassist">
+         <activeWhen>
+            <reference definitionId="javacc.inJJEditor.definition"/>
+         </activeWhen>
+      </handler>
+      <handler
+            class="sf.eclipse.javacc.handlers.Comment"
+            commandId="sf.eclipse.javacc.comment">
+         <activeWhen>
+            <reference definitionId="javacc.inJJEditor.definition"/>
+         </activeWhen>
+      </handler>
+      <handler
+            class="sf.eclipse.javacc.handlers.DeleteDerivedFiles"
+            commandId="sf.eclipse.javacc.deletederivedfiles">
+         <activeWhen>
+            <reference definitionId="javacc.folderInViews.definition"/>
+         </activeWhen>
+      </handler>
+      <handler
+            class="sf.eclipse.javacc.handlers.Format"
+            commandId="sf.eclipse.javacc.format">
+         <activeWhen>
+            <reference definitionId="javacc.inJJEditor.definition"/>
+         </activeWhen>
+      </handler>
+      <handler
+            class="sf.eclipse.javacc.handlers.GotoRule"
+            commandId="sf.eclipse.javacc.gotorule">
+         <activeWhen>
+            <reference definitionId="javacc.inJJEditor.definition"/>
+         </activeWhen>
+      </handler>
+      <handler
+            class="sf.eclipse.javacc.handlers.Folding"
+            commandId="sf.eclipse.javacc.foldingcollapse">
+         <activeWhen>
+            <reference definitionId="javacc.inJJEditor.definition"/>
+         </activeWhen>
+      </handler>
+      <handler
+            class="sf.eclipse.javacc.handlers.Folding"
+            commandId="sf.eclipse.javacc.foldingcollapseall">
+         <activeWhen>
+            <reference definitionId="javacc.inJJEditor.definition"/>
+         </activeWhen>
+      </handler>
+      <handler
+            class="sf.eclipse.javacc.handlers.Folding"
+            commandId="sf.eclipse.javacc.foldingexpand">
+         <activeWhen>
+            <reference definitionId="javacc.inJJEditor.definition"/>
+         </activeWhen>
+      </handler>
+      <handler
+            class="sf.eclipse.javacc.handlers.Folding"
+            commandId="sf.eclipse.javacc.foldingexpandall">
+         <activeWhen>
+            <reference definitionId="javacc.inJJEditor.definition"/>
+         </activeWhen>
+      </handler>
+   </extension>
+<!-- JavaCC Menus Extension -->
+<!-- This defines the menubar, toolbar and context (popup) menus. 
+     It replaces the old actionSets, editorActions, popupMenus, viewActions -->
+   <extension
+         id="sf.eclipse.javacc.menus"
+         name="JavaCC new menus - NEW"
+         point="org.eclipse.ui.menus">
+      <!-- For the workbench menubar : after the Window menu -->
+      <menuContribution locationURI="menu:org.eclipse.ui.main.menu?after=window">
+         <menu
+               id="JavaCC_Menu"
+               label="%JavaCC_Menu">
+            <command
+                  commandId="sf.eclipse.javacc.extcompile"
+                  icon="icons/jj_compile.gif"
+                  label="%Compile_with_for_ext">
+               <visibleWhen checkEnabled="true">
+                  <reference definitionId="javacc.inJJEditorOrViews.definition"/>
+               </visibleWhen>
+            </command>
+            <separator
+                  name="javacc.menu.sep1"
+                  visible="true">
+            </separator>
+            <command
+                  commandId="sf.eclipse.javacc.comment"
+                  icon="icons/jj_comment.gif"
+                  label="%Toggle_Comment">
+               <visibleWhen checkEnabled="false">
+                  <reference definitionId="javacc.inJJEditor.definition"/>
+               </visibleWhen>
+            </command>
+            <command
+                  commandId="sf.eclipse.javacc.format"
+                  icon="icons/jj_format.gif"
+                  label="%Format">
+               <visibleWhen checkEnabled="false">
+                  <reference definitionId="javacc.inJJEditor.definition"/>
+               </visibleWhen>
+            </command>
+            <command
+                  commandId="sf.eclipse.javacc.callhierarchy"
+                  icon="icons/jj_call_hierarchy.gif"
+                  label="%Show_Call_Hierarchy">
+               <visibleWhen checkEnabled="false">
+                  <reference definitionId="javacc.inJJEditor.definition"/>
+               </visibleWhen>
+            </command>
+            <separator
+                  name="javacc.menu.sep2"
+                  visible="true">
+            </separator>
+            <command
+                  commandId="sf.eclipse.javacc.checkcompile"
+                  icon="icons/jj_check_compile.gif"
+                  label="%Check_compile">
+               <visibleWhen checkEnabled="true">
+                  <reference definitionId="javacc.inJJEditorOrViews.definition"/>
+               </visibleWhen>
+            </command>
+            <command
+                  commandId="sf.eclipse.javacc.doccompile"
+                  icon="icons/jj_jjdoc_compile.gif"
+                  label="%Compile_with_JJDoc">
+               <visibleWhen checkEnabled="false">
+                  <reference definitionId="javacc.inJJEditorOrViews.definition"/>
+               </visibleWhen>
+            </command>
+         </menu>
+      </menuContribution>
+      <!-- For the workbench toolbar -->
+      <!-- a push button (after the Navigate toolbar button) -->
+      <menuContribution
+            locationURI="toolbar:org.eclipse.ui.main.toolbar?endof=org.eclipse.ui.workbench.navigate">
+         <toolbar
+               id="JavaCC_Toolbar"
+               label="%JavaCC_Menu">
+            <command
+                  commandId="sf.eclipse.javacc.extcompile"
+                  icon="icons/jj_compile.gif"
+                  id="sf.eclipse.javacc.extcompile"
+                  label="%Compile_with_for_ext"
+                  style="push">
+               <visibleWhen checkEnabled="false">
+                  <reference definitionId="javacc.inJJEditorOrViews.definition"/>
+               </visibleWhen>
+            </command>
+         </toolbar>
+      </menuContribution>
+      <!-- in case first a pull down menu (after the Navigate toolbar button) same as above -->
+<!-- 
+      <menuContribution
+            locationURI="toolbar:org.eclipse.ui.main.toolbar?endof=org.eclipse.ui.workbench.navigate">
+         <toolbar
+               id="JavaCC_Toolbar"
+               label="%JavaCC_Menu">
+            <command
+                  commandId="sf.eclipse.javacc.compile"
+                  icon="icons/jj_compile.gif"
+                  id="sf.eclipse.javacc.compile"
+                  label="%Compile_with_for_ext"
+                  style="pulldown">
+               <visibleWhen checkEnabled="false">
+                  <reference definitionId="javacc.inJJEditorOrViews.definition"/>
+               </visibleWhen>
+            </command>
+         </toolbar>
+      </menuContribution>
+-->
+      <!-- and then in the pull down menu (note menu:id, not toolbar:id, and commands directly) -->
+<!-- 
+      <menuContribution locationURI="menu:sf.eclipse.javacc.compile">
+         <command
+               commandId="sf.eclipse.javacc.compile"
+               icon="icons/jj_compile.gif"
+               id="sf.eclipse.javacc.compile"
+               label="%Compile_with_for_ext"
+               style="pulldown">
+            <visibleWhen checkEnabled="false">
+               <reference definitionId="javacc.inJJEditorOrViews.definition"/>
+            </visibleWhen>
+         </command>
+         <command
+               commandId="sf.eclipse.javacc.comment"
+               icon="icons/jj_comment.gif"
+               label="%Toggle_Comment">
+            <visibleWhen checkEnabled="false">
+               <reference definitionId="javacc.inJJEditor.definition"/>
+            </visibleWhen>
+         </command>
+         <command
+               commandId="sf.eclipse.javacc.format"
+               icon="icons/jj_format.gif"
+               label="%Format">
+            <visibleWhen checkEnabled="false">
+               <reference definitionId="javacc.inJJEditor.definition"/>
+            </visibleWhen>
+         </command>
+         <command
+               commandId="sf.eclipse.javacc.gotorule"
+               icon="icons/jj_goto_decl.gif"
+               label="%Goto_declaration">
+            <visibleWhen checkEnabled="false">
+               <reference definitionId="javacc.inJJEditor.definition"/>
+            </visibleWhen>
+         </command>
+         <command
+               commandId="sf.eclipse.javacc.callhierarchy"
+               icon="icons/jj_call_hierarchy.gif"
+               label="%Show_Call_Hierarchy">
+            <visibleWhen checkEnabled="false">
+               <reference definitionId="javacc.inJJEditor.definition"/>
+            </visibleWhen>
+         </command>
+         <command
+               commandId="sf.eclipse.javacc.contentassist"
+               icon="icons/en_wordassist_co.gif"
+               label="%Content_Assist">
+            <visibleWhen checkEnabled="false">
+               <reference definitionId="javacc.inJJEditor.definition"/>
+            </visibleWhen>
+         </command>
+      </menuContribution>
+-->
+      <!-- For the Editor and / or Views context (popup) menus -->
+      <menuContribution locationURI="popup:org.eclipse.ui.popup.any">
+         <separator
+               name="%JavaCC_Menu"
+               visible="true">
+         </separator>
+         <command
+               commandId="sf.eclipse.javacc.extcompile"
+               icon="icons/jj_compile.gif"
+               label="%Compile_with_for_ext">
+            <visibleWhen checkEnabled="false">
+                <reference definitionId="javacc.inJJEditorOrViews.definition"/>
+            </visibleWhen>
+         </command>
+         <command
+               commandId="sf.eclipse.javacc.comment"
+               icon="icons/jj_comment.gif"
+               label="%Toggle_Comment">
+            <visibleWhen checkEnabled="false">
+               <reference definitionId="javacc.inJJEditor.definition"/>
+             </visibleWhen>
+         </command>
+         <command
+               commandId="sf.eclipse.javacc.format"
+               icon="icons/jj_format.gif"
+               label="%Format">
+            <visibleWhen checkEnabled="false">
+               <reference definitionId="javacc.inJJEditor.definition"/>
+            </visibleWhen>
+         </command>
+         <command
+               commandId="sf.eclipse.javacc.gotorule"
+               icon="icons/jj_goto_decl.gif"
+               label="%Goto_declaration">
+            <visibleWhen checkEnabled="false">
+               <reference definitionId="javacc.inJJEditor.definition"/>
+            </visibleWhen>
+          </command>
+         <command
+               commandId="sf.eclipse.javacc.callhierarchy"
+               icon="icons/jj_call_hierarchy.gif"
+               label="%Show_Call_Hierarchy">
+            <visibleWhen checkEnabled="false">
+               <reference definitionId="javacc.inJJEditor.definition"/>
+            </visibleWhen>
+         </command>
+         <command
+               commandId="sf.eclipse.javacc.contentassist"
+               icon="icons/en_wordassist_co.gif"
+               label="%Content_Assist">
+            <visibleWhen checkEnabled="false">
+               <reference definitionId="javacc.inJJEditor.definition"/>
+            </visibleWhen>
+         </command>
+         <menu
+               id="sf.eclipse.javacc.folding.menu"
+               label="%Folding_menu">
+            <command
+                  commandId="sf.eclipse.javacc.foldingcollapse"
+                  icon="icons/jj_fold_collapse.gif"
+                  label="%Folding_collapse">
+               <visibleWhen checkEnabled="false">
+                  <reference definitionId="javacc.inJJEditor.definition"/>
+               </visibleWhen>
+            </command>
+            <command
+                  commandId="sf.eclipse.javacc.foldingcollapseall"
+                  icon="icons/jj_fold_collapse_all.gif"
+                  label="%Folding_collapse_all">
+               <visibleWhen checkEnabled="false">
+                  <reference definitionId="javacc.inJJEditor.definition"/>
+               </visibleWhen>
+            </command>
+            <command
+                  commandId="sf.eclipse.javacc.foldingexpand"
+                  icon="icons/jj_fold_expand.gif"
+                  label="%Folding_expand">
+               <visibleWhen checkEnabled="false">
+                  <reference definitionId="javacc.inJJEditor.definition"/>
+               </visibleWhen>
+            </command>
+            <command
+                  commandId="sf.eclipse.javacc.foldingexpandall"
+                  icon="icons/jj_fold_expand_all.gif"
+                  label="%Folding_expand_all">
+               <visibleWhen checkEnabled="false">
+                  <reference definitionId="javacc.inJJEditor.definition"/>
+               </visibleWhen>
+            </command>
+         </menu>
+      </menuContribution>
+      <!-- For the views tool bars -->
+      <menuContribution locationURI="toolbar:org.eclipse.jdt.ui.PackageExplorer?after=additions">
+         <command
+               commandId="sf.eclipse.javacc.deletederivedfiles"
+               icon="icons/jj_delete_derived.gif"
+               label="%Delete_Derived"
+               tooltip="%Delete_Derived_Files">
+            <visibleWhen checkEnabled="true">
+               <!-- reference definitionId="javacc.folderInViews.definition"/ -->
+            </visibleWhen>
+         </command>
+      </menuContribution>
+      <menuContribution locationURI="toolbar:org.eclipse.ui.navigator.ProjectExplorer?after=additions">
+         <command
+               commandId="sf.eclipse.javacc.deletederivedfiles"
+               icon="icons/jj_delete_derived.gif"
+               label="%Delete_Derived"
+               tooltip="%Delete_Derived_Files">
+            <visibleWhen checkEnabled="true">
+               <!-- reference definitionId="javacc.folderInViews.definition"/ -->
+            </visibleWhen>
+         </command>
+      </menuContribution>
+   </extension>
+</plugin>

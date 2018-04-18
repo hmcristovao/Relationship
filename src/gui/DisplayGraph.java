@@ -10,7 +10,6 @@ import edu.uci.ics.jung.algorithms.layout.CircleLayout;
 import edu.uci.ics.jung.algorithms.layout.FRLayout;
 import edu.uci.ics.jung.algorithms.layout.ISOMLayout;
 import edu.uci.ics.jung.algorithms.layout.KKLayout;
-import edu.uci.ics.jung.algorithms.layout.Layout;
 import edu.uci.ics.jung.algorithms.layout.SpringLayout;
 import edu.uci.ics.jung.graph.DirectedSparseMultigraph;
 import edu.uci.ics.jung.graph.Graph;
@@ -18,13 +17,14 @@ import edu.uci.ics.jung.visualization.VisualizationViewer;
 import edu.uci.ics.jung.visualization.control.DefaultModalGraphMouse;
 import edu.uci.ics.jung.visualization.decorators.ToStringLabeller;
 import edu.uci.ics.jung.visualization.renderers.Renderer.VertexLabel.Position;
+import main.WholeSystem;
 
 public class DisplayGraph {
 	public static Graph<String, EdgeType> parseTxtIntoGraph() {
-		// final String fileName =
-		// WholeSystem.configTable.getString("baseDirectory")+"\\"+WholeSystem.configTable.getString("testName")+"\\"+
-		// WholeSystem.configTable.getString("nameTxtConceptMapFile");
-		String fileName = "H:\\New folder\\git\\Relationship\\teste2\\conceptmap_teste2.txt";
+		final String fileName = 
+				WholeSystem.configTable.getString("baseDirectory")+"\\"+WholeSystem.configTable.getString("testName")+"\\"+
+				WholeSystem.configTable.getString("nameTxtConceptMapFile");
+		//String fileName = "E:\\Relationship\\teste\\conceptmap_teste.txt"; //For testing only
 		BufferedReader bufferedReader = null;
 		FileReader fileReader = null;
 		Graph<String, EdgeType> graphFromTxtFile = new DirectedSparseMultigraph<String, EdgeType>();

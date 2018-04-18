@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" version="1.2" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
-  <meta lastmodifieddate="2017-12-13">
+  <meta lastmodifieddate="2018-04-18">
     <creator>Gephi 0.8.1</creator>
     <description></description>
   </meta>
@@ -25,7 +25,7 @@
           <attvalue for="strongcompnum" value="24" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="502.07434" y="509.04376" z="0.0" />
+        <viz:position x="-261.6961" y="14.268066" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Knowledge organization" label="Knowledge organization">
@@ -34,7 +34,7 @@
           <attvalue for="strongcompnum" value="26" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-267.90674" y="497.76874" z="0.0" />
+        <viz:position x="352.39838" y="-464.14316" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:British knights">
@@ -43,7 +43,7 @@
           <attvalue for="strongcompnum" value="29" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="62.22406" y="-225.0864" z="0.0" />
+        <viz:position x="-264.44214" y="-43.251923" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="XQuery">
@@ -52,7 +52,7 @@
           <attvalue for="strongcompnum" value="56" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-469.9405" y="214.38843" z="0.0" />
+        <viz:position x="-380.9645" y="-371.9182" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Central Chancery of the Orders of Knighthood">
@@ -61,7 +61,7 @@
           <attvalue for="strongcompnum" value="57" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-90.975586" y="-170.6041" z="0.0" />
+        <viz:position x="-362.8527" y="326.06537" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Library science">
@@ -70,7 +70,7 @@
           <attvalue for="strongcompnum" value="25" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-456.20554" y="-80.471375" z="0.0" />
+        <viz:position x="185.42303" y="322.7397" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Information science" label="Category:Information science">
@@ -79,7 +79,7 @@
           <attvalue for="strongcompnum" value="12" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-269.37604" y="-6.492676" z="0.0" />
+        <viz:position x="470.96808" y="-205.47656" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Knowledge">
@@ -88,7 +88,7 @@
           <attvalue for="strongcompnum" value="13" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-476.95502" y="401.14734" z="0.0" />
+        <viz:position x="-414.45322" y="376.15076" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Lumalive">
@@ -97,7 +97,7 @@
           <attvalue for="strongcompnum" value="64" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="475.66827" y="-400.30716" z="0.0" />
+        <viz:position x="396.74384" y="-13.621307" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Social sciences">
@@ -106,7 +106,7 @@
           <attvalue for="strongcompnum" value="7" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="320.75293" y="342.85004" z="0.0" />
+        <viz:position x="-452.25754" y="-288.03162" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Tom Kilburn">
@@ -115,7 +115,7 @@
           <attvalue for="strongcompnum" value="65" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="482.92157" y="121.353516" z="0.0" />
+        <viz:position x="101.5022" y="109.233765" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Semantic Web" label="Semantic Web">
@@ -124,7 +124,7 @@
           <attvalue for="strongcompnum" value="66" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="271.6056" y="-152.00565" z="0.0" />
+        <viz:position x="-154.2268" y="229.81177" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Notation3" label="Notation3">
@@ -133,7 +133,7 @@
           <attvalue for="strongcompnum" value="79" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="408.86316" y="-95.352936" z="0.0" />
+        <viz:position x="-7.56958" y="-398.21844" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Resource Description Framework" label="Resource Description Framework">
@@ -142,7 +142,7 @@
           <attvalue for="strongcompnum" value="78" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-371.90274" y="231.48901" z="0.0" />
+        <viz:position x="-275.35474" y="292.00745" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Farshad Fotouhi" label="Farshad Fotouhi">
@@ -151,7 +151,7 @@
           <attvalue for="strongcompnum" value="81" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-441.48645" y="507.47455" z="0.0" />
+        <viz:position x="-449.3338" y="-325.60406" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="DBpedia" label="DBpedia">
@@ -160,7 +160,7 @@
           <attvalue for="strongcompnum" value="87" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="148.12683" y="-345.00018" z="0.0" />
+        <viz:position x="-238.69962" y="156.04852" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Stardog" label="Stardog">
@@ -169,7 +169,7 @@
           <attvalue for="strongcompnum" value="91" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-102.40323" y="-200.01874" z="0.0" />
+        <viz:position x="23.056824" y="-465.89777" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Wendy Hall" label="Wendy Hall">
@@ -178,7 +178,7 @@
           <attvalue for="strongcompnum" value="94" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="116.63275" y="471.31696" z="0.0" />
+        <viz:position x="-400.57593" y="-73.95523" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="UMBEL" label="UMBEL">
@@ -187,7 +187,7 @@
           <attvalue for="strongcompnum" value="99" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-21.75238" y="-338.43768" z="0.0" />
+        <viz:position x="223.64484" y="31.752258" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Chunked transfer encoding">
@@ -196,7 +196,7 @@
           <attvalue for="strongcompnum" value="100" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="53.492798" y="464.925" z="0.0" />
+        <viz:position x="-142.03925" y="433.3498" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="RDFa" label="RDFa">
@@ -205,7 +205,7 @@
           <attvalue for="strongcompnum" value="103" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="245.82324" y="321.27924" z="0.0" />
+        <viz:position x="-407.38354" y="446.7658" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Turtle (syntax)" label="Turtle (syntax)">
@@ -214,7 +214,7 @@
           <attvalue for="strongcompnum" value="105" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="110.89325" y="-471.64285" z="0.0" />
+        <viz:position x="-345.47128" y="-175.28384" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Order of the British Empire" label="Category:Order of the British Empire">
@@ -223,7 +223,7 @@
           <attvalue for="strongcompnum" value="35" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-289.01935" y="131.75659" z="0.0" />
+        <viz:position x="-182.32562" y="133.59003" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Orders, decorations, and medals of the United Kingdom">
@@ -232,7 +232,7 @@
           <attvalue for="strongcompnum" value="27" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-304.40173" y="-302.29523" z="0.0" />
+        <viz:position x="-392.2212" y="-464.25613" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="XML" label="XML">
@@ -241,7 +241,7 @@
           <attvalue for="strongcompnum" value="106" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-230.96725" y="-158.9574" z="0.0" />
+        <viz:position x="261.27423" y="-205.93182" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Open Web Platform">
@@ -250,7 +250,7 @@
           <attvalue for="strongcompnum" value="107" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="165.02716" y="-114.30972" z="0.0" />
+        <viz:position x="-113.15738" y="-241.94943" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Schema.org" label="Schema.org">
@@ -259,7 +259,7 @@
           <attvalue for="strongcompnum" value="111" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="27.69812" y="232.58154" z="0.0" />
+        <viz:position x="156.88971" y="211.19641" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Sesame (framework)">
@@ -268,7 +268,7 @@
           <attvalue for="strongcompnum" value="112" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-459.22675" y="97.003235" z="0.0" />
+        <viz:position x="-138.63211" y="470.50684" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Nigel Shadbolt">
@@ -277,7 +277,7 @@
           <attvalue for="strongcompnum" value="115" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="364.70972" y="340.3592" z="0.0" />
+        <viz:position x="38.447754" y="382.28845" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Emerging standards">
@@ -286,7 +286,7 @@
           <attvalue for="strongcompnum" value="116" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="59.174927" y="388.13635" z="0.0" />
+        <viz:position x="172.2392" y="-401.9566" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Tabulator" label="Tabulator">
@@ -295,7 +295,7 @@
           <attvalue for="strongcompnum" value="117" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="78.35071" y="314.44763" z="0.0" />
+        <viz:position x="149.3034" y="123.35498" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Informing science">
@@ -304,7 +304,7 @@
           <attvalue for="strongcompnum" value="121" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="35.77649" y="342.74823" z="0.0" />
+        <viz:position x="-409.06485" y="-114.04831" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="TriX (syntax)">
@@ -313,7 +313,7 @@
           <attvalue for="strongcompnum" value="122" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-83.16333" y="411.58942" z="0.0" />
+        <viz:position x="-359.40225" y="381.5459" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Information technology management">
@@ -322,7 +322,7 @@
           <attvalue for="strongcompnum" value="17" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-41.00766" y="373.6186" z="0.0" />
+        <viz:position x="-135.426" y="-366.73718" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="RDF Schema">
@@ -331,7 +331,7 @@
           <attvalue for="strongcompnum" value="101" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-23.435669" y="-483.8757" z="0.0" />
+        <viz:position x="213.57196" y="-311.21008" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Computer Graphics Metafile">
@@ -340,7 +340,7 @@
           <attvalue for="strongcompnum" value="123" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-51.985962" y="-266.4491" z="0.0" />
+        <viz:position x="-145.94955" y="-484.2959" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Internet ages" label="Category:Internet ages">
@@ -349,7 +349,7 @@
           <attvalue for="strongcompnum" value="6" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-55.400146" y="58.477417" z="0.0" />
+        <viz:position x="486.3844" y="417.30804" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Emerging technologies" label="Category:Emerging technologies">
@@ -358,7 +358,7 @@
           <attvalue for="strongcompnum" value="63" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-289.0216" y="-279.88446" z="0.0" />
+        <viz:position x="-335.7302" y="346.89667" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Knowledge engineering" label="Category:Knowledge engineering">
@@ -367,7 +367,7 @@
           <attvalue for="strongcompnum" value="15" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-72.6199" y="191.5904" z="0.0" />
+        <viz:position x="-226.79388" y="-243.53592" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Web services">
@@ -376,7 +376,7 @@
           <attvalue for="strongcompnum" value="30" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-78.36102" y="192.9173" z="0.0" />
+        <viz:position x="138.33563" y="-224.1286" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Semantic Web" label="Category:Semantic Web">
@@ -385,7 +385,7 @@
           <attvalue for="strongcompnum" value="21" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="155.45245" y="-389.90793" z="0.0" />
+        <viz:position x="151.84564" y="-379.54443" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Cascading Style Sheets">
@@ -394,7 +394,7 @@
           <attvalue for="strongcompnum" value="124" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="496.26147" y="187.10815" z="0.0" />
+        <viz:position x="41.64923" y="-400.35498" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Emerging technologies" label="Emerging technologies">
@@ -403,7 +403,7 @@
           <attvalue for="strongcompnum" value="128" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="183.18024" y="452.66815" z="0.0" />
+        <viz:position x="-334.11887" y="17.637634" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Semantinet">
@@ -412,7 +412,7 @@
           <attvalue for="strongcompnum" value="129" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-402.81085" y="103.15723" z="0.0" />
+        <viz:position x="497.23065" y="-418.48904" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="StrixDB">
@@ -421,7 +421,7 @@
           <attvalue for="strongcompnum" value="130" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-187.3078" y="315.00543" z="0.0" />
+        <viz:position x="258.25372" y="-235.18924" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="N-Triples">
@@ -430,7 +430,7 @@
           <attvalue for="strongcompnum" value="104" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="315.5019" y="-319.57272" z="0.0" />
+        <viz:position x="-249.82698" y="408.86572" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Carole Goble" label="Carole Goble">
@@ -439,7 +439,7 @@
           <attvalue for="strongcompnum" value="133" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-137.04367" y="-481.15283" z="0.0" />
+        <viz:position x="-434.4964" y="-186.40714" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="XProc">
@@ -448,7 +448,7 @@
           <attvalue for="strongcompnum" value="134" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-107.581726" y="-279.10278" z="0.0" />
+        <viz:position x="136.9925" y="-301.19635" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Tim Bray">
@@ -457,7 +457,7 @@
           <attvalue for="strongcompnum" value="135" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="77.70941" y="432.1139" z="0.0" />
+        <viz:position x="15.305908" y="-128.96451" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Internet protocols">
@@ -466,7 +466,7 @@
           <attvalue for="strongcompnum" value="136" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="27.566406" y="319.40875" z="0.0" />
+        <viz:position x="214.73901" y="-234.62201" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Creative Commons license">
@@ -475,7 +475,7 @@
           <attvalue for="strongcompnum" value="95" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-79.92395" y="-184.2955" z="0.0" />
+        <viz:position x="-235.30948" y="442.9319" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="GNOWSYS">
@@ -484,7 +484,7 @@
           <attvalue for="strongcompnum" value="137" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="291.97748" y="178.10413" z="0.0" />
+        <viz:position x="365.0833" y="199.33984" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="JRDF (framework)">
@@ -493,7 +493,7 @@
           <attvalue for="strongcompnum" value="138" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-262.93854" y="-115.49106" z="0.0" />
+        <viz:position x="-107.69357" y="-94.19467" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Web Ontology Language">
@@ -502,7 +502,7 @@
           <attvalue for="strongcompnum" value="96" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-85.36966" y="435.26166" z="0.0" />
+        <viz:position x="-169.80167" y="179.33148" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Extended Semantic Web Conference">
@@ -511,7 +511,7 @@
           <attvalue for="strongcompnum" value="139" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-206.29526" y="13.3272705" z="0.0" />
+        <viz:position x="-84.68234" y="-277.64648" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Mulgara (software)">
@@ -520,7 +520,7 @@
           <attvalue for="strongcompnum" value="140" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="243.60315" y="322.52448" z="0.0" />
+        <viz:position x="60.10382" y="-167.07715" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Frame language">
@@ -529,7 +529,7 @@
           <attvalue for="strongcompnum" value="141" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-25.469543" y="-207.19705" z="0.0" />
+        <viz:position x="139.99493" y="455.1654" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="JSON-LD">
@@ -538,7 +538,7 @@
           <attvalue for="strongcompnum" value="108" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-3.6347656" y="-120.44385" z="0.0" />
+        <viz:position x="455.24518" y="-103.453705" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="XPath">
@@ -547,7 +547,7 @@
           <attvalue for="strongcompnum" value="142" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-470.96198" y="446.14392" z="0.0" />
+        <viz:position x="-425.20734" y="-195.18506" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Regator">
@@ -556,7 +556,7 @@
           <attvalue for="strongcompnum" value="143" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="8.467255" y="-98.55252" z="0.0" />
+        <viz:position x="73.42859" y="385.29694" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Jena (framework)">
@@ -565,7 +565,7 @@
           <attvalue for="strongcompnum" value="144" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="98.31995" y="454.3175" z="0.0" />
+        <viz:position x="135.67859" y="500.97504" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="POSC Caesar">
@@ -574,7 +574,7 @@
           <attvalue for="strongcompnum" value="145" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-434.13385" y="271.73706" z="0.0" />
+        <viz:position x="-363.1635" y="-23.26941" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Ontology for Biomedical Investigations">
@@ -583,7 +583,7 @@
           <attvalue for="strongcompnum" value="146" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="401.5016" y="-394.42944" z="0.0" />
+        <viz:position x="-344.2904" y="508.98553" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Semantic reasoner">
@@ -592,7 +592,7 @@
           <attvalue for="strongcompnum" value="147" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-436.65356" y="-157.30377" z="0.0" />
+        <viz:position x="222.69904" y="337.20612" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="David De Roure">
@@ -601,7 +601,7 @@
           <attvalue for="strongcompnum" value="148" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="383.54675" y="-415.4607" z="0.0" />
+        <viz:position x="-225.67688" y="-320.6535" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="TriG (syntax)">
@@ -610,7 +610,7 @@
           <attvalue for="strongcompnum" value="149" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-330.02338" y="64.57025" z="0.0" />
+        <viz:position x="350.29767" y="-325.01843" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Web Open Font Format">
@@ -619,7 +619,7 @@
           <attvalue for="strongcompnum" value="150" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="330.0746" y="-353.12183" z="0.0" />
+        <viz:position x="126.54126" y="-336.10223" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Paul Otlet" label="Paul Otlet">
@@ -628,7 +628,7 @@
           <attvalue for="strongcompnum" value="156" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="402.26654" y="-363.2453" z="0.0" />
+        <viz:position x="-212.66928" y="391.1892" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Suzanne Briet" label="Suzanne Briet">
@@ -637,7 +637,7 @@
           <attvalue for="strongcompnum" value="157" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="440.18518" y="-112.7496" z="0.0" />
+        <viz:position x="378.2602" y="-350.0147" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:British honours system" label="Category:British honours system">
@@ -646,7 +646,7 @@
           <attvalue for="strongcompnum" value="28" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="506.66663" y="-443.57364" z="0.0" />
+        <viz:position x="290.27008" y="-182.02316" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Knowledge Engineering Environment">
@@ -655,7 +655,7 @@
           <attvalue for="strongcompnum" value="158" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-385.107" y="101.68756" z="0.0" />
+        <viz:position x="-438.97495" y="222.7027" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Flex expert system">
@@ -664,7 +664,7 @@
           <attvalue for="strongcompnum" value="159" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="335.27826" y="73.935974" z="0.0" />
+        <viz:position x="-333.809" y="-317.48138" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Information science" label="Information science">
@@ -673,7 +673,7 @@
           <attvalue for="strongcompnum" value="120" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-233.38168" y="269.73926" z="0.0" />
+        <viz:position x="-151.83383" y="455.33704" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Flint toolkit">
@@ -682,7 +682,7 @@
           <attvalue for="strongcompnum" value="160" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-37.880096" y="229.31012" z="0.0" />
+        <viz:position x="-2.3417969" y="116.2616" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="HTML5">
@@ -691,7 +691,7 @@
           <attvalue for="strongcompnum" value="109" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-215.71136" y="237.49799" z="0.0" />
+        <viz:position x="383.8993" y="149.43524" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Ontology engineering">
@@ -700,7 +700,7 @@
           <attvalue for="strongcompnum" value="161" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-367.97974" y="-159.50165" z="0.0" />
+        <viz:position x="-392.39667" y="-259.31213" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="List of Knights Grand Cross of the Royal Victorian Order appointed by Queen Victoria">
@@ -709,7 +709,7 @@
           <attvalue for="strongcompnum" value="162" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="398.95398" y="269.49854" z="0.0" />
+        <viz:position x="27.969666" y="-1.5520325" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Conceptualization (information science)">
@@ -718,7 +718,7 @@
           <attvalue for="strongcompnum" value="163" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-239.81277" y="41.539978" z="0.0" />
+        <viz:position x="357.7301" y="-395.9616" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="XSLT">
@@ -727,7 +727,7 @@
           <attvalue for="strongcompnum" value="164" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-413.57928" y="-244.34456" z="0.0" />
+        <viz:position x="-89.35458" y="332.69623" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Data steward">
@@ -736,7 +736,7 @@
           <attvalue for="strongcompnum" value="165" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="107.72644" y="-272.38452" z="0.0" />
+        <viz:position x="171.83441" y="-482.14496" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Michael Buckland">
@@ -745,7 +745,7 @@
           <attvalue for="strongcompnum" value="151" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-183.73895" y="508.8156" z="0.0" />
+        <viz:position x="506.34296" y="18.444946" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Data">
@@ -754,7 +754,7 @@
           <attvalue for="strongcompnum" value="18" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-53.13852" y="-446.01505" z="0.0" />
+        <viz:position x="254.53021" y="-352.13425" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Knowledge engineering" label="Knowledge engineering">
@@ -763,7 +763,7 @@
           <attvalue for="strongcompnum" value="166" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="410.656" y="-230.83249" z="0.0" />
+        <viz:position x="-471.10672" y="30.157227" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Henri La Fontaine">
@@ -772,7 +772,7 @@
           <attvalue for="strongcompnum" value="152" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-0.66696167" y="457.10645" z="0.0" />
+        <viz:position x="336.22064" y="50.64789" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Agora (web browser)">
@@ -781,7 +781,7 @@
           <attvalue for="strongcompnum" value="167" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-488.11777" y="243.66296" z="0.0" />
+        <viz:position x="327.4348" y="192.54156" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Library science">
@@ -790,7 +790,7 @@
           <attvalue for="strongcompnum" value="118" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-317.56885" y="18.765015" z="0.0" />
+        <viz:position x="416.75873" y="215.67145" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Robert M. Hayes">
@@ -799,7 +799,7 @@
           <attvalue for="strongcompnum" value="153" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-326.1465" y="251.77039" z="0.0" />
+        <viz:position x="-380.85498" y="-402.20587" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="XML Schema (W3C)">
@@ -808,7 +808,7 @@
           <attvalue for="strongcompnum" value="168" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-270.65765" y="377.83295" z="0.0" />
+        <viz:position x="-96.90997" y="-428.26297" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Jesse Shera">
@@ -817,7 +817,7 @@
           <attvalue for="strongcompnum" value="154" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-109.01999" y="323.29376" z="0.0" />
+        <viz:position x="333.49957" y="243.47607" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Scalable Vector Graphics">
@@ -826,7 +826,7 @@
           <attvalue for="strongcompnum" value="169" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-436.03204" y="-190.67899" z="0.0" />
+        <viz:position x="-259.72528" y="347.48706" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Ontology alignment">
@@ -835,7 +835,7 @@
           <attvalue for="strongcompnum" value="170" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-43.28961" y="399.65472" z="0.0" />
+        <viz:position x="62.474" y="507.75635" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="S. R. Ranganathan">
@@ -844,7 +844,7 @@
           <attvalue for="strongcompnum" value="155" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-94.901276" y="-463.33142" z="0.0" />
+        <viz:position x="120.635315" y="137.58368" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Mallard (documentation)">
@@ -853,7 +853,7 @@
           <attvalue for="strongcompnum" value="171" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="404.47156" y="126.9494" z="0.0" />
+        <viz:position x="112.08008" y="181.28802" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Tim Berners-Lee" label="Tim Berners-Lee">
@@ -862,7 +862,7 @@
           <attvalue for="strongcompnum" value="52" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-49.19452" y="-179.23947" z="0.0" />
+        <viz:position x="-377.62103" y="19.31018" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Logic Programming Associates">
@@ -871,7 +871,7 @@
           <attvalue for="strongcompnum" value="172" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-74.674835" y="-402.74362" z="0.0" />
+        <viz:position x="432.85522" y="-91.22299" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Structured storage">
@@ -880,7 +880,7 @@
           <attvalue for="strongcompnum" value="88" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="151.13367" y="-122.05246" z="0.0" />
+        <viz:position x="176.89563" y="88.767456" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Collaborative innovation network">
@@ -889,7 +889,7 @@
           <attvalue for="strongcompnum" value="173" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="79.50903" y="294.08496" z="0.0" />
+        <viz:position x="-229.60037" y="58.33905" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="ISO 15926">
@@ -898,7 +898,7 @@
           <attvalue for="strongcompnum" value="174" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="15.664795" y="-280.61444" z="0.0" />
+        <viz:position x="93.03284" y="-158.50003" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="List of Knights Commander of the Royal Victorian Order appointed by King Edward VII">
@@ -907,7 +907,7 @@
           <attvalue for="strongcompnum" value="175" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="323.1344" y="-71.48172" z="0.0" />
+        <viz:position x="221.7832" y="233.03162" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Integrated Operations in the High North">
@@ -916,7 +916,7 @@
           <attvalue for="strongcompnum" value="176" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-377.76407" y="-424.70148" z="0.0" />
+        <viz:position x="477.0019" y="-90.69852" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="VisiRule">
@@ -925,7 +925,7 @@
           <attvalue for="strongcompnum" value="177" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-143.33823" y="314.51904" z="0.0" />
+        <viz:position x="9.619873" y="-133.51465" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="CSHALS">
@@ -934,7 +934,7 @@
           <attvalue for="strongcompnum" value="178" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="494.08313" y="170.30914" z="0.0" />
+        <viz:position x="-221.83038" y="283.1129" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="World Wide Web Consortium" label="World Wide Web Consortium">
@@ -943,7 +943,7 @@
           <attvalue for="strongcompnum" value="55" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-431.62106" y="425.0299" z="0.0" />
+        <viz:position x="-307.16602" y="-396.65012" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:NoSQL">
@@ -952,7 +952,7 @@
           <attvalue for="strongcompnum" value="89" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="294.903" y="-250.23009" z="0.0" />
+        <viz:position x="-136.15714" y="301.3404" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Graph databases">
@@ -961,7 +961,7 @@
           <attvalue for="strongcompnum" value="67" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="393.95618" y="294.9146" z="0.0" />
+        <viz:position x="221.62067" y="455.3062" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Henrik Frystyk Nielsen">
@@ -970,7 +970,7 @@
           <attvalue for="strongcompnum" value="179" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="354.80194" y="422.06616" z="0.0" />
+        <viz:position x="-19.74588" y="363.58472" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Artificial intelligence">
@@ -979,7 +979,7 @@
           <attvalue for="strongcompnum" value="14" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-257.74323" y="492.45038" z="0.0" />
+        <viz:position x="213.82684" y="44.688538" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="London">
@@ -988,7 +988,7 @@
           <attvalue for="strongcompnum" value="31" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="384.82996" y="78.153015" z="0.0" />
+        <viz:position x="192.30756" y="-458.31244" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Ontology (information science)">
@@ -997,7 +997,7 @@
           <attvalue for="strongcompnum" value="180" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="247.92987" y="467.99567" z="0.0" />
+        <viz:position x="-419.04187" y="-399.70306" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Thomas Reardon">
@@ -1006,7 +1006,7 @@
           <attvalue for="strongcompnum" value="183" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-136.22873" y="-122.87491" z="0.0" />
+        <viz:position x="411.24725" y="3.1644592" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="England">
@@ -1015,7 +1015,7 @@
           <attvalue for="strongcompnum" value="32" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="2.917572" y="206.62128" z="0.0" />
+        <viz:position x="164.2425" y="-246.22964" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Technological convergence">
@@ -1024,7 +1024,7 @@
           <attvalue for="strongcompnum" value="184" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="488.0927" y="45.40912" z="0.0" />
+        <viz:position x="-82.73926" y="436.5078" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Technology">
@@ -1033,7 +1033,7 @@
           <attvalue for="strongcompnum" value="125" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-408.14386" y="260.90802" z="0.0" />
+        <viz:position x="354.65717" y="-400.06924" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="BaseX">
@@ -1042,7 +1042,7 @@
           <attvalue for="strongcompnum" value="187" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-235.57486" y="-472.79297" z="0.0" />
+        <viz:position x="363.1316" y="473.50775" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Technological innovation system">
@@ -1051,7 +1051,7 @@
           <attvalue for="strongcompnum" value="126" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-289.54388" y="420.77618" z="0.0" />
+        <viz:position x="-234.4458" y="-69.20441" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="XMLHttpRequest">
@@ -1060,7 +1060,7 @@
           <attvalue for="strongcompnum" value="188" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="293.68073" y="-154.89313" z="0.0" />
+        <viz:position x="-394.59213" y="440.6526" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Massachusetts Institute of Technology">
@@ -1069,7 +1069,7 @@
           <attvalue for="strongcompnum" value="33" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-118.704865" y="-10.871185" z="0.0" />
+        <viz:position x="-97.50549" y="30.496887" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Internationalized resource identifier" label="Internationalized resource identifier">
@@ -1078,7 +1078,7 @@
           <attvalue for="strongcompnum" value="189" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-453.1139" y="382.31805" z="0.0" />
+        <viz:position x="351.15405" y="-360.1653" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Order of the British Empire" label="Order of the British Empire">
@@ -1087,7 +1087,7 @@
           <attvalue for="strongcompnum" value="40" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-201.93967" y="-124.74802" z="0.0" />
+        <viz:position x="432.12726" y="-72.86685" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Orders of knighthood of the United Kingdom" label="Category:Orders of knighthood of the United Kingdom">
@@ -1096,7 +1096,7 @@
           <attvalue for="strongcompnum" value="34" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-34.96353" y="181.776" z="0.0" />
+        <viz:position x="-468.79514" y="-241.99796" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Distinguished Service Order">
@@ -1105,7 +1105,7 @@
           <attvalue for="strongcompnum" value="190" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="127.12805" y="492.33167" z="0.0" />
+        <viz:position x="90.42926" y="-462.37955" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Informatics">
@@ -1114,7 +1114,7 @@
           <attvalue for="strongcompnum" value="191" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="28.753723" y="272.40106" z="0.0" />
+        <viz:position x="-485.05737" y="-63.941284" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Integration competency center">
@@ -1123,7 +1123,7 @@
           <attvalue for="strongcompnum" value="192" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="174.47052" y="-248.89064" z="0.0" />
+        <viz:position x="490.3438" y="-287.10364" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Innovation">
@@ -1132,7 +1132,7 @@
           <attvalue for="strongcompnum" value="58" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-461.74268" y="479.08417" z="0.0" />
+        <viz:position x="-233.03003" y="489.23273" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Web Services Description Language">
@@ -1141,7 +1141,7 @@
           <attvalue for="strongcompnum" value="193" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-313.76962" y="278.6137" z="0.0" />
+        <viz:position x="89.83618" y="-206.6286" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Dave Raggett">
@@ -1150,7 +1150,7 @@
           <attvalue for="strongcompnum" value="194" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-279.86627" y="-349.48633" z="0.0" />
+        <viz:position x="312.65204" y="264.29352" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Empire Gallantry Medal">
@@ -1159,7 +1159,7 @@
           <attvalue for="strongcompnum" value="37" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="192.90576" y="359.06818" z="0.0" />
+        <viz:position x="363.60907" y="-81.68936" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Amaya (web editor)">
@@ -1168,7 +1168,7 @@
           <attvalue for="strongcompnum" value="195" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-65.38364" y="247.74237" z="0.0" />
+        <viz:position x="427.35333" y="143.4148" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="PureXML">
@@ -1177,7 +1177,7 @@
           <attvalue for="strongcompnum" value="196" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-270.05957" y="-6.509247" z="0.0" />
+        <viz:position x="-214.80157" y="-2.1328125" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Royal Victorian Order">
@@ -1186,7 +1186,7 @@
           <attvalue for="strongcompnum" value="38" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-304.4353" y="276.43823" z="0.0" />
+        <viz:position x="293.2964" y="260.14313" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Ontology (information science)">
@@ -1195,7 +1195,7 @@
           <attvalue for="strongcompnum" value="97" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="471.61383" y="-94.836334" z="0.0" />
+        <viz:position x="-429.10498" y="-47.221313" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Knights Commander of the Order of the British Empire">
@@ -1204,7 +1204,7 @@
           <attvalue for="strongcompnum" value="41" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="435.05835" y="-382.95404" z="0.0" />
+        <viz:position x="-21.679047" y="79.84668" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Web standards">
@@ -1213,7 +1213,7 @@
           <attvalue for="strongcompnum" value="0" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-199.52023" y="280.06665" z="0.0" />
+        <viz:position x="262.9165" y="-445.72296" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Women computer scientists">
@@ -1222,7 +1222,7 @@
           <attvalue for="strongcompnum" value="92" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-54.502777" y="-90.36987" z="0.0" />
+        <viz:position x="-17.5766" y="-384.81784" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:People from London">
@@ -1231,7 +1231,7 @@
           <attvalue for="strongcompnum" value="42" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-398.79898" y="-475.4693" z="0.0" />
+        <viz:position x="136.47797" y="-44.450134" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="University of Southampton">
@@ -1240,7 +1240,7 @@
           <attvalue for="strongcompnum" value="43" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-285.67316" y="283.95685" z="0.0" />
+        <viz:position x="-229.19128" y="-303.46747" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Open XML Paper Specification">
@@ -1249,7 +1249,7 @@
           <attvalue for="strongcompnum" value="197" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="115.48151" y="346.7834" z="0.0" />
+        <viz:position x="103.88861" y="-203.867" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Ruselectronics">
@@ -1258,7 +1258,7 @@
           <attvalue for="strongcompnum" value="198" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="429.98315" y="390.4107" z="0.0" />
+        <viz:position x="166.28748" y="398.03204" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="SPARQL Query Results XML Format">
@@ -1267,7 +1267,7 @@
           <attvalue for="strongcompnum" value="199" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-476.10217" y="24.72113" z="0.0" />
+        <viz:position x="258.52625" y="-418.1003" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Dames Commander of the Order of the British Empire">
@@ -1276,7 +1276,7 @@
           <attvalue for="strongcompnum" value="93" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-217.62097" y="383.6338" z="0.0" />
+        <viz:position x="209.20337" y="431.70892" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:World Wide Web Consortium" label="Category:World Wide Web Consortium">
@@ -1285,7 +1285,7 @@
           <attvalue for="strongcompnum" value="2" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-469.21735" y="-190.8424" z="0.0" />
+        <viz:position x="452.5196" y="-104.14554" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Royal Society">
@@ -1294,7 +1294,7 @@
           <attvalue for="strongcompnum" value="44" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="307.2301" y="-261.68887" z="0.0" />
+        <viz:position x="109.67737" y="-434.5598" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Hypertext Transfer Protocol" label="Category:Hypertext Transfer Protocol">
@@ -1303,7 +1303,7 @@
           <attvalue for="strongcompnum" value="47" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-380.08292" y="29.961365" z="0.0" />
+        <viz:position x="334.19427" y="-121.27423" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Standards organizations">
@@ -1312,7 +1312,7 @@
           <attvalue for="strongcompnum" value="1" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="430.74457" y="35.31659" z="0.0" />
+        <viz:position x="214.80627" y="-105.172424" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Datafication">
@@ -1321,7 +1321,7 @@
           <attvalue for="strongcompnum" value="200" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="321.63672" y="-378.08932" z="0.0" />
+        <viz:position x="84.81427" y="333.39233" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="WebPlatform">
@@ -1330,7 +1330,7 @@
           <attvalue for="strongcompnum" value="201" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="59.678467" y="146.47339" z="0.0" />
+        <viz:position x="492.55536" y="104.76721" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Fellows of the British Computer Society">
@@ -1339,7 +1339,7 @@
           <attvalue for="strongcompnum" value="48" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-213.93933" y="467.75623" z="0.0" />
+        <viz:position x="-311.12085" y="-246.53316" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Fellows of the Royal Academy of Engineering">
@@ -1348,7 +1348,7 @@
           <attvalue for="strongcompnum" value="49" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="31.484192" y="-432.52985" z="0.0" />
+        <viz:position x="-105.56366" y="-306.6007" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Semantic query">
@@ -1357,7 +1357,7 @@
           <attvalue for="strongcompnum" value="202" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="192.50348" y="167.89795" z="0.0" />
+        <viz:position x="-51.788696" y="-446.10098" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Information technology" label="Information technology">
@@ -1366,7 +1366,7 @@
           <attvalue for="strongcompnum" value="182" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="490.25604" y="1.0147095" z="0.0" />
+        <viz:position x="100.662964" y="499.28955" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Royal Academy of Engineering">
@@ -1375,7 +1375,7 @@
           <attvalue for="strongcompnum" value="50" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="41.730713" y="-410.75494" z="0.0" />
+        <viz:position x="-392.7038" y="-209.7496" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:English computer scientists">
@@ -1384,7 +1384,7 @@
           <attvalue for="strongcompnum" value="51" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-213.59518" y="-323.90424" z="0.0" />
+        <viz:position x="-425.67154" y="-227.8937" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="XHTML+RDFa">
@@ -1393,7 +1393,7 @@
           <attvalue for="strongcompnum" value="203" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="175.57135" y="-179.75677" z="0.0" />
+        <viz:position x="-104.18567" y="-306.66943" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Dublin Core">
@@ -1402,7 +1402,7 @@
           <attvalue for="strongcompnum" value="204" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-188.53247" y="304.26147" z="0.0" />
+        <viz:position x="-444.74908" y="457.72308" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="XML schema languages">
@@ -1411,7 +1411,7 @@
           <attvalue for="strongcompnum" value="205" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="447.50208" y="-35.283478" z="0.0" />
+        <viz:position x="-485.9705" y="417.17578" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="CommVault Systems">
@@ -1420,7 +1420,7 @@
           <attvalue for="strongcompnum" value="208" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-225.81253" y="20.11438" z="0.0" />
+        <viz:position x="-390.5166" y="330.58893" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Technological change" label="Technological change">
@@ -1429,7 +1429,7 @@
           <attvalue for="strongcompnum" value="209" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="328.16858" y="-455.91443" z="0.0" />
+        <viz:position x="-412.32382" y="500.88727" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Arena (web browser)">
@@ -1438,7 +1438,7 @@
           <attvalue for="strongcompnum" value="210" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="299.97467" y="130.75903" z="0.0" />
+        <viz:position x="-382.91165" y="99.37421" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Line Mode Browser">
@@ -1447,7 +1447,7 @@
           <attvalue for="strongcompnum" value="211" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="371.4121" y="145.68854" z="0.0" />
+        <viz:position x="401.21368" y="-321.36127" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="HTTP message body">
@@ -1456,7 +1456,7 @@
           <attvalue for="strongcompnum" value="212" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="393.08368" y="7.7296753" z="0.0" />
+        <viz:position x="-371.3742" y="-363.68738" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Controlled vocabulary">
@@ -1465,7 +1465,7 @@
           <attvalue for="strongcompnum" value="213" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="389.22058" y="354.3438" z="0.0" />
+        <viz:position x="-218.20755" y="-162.80136" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Technical change">
@@ -1474,7 +1474,7 @@
           <attvalue for="strongcompnum" value="214" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="239.3233" y="-5.0362244" z="0.0" />
+        <viz:position x="-150.09158" y="36.324707" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Markup languages">
@@ -1483,7 +1483,7 @@
           <attvalue for="strongcompnum" value="71" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="388.12396" y="-65.0408" z="0.0" />
+        <viz:position x="-148.99625" y="116.60388" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Data serialization formats">
@@ -1492,7 +1492,7 @@
           <attvalue for="strongcompnum" value="72" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="46.83722" y="-222.3245" z="0.0" />
+        <viz:position x="124.92621" y="298.92212" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Application layer protocols">
@@ -1501,7 +1501,7 @@
           <attvalue for="strongcompnum" value="45" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-195.0917" y="-304.0946" z="0.0" />
+        <viz:position x="487.46112" y="377.1598" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Knowledge representation languages">
@@ -1510,7 +1510,7 @@
           <attvalue for="strongcompnum" value="68" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="123.473755" y="259.5235" z="0.0" />
+        <viz:position x="-321.5539" y="44.056335" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Data classification (data management)">
@@ -1519,7 +1519,7 @@
           <attvalue for="strongcompnum" value="215" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="346.11945" y="456.03534" z="0.0" />
+        <viz:position x="250.4881" y="-485.2693" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="World Wide Web Consortium  1">
@@ -1528,7 +1528,7 @@
           <attvalue for="strongcompnum" value="53" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="171.48706" y="-370.7444" z="0.0" />
+        <viz:position x="-447.35632" y="-177.5116" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Data modeling languages">
@@ -1537,7 +1537,7 @@
           <attvalue for="strongcompnum" value="73" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-216.3151" y="62.64624" z="0.0" />
+        <viz:position x="-296.33636" y="396.32416" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Computer file formats">
@@ -1546,7 +1546,7 @@
           <attvalue for="strongcompnum" value="4" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="343.79047" y="-36.94754" z="0.0" />
+        <viz:position x="126.224365" y="261.92206" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Information storage">
@@ -1555,7 +1555,7 @@
           <attvalue for="strongcompnum" value="216" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="388.0782" y="463.34442" z="0.0" />
+        <viz:position x="46.70233" y="509.2605" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Ramm.x">
@@ -1564,7 +1564,7 @@
           <attvalue for="strongcompnum" value="217" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-49.29193" y="405.0808" z="0.0" />
+        <viz:position x="339.8448" y="502.055" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:RDF data access">
@@ -1573,7 +1573,7 @@
           <attvalue for="strongcompnum" value="218" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="290.80634" y="421.68658" z="0.0" />
+        <viz:position x="-284.87518" y="-230.2396" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Data management" label="Data management">
@@ -1582,7 +1582,7 @@
           <attvalue for="strongcompnum" value="207" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-167.8523" y="-303.69293" z="0.0" />
+        <viz:position x="-231.75482" y="114.8689" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Learning object metadata">
@@ -1591,7 +1591,7 @@
           <attvalue for="strongcompnum" value="219" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-40.401" y="-415.36316" z="0.0" />
+        <viz:position x="139.39868" y="320.56915" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="WYSIWYM (interaction technique)">
@@ -1600,7 +1600,7 @@
           <attvalue for="strongcompnum" value="220" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="317.3454" y="-419.59018" z="0.0" />
+        <viz:position x="477.35577" y="-19.109955" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Resource Description Framework" label="Category:Resource Description Framework">
@@ -1609,7 +1609,7 @@
           <attvalue for="strongcompnum" value="69" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="142.53241" y="259.29077" z="0.0" />
+        <viz:position x="168.70685" y="-437.72153" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="RoadXML">
@@ -1618,7 +1618,7 @@
           <attvalue for="strongcompnum" value="221" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="382.80682" y="405.66913" z="0.0" />
+        <viz:position x="-316.25812" y="397.8205" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="U.S. Army Information Technology Agency">
@@ -1627,7 +1627,7 @@
           <attvalue for="strongcompnum" value="222" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="91.41974" y="436.9842" z="0.0" />
+        <viz:position x="-240.77121" y="109.29321" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="IGlue">
@@ -1636,7 +1636,7 @@
           <attvalue for="strongcompnum" value="223" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="88.79913" y="63.001038" z="0.0" />
+        <viz:position x="-405.89624" y="34.849854" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Information history">
@@ -1645,7 +1645,7 @@
           <attvalue for="strongcompnum" value="119" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-389.84543" y="314.8158" z="0.0" />
+        <viz:position x="402.79388" y="-161.06845" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="XML database" label="XML database">
@@ -1654,7 +1654,7 @@
           <attvalue for="strongcompnum" value="186" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-374.27786" y="252.8421" z="0.0" />
+        <viz:position x="444.14844" y="214.12396" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Rocket science in finance">
@@ -1663,7 +1663,7 @@
           <attvalue for="strongcompnum" value="224" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="490.292" y="-192.22021" z="0.0" />
+        <viz:position x="428.9948" y="-289.06555" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Collabera">
@@ -1672,7 +1672,7 @@
           <attvalue for="strongcompnum" value="225" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="333.9151" y="-42.61963" z="0.0" />
+        <viz:position x="-320.99658" y="400.26093" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Triplestores">
@@ -1681,7 +1681,7 @@
           <attvalue for="strongcompnum" value="90" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="194.00665" y="319.11554" z="0.0" />
+        <viz:position x="-247.6758" y="-425.29962" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="XHTML">
@@ -1690,7 +1690,7 @@
           <attvalue for="strongcompnum" value="226" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-126.06897" y="-90.33295" z="0.0" />
+        <viz:position x="421.44232" y="-290.53226" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Semantic grid">
@@ -1699,7 +1699,7 @@
           <attvalue for="strongcompnum" value="131" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="223.66675" y="342.14825" z="0.0" />
+        <viz:position x="-144.37433" y="-247.1498" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="BioSD">
@@ -1708,7 +1708,7 @@
           <attvalue for="strongcompnum" value="227" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="319.0384" y="-202.56824" z="0.0" />
+        <viz:position x="-140.4548" y="-288.2741" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Future">
@@ -1717,7 +1717,7 @@
           <attvalue for="strongcompnum" value="60" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="477.61456" y="303.8069" z="0.0" />
+        <viz:position x="-197.87515" y="-207.73428" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Findability">
@@ -1726,7 +1726,7 @@
           <attvalue for="strongcompnum" value="228" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="317.6848" y="-83.03528" z="0.0" />
+        <viz:position x="-47.982697" y="-207.3222" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="SparkleDB">
@@ -1735,7 +1735,7 @@
           <attvalue for="strongcompnum" value="229" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="33.347412" y="428.1698" z="0.0" />
+        <viz:position x="-149.46506" y="407.5349" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="SPAN Infotech">
@@ -1744,7 +1744,7 @@
           <attvalue for="strongcompnum" value="230" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-369.11417" y="1.2170105" z="0.0" />
+        <viz:position x="-102.75845" y="-133.73956" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="List of SPARQL implementations">
@@ -1753,7 +1753,7 @@
           <attvalue for="strongcompnum" value="231" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="222.1416" y="297.80396" z="0.0" />
+        <viz:position x="-188.79373" y="306.77563" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Disruptive innovation" label="Disruptive innovation">
@@ -1762,7 +1762,7 @@
           <attvalue for="strongcompnum" value="232" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="287.97675" y="-13.690552" z="0.0" />
+        <viz:position x="141.24213" y="284.79645" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Technology by type" label="Category:Technology by type">
@@ -1771,7 +1771,7 @@
           <attvalue for="strongcompnum" value="9" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-436.73355" y="221.32562" z="0.0" />
+        <viz:position x="-373.9839" y="286.0993" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Ramanathan V. Guha">
@@ -1780,7 +1780,7 @@
           <attvalue for="strongcompnum" value="233" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="323.89325" y="-448.06937" z="0.0" />
+        <viz:position x="310.08728" y="380.16656" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:World Wide Web Consortium standards" label="Category:World Wide Web Consortium standards">
@@ -1789,7 +1789,7 @@
           <attvalue for="strongcompnum" value="3" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="111.28516" y="477.5265" z="0.0" />
+        <viz:position x="-219.32742" y="-293.48648" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Rule Interchange Format">
@@ -1798,7 +1798,7 @@
           <attvalue for="strongcompnum" value="70" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-437.87717" y="373.6416" z="0.0" />
+        <viz:position x="343.86176" y="187.85205" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:XML" label="Category:XML">
@@ -1807,7 +1807,7 @@
           <attvalue for="strongcompnum" value="74" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="36.541443" y="-0.42874146" z="0.0" />
+        <viz:position x="65.33154" y="225.854" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Knowledge representation" label="Category:Knowledge representation">
@@ -1816,7 +1816,7 @@
           <attvalue for="strongcompnum" value="16" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="189.69446" y="158.89642" z="0.0" />
+        <viz:position x="282.19043" y="-444.9506" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Bibliography file formats" label="Category:Bibliography file formats">
@@ -1825,7 +1825,7 @@
           <attvalue for="strongcompnum" value="23" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-193.21808" y="87.189026" z="0.0" />
+        <viz:position x="-112.09653" y="448.37323" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Metadata">
@@ -1834,7 +1834,7 @@
           <attvalue for="strongcompnum" value="75" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-65.947266" y="-296.37546" z="0.0" />
+        <viz:position x="-394.60333" y="14.723999" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:XML-based standards">
@@ -1843,7 +1843,7 @@
           <attvalue for="strongcompnum" value="76" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="166.96765" y="290.44275" z="0.0" />
+        <viz:position x="-185.84796" y="-24.097046" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Uniform resource identifier">
@@ -1852,7 +1852,7 @@
           <attvalue for="strongcompnum" value="77" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="496.3874" y="402.51147" z="0.0" />
+        <viz:position x="-229.27042" y="-480.61716" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Technological change" label="Category:Technological change">
@@ -1861,7 +1861,7 @@
           <attvalue for="strongcompnum" value="59" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="224.67639" y="-304.42352" z="0.0" />
+        <viz:position x="259.66498" y="197.04767" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Preparation for the future" label="Category:Preparation for the future">
@@ -1870,7 +1870,7 @@
           <attvalue for="strongcompnum" value="61" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-478.03415" y="-126.34735" z="0.0" />
+        <viz:position x="-400.3026" y="371.51105" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Upcoming products" label="Category:Upcoming products">
@@ -1879,7 +1879,7 @@
           <attvalue for="strongcompnum" value="62" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="340.1026" y="461.60358" z="0.0" />
+        <viz:position x="291.00214" y="34.653503" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Declining a British honour">
@@ -1888,7 +1888,7 @@
           <attvalue for="strongcompnum" value="39" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-204.75531" y="-382.95547" z="0.0" />
+        <viz:position x="470.39417" y="462.03125" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Conspicuous Gallantry Cross">
@@ -1897,7 +1897,7 @@
           <attvalue for="strongcompnum" value="234" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="192.51044" y="-394.28662" z="0.0" />
+        <viz:position x="306.80396" y="-213.16281" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="PROTON">
@@ -1906,7 +1906,7 @@
           <attvalue for="strongcompnum" value="235" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-463.99036" y="-83.58371" z="0.0" />
+        <viz:position x="-152.19016" y="233.80762" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Domain-specific knowledge representation languages">
@@ -1915,7 +1915,7 @@
           <attvalue for="strongcompnum" value="22" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="349.09912" y="-283.7625" z="0.0" />
+        <viz:position x="-35.6315" y="143.14935" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="SPARQL">
@@ -1924,7 +1924,7 @@
           <attvalue for="strongcompnum" value="236" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-357.47626" y="-484.80576" z="0.0" />
+        <viz:position x="-454.53577" y="-375.8675" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="People Finder Interchange Format">
@@ -1933,7 +1933,7 @@
           <attvalue for="strongcompnum" value="237" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-102.41055" y="483.8319" z="0.0" />
+        <viz:position x="93.1839" y="434.9834" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="VoiD">
@@ -1942,7 +1942,7 @@
           <attvalue for="strongcompnum" value="238" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="478.6361" y="-50.069763" z="0.0" />
+        <viz:position x="253.3081" y="-391.70456" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Microformat">
@@ -1951,7 +1951,7 @@
           <attvalue for="strongcompnum" value="110" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="220.4436" y="-315.30646" z="0.0" />
+        <viz:position x="494.1269" y="188.13257" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Multimedia">
@@ -1960,7 +1960,7 @@
           <attvalue for="strongcompnum" value="80" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="334.03363" y="-191.68564" z="0.0" />
+        <viz:position x="289.68506" y="-134.25024" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Information pollution">
@@ -1969,7 +1969,7 @@
           <attvalue for="strongcompnum" value="239" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-213.51898" y="-475.9542" z="0.0" />
+        <viz:position x="461.51752" y="85.43555" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Simple Knowledge Organization System">
@@ -1978,7 +1978,7 @@
           <attvalue for="strongcompnum" value="98" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="0.29263306" y="-406.06827" z="0.0" />
+        <viz:position x="239.25043" y="-478.9437" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="United States">
@@ -1987,7 +1987,7 @@
           <attvalue for="strongcompnum" value="54" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-85.24542" y="53.7901" z="0.0" />
+        <viz:position x="-415.0557" y="-481.2597" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="James Clark (programmer)">
@@ -1996,7 +1996,7 @@
           <attvalue for="strongcompnum" value="240" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="0.11413574" y="326.21124" z="0.0" />
+        <viz:position x="124.09387" y="-126.30353" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Recording format">
@@ -2005,7 +2005,7 @@
           <attvalue for="strongcompnum" value="241" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-174.09668" y="-284.86414" z="0.0" />
+        <viz:position x="-111.24768" y="11.955017" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="GOLD (ontology)">
@@ -2014,7 +2014,7 @@
           <attvalue for="strongcompnum" value="242" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-116.89612" y="481.55444" z="0.0" />
+        <viz:position x="21.915405" y="-475.98788" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="MultiNet">
@@ -2023,7 +2023,7 @@
           <attvalue for="strongcompnum" value="243" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-62.200653" y="-74.81613" z="0.0" />
+        <viz:position x="-350.68762" y="-69.256165" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Web development">
@@ -2032,7 +2032,7 @@
           <attvalue for="strongcompnum" value="46" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-341.31592" y="390.42065" z="0.0" />
+        <viz:position x="-407.04562" y="326.94324" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Document classification">
@@ -2041,7 +2041,7 @@
           <attvalue for="strongcompnum" value="244" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="285.15833" y="25.85382" z="0.0" />
+        <viz:position x="293.66608" y="59.46466" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Virtuoso Universal Server">
@@ -2050,7 +2050,7 @@
           <attvalue for="strongcompnum" value="82" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-124.79965" y="-254.81554" z="0.0" />
+        <viz:position x="-193.52597" y="160.89886" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Radar Networks">
@@ -2059,7 +2059,7 @@
           <attvalue for="strongcompnum" value="245" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="146.8836" y="-155.79034" z="0.0" />
+        <viz:position x="-372.1313" y="-177.76529" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Preference Profiles">
@@ -2068,7 +2068,7 @@
           <attvalue for="strongcompnum" value="246" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="74.01453" y="444.86975" z="0.0" />
+        <viz:position x="267.95526" y="-413.9896" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Linked data">
@@ -2077,7 +2077,7 @@
           <attvalue for="strongcompnum" value="83" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="450.2672" y="-424.84982" z="0.0" />
+        <viz:position x="269.3277" y="152.54883" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Knowledge bases">
@@ -2086,7 +2086,7 @@
           <attvalue for="strongcompnum" value="84" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="348.3501" y="-394.5952" z="0.0" />
+        <viz:position x="-60.246124" y="84.18036" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Linked Data Platform">
@@ -2095,7 +2095,7 @@
           <attvalue for="strongcompnum" value="247" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="287.771" y="-309.40186" z="0.0" />
+        <viz:position x="-435.3385" y="274.66516" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="RDF Inference Language">
@@ -2104,7 +2104,7 @@
           <attvalue for="strongcompnum" value="248" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-481.1167" y="197.8305" z="0.0" />
+        <viz:position x="-279.17065" y="-277.2455" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Richard Susskind">
@@ -2113,7 +2113,7 @@
           <attvalue for="strongcompnum" value="249" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-70.03665" y="103.73285" z="0.0" />
+        <viz:position x="463.08014" y="-49.98941" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Information technology" label="Category:Information technology">
@@ -2122,7 +2122,7 @@
           <attvalue for="strongcompnum" value="11" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="1.550354" y="441.9344" z="0.0" />
+        <viz:position x="305.252" y="-235.6918" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Open data">
@@ -2131,7 +2131,7 @@
           <attvalue for="strongcompnum" value="85" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="47.28894" y="-127.52295" z="0.0" />
+        <viz:position x="-214.9852" y="63.148865" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Semantic Sensor Web Advanced">
@@ -2140,7 +2140,7 @@
           <attvalue for="strongcompnum" value="250" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-212.23282" y="-220.92914" z="0.0" />
+        <viz:position x="-25.450592" y="-43.04666" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Java (programming language)">
@@ -2149,7 +2149,7 @@
           <attvalue for="strongcompnum" value="86" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="463.69952" y="313.3625" z="0.0" />
+        <viz:position x="76.70166" y="-225.6077" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:World Wide Web">
@@ -2158,7 +2158,7 @@
           <attvalue for="strongcompnum" value="5" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="83.234375" y="-24.531952" z="0.0" />
+        <viz:position x="495.55273" y="-17.265747" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Information">
@@ -2167,7 +2167,7 @@
           <attvalue for="strongcompnum" value="10" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-343.22363" y="-484.9379" z="0.0" />
+        <viz:position x="-226.35025" y="-150.0722" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="XSL Formatting Objects">
@@ -2176,7 +2176,7 @@
           <attvalue for="strongcompnum" value="251" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="58.727905" y="-333.88986" z="0.0" />
+        <viz:position x="93.25659" y="-183.90265" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Vector Markup Language">
@@ -2185,7 +2185,7 @@
           <attvalue for="strongcompnum" value="252" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="391.82562" y="-109.70886" z="0.0" />
+        <viz:position x="-290.5986" y="195.3659" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Efficient XML Interchange">
@@ -2194,7 +2194,7 @@
           <attvalue for="strongcompnum" value="253" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-145.24936" y="439.3236" z="0.0" />
+        <viz:position x="-452.6939" y="-449.9183" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Metaweb">
@@ -2203,7 +2203,7 @@
           <attvalue for="strongcompnum" value="254" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="331.53027" y="-414.55548" z="0.0" />
+        <viz:position x="100.71857" y="64.912476" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Universal Data Element Framework">
@@ -2212,7 +2212,7 @@
           <attvalue for="strongcompnum" value="255" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="451.64844" y="383.48438" z="0.0" />
+        <viz:position x="-178.92178" y="-415.20786" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Publishing Requirements for Industry Standard Metadata">
@@ -2221,7 +2221,7 @@
           <attvalue for="strongcompnum" value="256" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="198.09302" y="279.2497" z="0.0" />
+        <viz:position x="16.305847" y="-104.10083" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Match report">
@@ -2230,7 +2230,7 @@
           <attvalue for="strongcompnum" value="257" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="267.76996" y="-130.1977" z="0.0" />
+        <viz:position x="273.9239" y="-59.118774" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="E-services">
@@ -2239,7 +2239,7 @@
           <attvalue for="strongcompnum" value="258" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="81.40686" y="144.88074" z="0.0" />
+        <viz:position x="-6.592499" y="227.20074" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="AgMES">
@@ -2248,7 +2248,7 @@
           <attvalue for="strongcompnum" value="259" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="380.47522" y="228.92834" z="0.0" />
+        <viz:position x="429.9912" y="-139.82053" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Classora">
@@ -2257,7 +2257,7 @@
           <attvalue for="strongcompnum" value="260" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-215.35858" y="-475.6085" z="0.0" />
+        <viz:position x="-94.90799" y="-299.89636" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="F-logic">
@@ -2266,7 +2266,7 @@
           <attvalue for="strongcompnum" value="261" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="78.27728" y="-105.83115" z="0.0" />
+        <viz:position x="481.14935" y="-213.72186" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Schema crosswalk">
@@ -2275,7 +2275,7 @@
           <attvalue for="strongcompnum" value="262" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-322.26617" y="169.99097" z="0.0" />
+        <viz:position x="400.7646" y="-288.51837" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Dynamic knowledge repository">
@@ -2284,7 +2284,7 @@
           <attvalue for="strongcompnum" value="263" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="47.123413" y="-469.6197" z="0.0" />
+        <viz:position x="186.88678" y="279.7824" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="NZB">
@@ -2293,7 +2293,7 @@
           <attvalue for="strongcompnum" value="264" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="389.62592" y="-256.40262" z="0.0" />
+        <viz:position x="243.4242" y="-108.32858" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Computer-aided software engineering tools">
@@ -2302,7 +2302,7 @@
           <attvalue for="strongcompnum" value="206" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-130.19571" y="-354.8426" z="0.0" />
+        <viz:position x="-399.34384" y="416.11707" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Semantic desktop">
@@ -2311,7 +2311,7 @@
           <attvalue for="strongcompnum" value="265" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-188.30997" y="-365.72772" z="0.0" />
+        <viz:position x="-350.591" y="213.23157" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Semantic HTML">
@@ -2320,7 +2320,7 @@
           <attvalue for="strongcompnum" value="102" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-325.29932" y="187.7157" z="0.0" />
+        <viz:position x="99.99304" y="-261.8189" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Thesauri">
@@ -2329,7 +2329,7 @@
           <attvalue for="strongcompnum" value="266" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="307.63806" y="52.54883" z="0.0" />
+        <viz:position x="299.8498" y="201.80652" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Data management" label="Category:Data management">
@@ -2338,7 +2338,7 @@
           <attvalue for="strongcompnum" value="20" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-291.4414" y="-319.09027" z="0.0" />
+        <viz:position x="-473.16617" y="-108.18945" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Lean integration">
@@ -2347,7 +2347,7 @@
           <attvalue for="strongcompnum" value="267" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-270.6915" y="-208.66629" z="0.0" />
+        <viz:position x="37.777954" y="416.60718" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="IMARK">
@@ -2356,7 +2356,7 @@
           <attvalue for="strongcompnum" value="268" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="327.7063" y="503.11627" z="0.0" />
+        <viz:position x="-145.18762" y="-341.07462" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="SCXML">
@@ -2365,7 +2365,7 @@
           <attvalue for="strongcompnum" value="269" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-176.92007" y="4.9756775" z="0.0" />
+        <viz:position x="390.81128" y="95.55682" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Variant object">
@@ -2374,7 +2374,7 @@
           <attvalue for="strongcompnum" value="270" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="403.10657" y="39.251526" z="0.0" />
+        <viz:position x="-308.08453" y="221.39703" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Thesaurus">
@@ -2383,7 +2383,7 @@
           <attvalue for="strongcompnum" value="271" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-121.74078" y="-148.74222" z="0.0" />
+        <viz:position x="-33.4328" y="-381.05676" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Iomart Group">
@@ -2392,7 +2392,7 @@
           <attvalue for="strongcompnum" value="272" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="416.8615" y="-446.01965" z="0.0" />
+        <viz:position x="99.72833" y="138.0904" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Media technology">
@@ -2401,7 +2401,7 @@
           <attvalue for="strongcompnum" value="181" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="16.644958" y="-134.5159" z="0.0" />
+        <viz:position x="456.4297" y="235.45343" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Agricultural Information Management Standards">
@@ -2410,7 +2410,7 @@
           <attvalue for="strongcompnum" value="273" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-408.7346" y="-194.78635" z="0.0" />
+        <viz:position x="-335.39624" y="-301.8043" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Compello">
@@ -2419,7 +2419,7 @@
           <attvalue for="strongcompnum" value="274" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="351.56824" y="491.49664" z="0.0" />
+        <viz:position x="453.02222" y="315.75995" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Commanders of the Order of the British Empire">
@@ -2428,7 +2428,7 @@
           <attvalue for="strongcompnum" value="132" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="236.22736" y="-387.7187" z="0.0" />
+        <viz:position x="491.43982" y="25.881592" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Social information architecture">
@@ -2437,7 +2437,7 @@
           <attvalue for="strongcompnum" value="275" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="355.0639" y="281.37152" z="0.0" />
+        <viz:position x="-462.2831" y="251.36328" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Swiftype">
@@ -2446,7 +2446,7 @@
           <attvalue for="strongcompnum" value="276" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="126.86096" y="-179.29596" z="0.0" />
+        <viz:position x="-192.64807" y="-445.53677" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="GRDDL">
@@ -2455,7 +2455,7 @@
           <attvalue for="strongcompnum" value="277" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="163.42859" y="-106.29254" z="0.0" />
+        <viz:position x="126.734985" y="0.18734741" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="IMS VDEX">
@@ -2464,7 +2464,7 @@
           <attvalue for="strongcompnum" value="278" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="130.26666" y="364.2798" z="0.0" />
+        <viz:position x="160.37805" y="262.695" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Folksonomy">
@@ -2473,7 +2473,7 @@
           <attvalue for="strongcompnum" value="279" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="224.27045" y="169.8346" z="0.0" />
+        <viz:position x="377.87164" y="195.46136" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Courage awards" label="Category:Courage awards">
@@ -2482,7 +2482,7 @@
           <attvalue for="strongcompnum" value="36" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="489.00757" y="415.23676" z="0.0" />
+        <viz:position x="-222.54434" y="371.45947" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Upper ontology">
@@ -2491,7 +2491,7 @@
           <attvalue for="strongcompnum" value="280" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-357.73956" y="247.93445" z="0.0" />
+        <viz:position x="54.603943" y="-319.28784" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Semantic Sensor Web">
@@ -2500,7 +2500,7 @@
           <attvalue for="strongcompnum" value="281" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="138.50592" y="-65.504" z="0.0" />
+        <viz:position x="506.26245" y="36.04004" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Basic Formal Ontology">
@@ -2509,7 +2509,7 @@
           <attvalue for="strongcompnum" value="282" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-183.85602" y="-113.023315" z="0.0" />
+        <viz:position x="-379.6829" y="311.229" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Technology">
@@ -2518,7 +2518,7 @@
           <attvalue for="strongcompnum" value="8" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="186.5661" y="286.62457" z="0.0" />
+        <viz:position x="-92.8876" y="-62.671875" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Internationalization Tag Set">
@@ -2527,7 +2527,7 @@
           <attvalue for="strongcompnum" value="283" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="476.17505" y="-84.457" z="0.0" />
+        <viz:position x="-7.387451" y="-128.84647" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="XML Schema Editor">
@@ -2536,7 +2536,7 @@
           <attvalue for="strongcompnum" value="284" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="215.45331" y="-32.150818" z="0.0" />
+        <viz:position x="483.95233" y="-425.27054" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="XML Base">
@@ -2545,7 +2545,7 @@
           <attvalue for="strongcompnum" value="285" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="28.984985" y="-4.9795837" z="0.0" />
+        <viz:position x="326.13464" y="-4.616028" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Data dictionary">
@@ -2554,7 +2554,7 @@
           <attvalue for="strongcompnum" value="286" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="380.43665" y="-89.458984" z="0.0" />
+        <viz:position x="-252.39587" y="494.19855" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Compound Document Format">
@@ -2563,7 +2563,7 @@
           <attvalue for="strongcompnum" value="287" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="196.00092" y="-307.68704" z="0.0" />
+        <viz:position x="-87.91696" y="56.77466" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Software-defined storage">
@@ -2572,7 +2572,7 @@
           <attvalue for="strongcompnum" value="288" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="373.42987" y="273.86877" z="0.0" />
+        <viz:position x="-210.25" y="-353.2556" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="MathML">
@@ -2581,7 +2581,7 @@
           <attvalue for="strongcompnum" value="289" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="291.87988" y="194.13269" z="0.0" />
+        <viz:position x="-216.44861" y="81.64923" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Microformats">
@@ -2590,7 +2590,7 @@
           <attvalue for="strongcompnum" value="290" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="196.34137" y="107.85846" z="0.0" />
+        <viz:position x="312.75995" y="-434.08527" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Officers of the Order of the British Empire">
@@ -2599,7 +2599,7 @@
           <attvalue for="strongcompnum" value="113" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="131.02618" y="-136.90375" z="0.0" />
+        <viz:position x="-101.93863" y="-109.56491" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="XML Events">
@@ -2608,7 +2608,7 @@
           <attvalue for="strongcompnum" value="291" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="345.969" y="-213.1142" z="0.0" />
+        <viz:position x="-391.68845" y="77.17944" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Hypertext Transfer Protocol" label="Hypertext Transfer Protocol">
@@ -2617,7 +2617,7 @@
           <attvalue for="strongcompnum" value="292" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="473.1109" y="235.26703" z="0.0" />
+        <viz:position x="-167.86313" y="-174.7337" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Retrievability">
@@ -2626,7 +2626,7 @@
           <attvalue for="strongcompnum" value="293" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="450.75513" y="-351.33197" z="0.0" />
+        <viz:position x="-193.14554" y="-192.20139" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Jeni Tennison" label="Jeni Tennison">
@@ -2635,7 +2635,7 @@
           <attvalue for="strongcompnum" value="114" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="122.61505" y="-10.5538025" z="0.0" />
+        <viz:position x="-232.51013" y="-377.30878" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Process development execution system">
@@ -2644,7 +2644,7 @@
           <attvalue for="strongcompnum" value="294" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-380.5588" y="-153.89163" z="0.0" />
+        <viz:position x="-169.67755" y="-147.32516" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="DOAP">
@@ -2653,7 +2653,7 @@
           <attvalue for="strongcompnum" value="295" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="282.76782" y="-119.568756" z="0.0" />
+        <viz:position x="174.36584" y="217.15918" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="WebDAV">
@@ -2662,7 +2662,7 @@
           <attvalue for="strongcompnum" value="296" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-237.36133" y="21.888306" z="0.0" />
+        <viz:position x="-127.90094" y="-430.1475" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Information ethics">
@@ -2671,7 +2671,7 @@
           <attvalue for="strongcompnum" value="297" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-469.14578" y="-378.37595" z="0.0" />
+        <viz:position x="4.823883" y="-480.24908" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Semantic interoperability">
@@ -2680,7 +2680,7 @@
           <attvalue for="strongcompnum" value="298" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-69.439606" y="49.489624" z="0.0" />
+        <viz:position x="-98.907135" y="-371.25827" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Science, Education and Learning in Freedom">
@@ -2689,7 +2689,7 @@
           <attvalue for="strongcompnum" value="299" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-170.2822" y="226.78442" z="0.0" />
+        <viz:position x="397.2024" y="506.65582" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Robin Berjon">
@@ -2698,7 +2698,7 @@
           <attvalue for="strongcompnum" value="300" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="273.63165" y="-250.63156" z="0.0" />
+        <viz:position x="-359.11905" y="114.80853" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Information systems">
@@ -2707,7 +2707,7 @@
           <attvalue for="strongcompnum" value="301" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="319.38477" y="376.38922" z="0.0" />
+        <viz:position x="-137.25183" y="273.188" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Antlabs">
@@ -2716,7 +2716,7 @@
           <attvalue for="strongcompnum" value="302" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-422.57236" y="185.29266" z="0.0" />
+        <viz:position x="-289.7699" y="-293.6135" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Journal of the Association for Information Science and Technology">
@@ -2725,7 +2725,7 @@
           <attvalue for="strongcompnum" value="303" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="243.08899" y="-39.02823" z="0.0" />
+        <viz:position x="-323.6369" y="61.67279" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="List of knights and dames of the Royal Victorian Order appointed by Edward VIII">
@@ -2734,7 +2734,7 @@
           <attvalue for="strongcompnum" value="304" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="449.36115" y="-126.60806" z="0.0" />
+        <viz:position x="127.90759" y="-317.5702" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="RELAX NG">
@@ -2743,7 +2743,7 @@
           <attvalue for="strongcompnum" value="305" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="253.57684" y="71.97943" z="0.0" />
+        <viz:position x="-274.35004" y="-344.67633" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Technology forecasting">
@@ -2752,7 +2752,7 @@
           <attvalue for="strongcompnum" value="127" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="141.76855" y="-4.739868" z="0.0" />
+        <viz:position x="182.54376" y="-205.55908" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Information architecture">
@@ -2761,7 +2761,7 @@
           <attvalue for="strongcompnum" value="306" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-481.57513" y="360.10205" z="0.0" />
+        <viz:position x="385.91388" y="-54.73044" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Database administrator">
@@ -2770,7 +2770,7 @@
           <attvalue for="strongcompnum" value="307" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-315.47766" y="496.4881" z="0.0" />
+        <viz:position x="-252.58815" y="-158.52911" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="HTML">
@@ -2779,7 +2779,7 @@
           <attvalue for="strongcompnum" value="308" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="497.2025" y="-138.31268" z="0.0" />
+        <viz:position x="83.504395" y="-75.8197" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Metadata">
@@ -2788,7 +2788,7 @@
           <attvalue for="strongcompnum" value="309" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="470.02112" y="-226.70633" z="0.0" />
+        <viz:position x="480.34003" y="124.00397" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Data modeling">
@@ -2797,7 +2797,7 @@
           <attvalue for="strongcompnum" value="185" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-1.3349609" y="105.77435" z="0.0" />
+        <viz:position x="85.85809" y="-162.5214" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Category:Information retrieval">
@@ -2806,7 +2806,7 @@
           <attvalue for="strongcompnum" value="19" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-315.61246" y="502.45624" z="0.0" />
+        <viz:position x="-9.425476" y="-179.2974" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Requirements Interchange Format">
@@ -2815,7 +2815,7 @@
           <attvalue for="strongcompnum" value="310" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="142.76355" y="-442.561" z="0.0" />
+        <viz:position x="-286.17087" y="-268.0856" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Synchronized Multimedia Integration Language">
@@ -2824,7 +2824,7 @@
           <attvalue for="strongcompnum" value="311" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="10.929779" y="53.549805" z="0.0" />
+        <viz:position x="-22.738464" y="-268.59808" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="EU Open Data Portal">
@@ -2833,7 +2833,7 @@
           <attvalue for="strongcompnum" value="312" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="150.10901" y="227.56055" z="0.0" />
+        <viz:position x="-389.62848" y="181.31775" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="List of Knights Grand Cross of the Royal Victorian Order appointed by King Edward VII">
@@ -2842,7 +2842,7 @@
           <attvalue for="strongcompnum" value="313" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-154.60098" y="-162.4898" z="0.0" />
+        <viz:position x="-451.67963" y="-239.59131" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="Office Open XML file formats">
@@ -2851,7 +2851,7 @@
           <attvalue for="strongcompnum" value="314" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="460.6306" y="-415.2182" z="0.0" />
+        <viz:position x="-80.636505" y="-459.3651" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="BIBFRAME">
@@ -2860,7 +2860,7 @@
           <attvalue for="strongcompnum" value="315" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-142.69815" y="-108.14096" z="0.0" />
+        <viz:position x="413.8286" y="-23.927765" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
       <node id="List of Knights Commander of the Royal Victorian Order appointed by Queen Victoria">
@@ -2869,7 +2869,7 @@
           <attvalue for="strongcompnum" value="316" />
         </attvalues>
         <viz:size value="1.0" />
-        <viz:position x="-456.48077" y="-257.65045" z="0.0" />
+        <viz:position x="229.34033" y="-318.10904" z="0.0" />
         <viz:color r="153" g="153" b="153" />
       </node>
     </nodes>

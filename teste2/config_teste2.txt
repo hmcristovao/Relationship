@@ -10,7 +10,7 @@ testName = teste2
 knowledgeBasePlace = 1
 
 // Base directory to creation of output files: absolut path 'C:\\path\\results' or relative path 'path\\results' or current path '.'
-baseDirectory = H:\\New folder\\git\\Relationship
+baseDirectory = C:\\Users\\Iago\\git\\Relationship
 //baseDirectory = C:\\documentos\\Doutorado\\Tese\\my_knowledge_base
 
 // minimum quantity of iterations to get out of loop when connected component = 1 (good value: 6) 
@@ -137,7 +137,7 @@ graphStreamVisualization = 	false
 // turn the flag to true and put original concepts that is getting alone (put '.' to empty)
 // Attention: do not put '.' in the final of concept  
 isFixBugInGephiToolKit = true
-originalConceptWithGephiToolKitBug0 = Riot Games
+originalConceptWithGephiToolKitBug0 = .
 originalConceptWithGephiToolKitBug1 = .
 originalConceptWithGephiToolKitBug2 = .
 originalConceptWithGephiToolKitBug3 = .
