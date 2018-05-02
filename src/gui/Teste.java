@@ -5,7 +5,8 @@ import javax.swing.JFrame;
 import edu.uci.ics.jung.graph.DirectedSparseMultigraph;
 import edu.uci.ics.jung.graph.Graph;
 import edu.uci.ics.jung.visualization.GraphZoomScrollPane;
-import edu.uci.ics.jung.visualization3d.VisualizationViewer;
+import edu.uci.ics.jung.visualization.decorators.ToStringLabeller;
+import edu.uci.ics.jung.visualization.renderers.Renderer.VertexLabel.Position;
 
 public class Teste {
 	public static void main(String[] args) {
@@ -13,15 +14,29 @@ public class Teste {
 		int layoutNumber = 0;
 		JFrame graphFrame = new JFrame("Graph Frame Test");
 		graphFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		Graph<String, EdgeType> graphTest = new DirectedSparseMultigraph<>();
+		Graph<VertexType, EdgeType> graphTest = new DirectedSparseMultigraph<>();
 		graphTest = DisplayGraph.parseTxtIntoGraph();
-		edu.uci.ics.jung.visualization.VisualizationViewer<String, EdgeType> currentVV = DisplayGraph.GenerateVisualGraph(graphTest, layoutNumber);
+		edu.uci.ics.jung.visualization.VisualizationViewer<VertexType, EdgeType> currentVV = DisplayGraph
+				.generateVisualGraph(graphTest, layoutNumber);
 		GraphZoomScrollPane scrollPanel = new GraphZoomScrollPane(currentVV);
 		graphFrame.getContentPane().add(scrollPanel);
 		graphFrame.pack();
 		graphFrame.setVisible(true);
-
-		//currentVV.setGraphMouse(DisplayGraph.ChangeMouseMode(1));
-		//currentVV.ChangeLa
+		GraphPersistence.saveGraphInfo("E:\\Relationship\\teste\\graph_info.xml", graphTest);
+		GraphPersistence.saveGraphPositionInTXT(currentVV, "E:\\Relationship\\teste\\graph_persistence.txt");
+		Graph<VertexType, EdgeType> loadedGraphTest = new DirectedSparseMultigraph<>();
+		loadedGraphTest = GraphPersistence.loadGraphInfo("E:\\Relationship\\teste\\graph_info.xml");
+		edu.uci.ics.jung.visualization.VisualizationViewer<VertexType, EdgeType> loadedVV = 
+				GraphPersistence.loadGraphPositionFromTXT("E:\\Relationship\\teste\\graph_persistence.txt", loadedGraphTest);
+		GraphZoomScrollPane loadedScrollPanel = new GraphZoomScrollPane(loadedVV);
+		loadedVV.getRenderContext().setVertexLabelTransformer(new ToStringLabeller());
+		loadedVV.getRenderContext().setEdgeLabelTransformer(new EdgeLabelTransformer());
+		loadedVV.getRenderer().getVertexLabelRenderer().setPosition(Position.CNTR);
+		loadedVV.setGraphMouse(DisplayGraph.changeMouseMode(1));
+		JFrame loadedGraphFrame = new JFrame("Restore Test");
+		loadedGraphFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		loadedGraphFrame.getContentPane().add(loadedScrollPanel);
+		loadedGraphFrame.pack();
+		loadedGraphFrame.setVisible(true);
 	}
 }

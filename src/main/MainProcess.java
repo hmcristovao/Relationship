@@ -221,13 +221,13 @@ public class MainProcess {
 			buildGexfGraphFileFromConceptMap();
 			buildTxtFileFromConceptMap();
 			//--------------------Inserting code to test the DisplayGraph class -------------------------------------
-			JFrame graphFrame = new JFrame("Graph Frame Test");
-			graphFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-			Graph<String, EdgeType> graphTest = new DirectedSparseMultigraph<>();
-			graphTest = DisplayGraph.parseTxtIntoGraph();
-			graphFrame.getContentPane().add(DisplayGraph.GenerateVisualGraph(graphTest, 0));
-			graphFrame.pack();
-			graphFrame.setVisible(true);
+			//JFrame graphFrame = new JFrame("Graph Frame Test");
+			//graphFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+			//Graph<String, EdgeType> graphTest = new DirectedSparseMultigraph<>();
+			//graphTest = DisplayGraph.parseTxtIntoGraph();
+			//graphFrame.getContentPane().add(DisplayGraph.GenerateVisualGraph(graphTest, 0));
+			//graphFrame.pack();
+			//graphFrame.setVisible(true);
 			//-------------------------------------End Test Code---------------------------------------
 			upgradeConceptMap_heuristic_08_changeAmpersandCharacterInCxlFile();
 			upgradeConceptMap_heuristic_09_putNewLineInCategory();

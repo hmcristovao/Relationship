@@ -1,33 +1,58 @@
 package gui;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.Scanner;
+
+import javax.swing.JFrame;
+
+import org.apache.commons.collections15.Transformer;
 
 import edu.uci.ics.jung.algorithms.layout.AbstractLayout;
 import edu.uci.ics.jung.algorithms.layout.CircleLayout;
 import edu.uci.ics.jung.algorithms.layout.FRLayout;
 import edu.uci.ics.jung.algorithms.layout.ISOMLayout;
 import edu.uci.ics.jung.algorithms.layout.KKLayout;
+import edu.uci.ics.jung.algorithms.layout.Layout;
 import edu.uci.ics.jung.algorithms.layout.SpringLayout;
+import edu.uci.ics.jung.graph.DirectedSparseGraph;
 import edu.uci.ics.jung.graph.DirectedSparseMultigraph;
 import edu.uci.ics.jung.graph.Graph;
+import edu.uci.ics.jung.graph.UndirectedSparseGraph;
+import edu.uci.ics.jung.io.GraphIOException;
+import edu.uci.ics.jung.io.GraphMLWriter;
+import edu.uci.ics.jung.io.graphml.EdgeMetadata;
+import edu.uci.ics.jung.io.graphml.GraphMLReader2;
+import edu.uci.ics.jung.io.graphml.GraphMetadata;
+import edu.uci.ics.jung.io.graphml.HyperEdgeMetadata;
+import edu.uci.ics.jung.io.graphml.NodeMetadata;
+import edu.uci.ics.jung.samples.PersistentLayoutDemo;
+import edu.uci.ics.jung.visualization.GraphZoomScrollPane;
 import edu.uci.ics.jung.visualization.VisualizationViewer;
 import edu.uci.ics.jung.visualization.control.DefaultModalGraphMouse;
 import edu.uci.ics.jung.visualization.decorators.ToStringLabeller;
 import edu.uci.ics.jung.visualization.renderers.Renderer.VertexLabel.Position;
 import main.WholeSystem;
+import edu.uci.ics.jung.visualization.layout.PersistentLayout;
+import edu.uci.ics.jung.visualization.layout.PersistentLayoutImpl;
 
 public class DisplayGraph {
-	public static Graph<String, EdgeType> parseTxtIntoGraph() {
-		final String fileName = 
-				WholeSystem.configTable.getString("baseDirectory")+"\\"+WholeSystem.configTable.getString("testName")+"\\"+
-				WholeSystem.configTable.getString("nameTxtConceptMapFile");
-		//String fileName = "E:\\Relationship\\teste\\conceptmap_teste.txt"; //For testing only
+
+	public static Graph<VertexType, EdgeType> parseTxtIntoGraph() {
+		// final String fileName =
+		// WholeSystem.configTable.getString("baseDirectory")+"\\"+WholeSystem.configTable.getString("testName")+"\\"+
+		// WholeSystem.configTable.getString("nameTxtConceptMapFile");
+		String fileName = "E:\\Relationship\\teste\\conceptmap_teste.txt"; // For
+																			// testing
+																			// only
 		BufferedReader bufferedReader = null;
 		FileReader fileReader = null;
-		Graph<String, EdgeType> graphFromTxtFile = new DirectedSparseMultigraph<String, EdgeType>();
+		Graph<VertexType, EdgeType> graphFromTxtFile = new DirectedSparseMultigraph<VertexType, EdgeType>();
 		try {
 			fileReader = new FileReader(fileName);
 			bufferedReader = new BufferedReader(fileReader);
@@ -41,7 +66,8 @@ public class DisplayGraph {
 			while ((sCurrentLine = bufferedReader.readLine()) != null) {
 				System.out.println(sCurrentLine);
 				Scanner scanTerm = new Scanner(sCurrentLine);
-				// assumes the line has a certain structure: Term \t Relation \t Target
+				// assumes the line has a certain structure: Term \t Relation \t
+				// Target
 				scanTerm.useDelimiter("\t");
 				if (scanTerm.hasNext()) {
 					composedTermOrigin = scanTerm.next();
@@ -57,9 +83,9 @@ public class DisplayGraph {
 				}
 				if (relation == true) {
 					EdgeType edge = new EdgeType(composedTermRelation);
-					graphFromTxtFile.addEdge(edge, composedTermOrigin, composedTermTarget);
+					graphFromTxtFile.addEdge(edge, new VertexType(composedTermOrigin), new VertexType(composedTermTarget));
 				} else if (origin == true) {
-					graphFromTxtFile.addVertex(composedTermOrigin);
+					graphFromTxtFile.addVertex(new VertexType(composedTermOrigin));
 				}
 				origin = false;
 				relation = false;
@@ -80,43 +106,46 @@ public class DisplayGraph {
 		return graphFromTxtFile;
 	}
 
-	public static VisualizationViewer<String, EdgeType> GenerateVisualGraph(Graph<String, EdgeType> receivedGraph,
+	public static VisualizationViewer<VertexType, EdgeType> generateVisualGraph(Graph<VertexType, EdgeType> receivedGraph,
 			int selectedLayout) {
 
-		VisualizationViewer<String, EdgeType> visualizationServer = new VisualizationViewer<String, EdgeType>(
-				DisplayGraph.ChangeLayout(selectedLayout, receivedGraph));
+		VisualizationViewer<VertexType, EdgeType> visualizationServer = new VisualizationViewer<VertexType, EdgeType>(
+				DisplayGraph.changeLayout(selectedLayout, receivedGraph));
 		visualizationServer.getRenderContext().setVertexLabelTransformer(new ToStringLabeller());
 		visualizationServer.getRenderContext().setEdgeLabelTransformer(new EdgeLabelTransformer());
 		visualizationServer.getRenderer().getVertexLabelRenderer().setPosition(Position.CNTR);
-		visualizationServer.setGraphMouse(DisplayGraph.ChangeMouseMode(0));
+		visualizationServer.setGraphMouse(DisplayGraph.changeMouseMode(0));
 		return visualizationServer;
 	}
 
-	public static AbstractLayout<String, EdgeType> ChangeLayout(int selectedLayout, Graph<String, EdgeType> graph) {
+	public static PersistentLayoutImpl changeLayout(int selectedLayout, Graph<VertexType, EdgeType> graph) {
 
-		AbstractLayout<String, EdgeType> newLayout;
-		newLayout = new CircleLayout<String, EdgeType>(graph);
+		AbstractLayout<VertexType, EdgeType> newLayout;
+		newLayout = new CircleLayout<VertexType, EdgeType>(graph);
 		switch (selectedLayout) {
 		case 1:
-			newLayout = new KKLayout<String, EdgeType>(graph);
+			newLayout = new KKLayout<VertexType, EdgeType>(graph);
 		case 2:
-			newLayout = new FRLayout<String, EdgeType>(graph);
+			newLayout = new FRLayout<VertexType, EdgeType>(graph);
 		case 3:
-			newLayout = new SpringLayout<String, EdgeType>(graph);
+			newLayout = new SpringLayout<VertexType, EdgeType>(graph);
 		case 4:
-			newLayout = new ISOMLayout<String, EdgeType>(graph);
+			newLayout = new ISOMLayout<VertexType, EdgeType>(graph);
 		}
-		return newLayout;
+		PersistentLayoutImpl persistentLayout = new PersistentLayoutImpl(newLayout);
+		return persistentLayout;
 	}
 
-	public static DefaultModalGraphMouse<String, EdgeType> ChangeMouseMode(int selectedMouse) {
+	public static DefaultModalGraphMouse<VertexType, EdgeType> changeMouseMode(int selectedMouse) {
 		DefaultModalGraphMouse graphMouse = new DefaultModalGraphMouse();
 		if (selectedMouse == 1) {
 			graphMouse.setMode(DefaultModalGraphMouse.Mode.PICKING);
-		}
-		else {
+		} else {
 			graphMouse.setMode(DefaultModalGraphMouse.Mode.TRANSFORMING);
 		}
 		return graphMouse;
 	}
+
+
+	
 }
