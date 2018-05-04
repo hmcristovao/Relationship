@@ -43,7 +43,7 @@ import edu.uci.ics.jung.visualization.layout.PersistentLayoutImpl;
 
 public class DisplayGraph {
 
-	public static Graph<VertexType, EdgeType> parseTxtIntoGraph() {
+	public static void parseTxtIntoGraph(Graph<VertexType, EdgeType> graphFromTxtFile) {
 		// final String fileName =
 		// WholeSystem.configTable.getString("baseDirectory")+"\\"+WholeSystem.configTable.getString("testName")+"\\"+
 		// WholeSystem.configTable.getString("nameTxtConceptMapFile");
@@ -52,7 +52,6 @@ public class DisplayGraph {
 																			// only
 		BufferedReader bufferedReader = null;
 		FileReader fileReader = null;
-		Graph<VertexType, EdgeType> graphFromTxtFile = new DirectedSparseMultigraph<VertexType, EdgeType>();
 		try {
 			fileReader = new FileReader(fileName);
 			bufferedReader = new BufferedReader(fileReader);
@@ -103,19 +102,15 @@ public class DisplayGraph {
 			}
 
 		}
-		return graphFromTxtFile;
 	}
 
-	public static VisualizationViewer<VertexType, EdgeType> generateVisualGraph(Graph<VertexType, EdgeType> receivedGraph,
-			int selectedLayout) {
+	public static void generateVisualGraph(Graph<VertexType, EdgeType> receivedGraph,
+			int selectedLayout, VisualizationViewer <VertexType, EdgeType> visualizationServer) {
 
-		VisualizationViewer<VertexType, EdgeType> visualizationServer = new VisualizationViewer<VertexType, EdgeType>(
-				DisplayGraph.changeLayout(selectedLayout, receivedGraph));
 		visualizationServer.getRenderContext().setVertexLabelTransformer(new ToStringLabeller());
 		visualizationServer.getRenderContext().setEdgeLabelTransformer(new EdgeLabelTransformer());
 		visualizationServer.getRenderer().getVertexLabelRenderer().setPosition(Position.CNTR);
 		visualizationServer.setGraphMouse(DisplayGraph.changeMouseMode(0));
-		return visualizationServer;
 	}
 
 	public static PersistentLayoutImpl changeLayout(int selectedLayout, Graph<VertexType, EdgeType> graph) {

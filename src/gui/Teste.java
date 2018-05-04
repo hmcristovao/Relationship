@@ -5,7 +5,9 @@ import javax.swing.JFrame;
 import edu.uci.ics.jung.graph.DirectedSparseMultigraph;
 import edu.uci.ics.jung.graph.Graph;
 import edu.uci.ics.jung.visualization.GraphZoomScrollPane;
+import edu.uci.ics.jung.visualization.VisualizationViewer;
 import edu.uci.ics.jung.visualization.decorators.ToStringLabeller;
+import edu.uci.ics.jung.visualization.layout.PersistentLayout;
 import edu.uci.ics.jung.visualization.renderers.Renderer.VertexLabel.Position;
 
 public class Teste {
@@ -15,13 +17,14 @@ public class Teste {
 		JFrame graphFrame = new JFrame("Graph Frame Test");
 		graphFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Graph<VertexType, EdgeType> graphTest = new DirectedSparseMultigraph<>();
-		graphTest = DisplayGraph.parseTxtIntoGraph();
-		edu.uci.ics.jung.visualization.VisualizationViewer<VertexType, EdgeType> currentVV = DisplayGraph
-				.generateVisualGraph(graphTest, layoutNumber);
+		DisplayGraph.parseTxtIntoGraph(graphTest);
+		VisualizationViewer<VertexType, EdgeType> currentVV = new VisualizationViewer<VertexType, EdgeType>(DisplayGraph.changeLayout(layoutNumber, graphTest));
+		DisplayGraph.generateVisualGraph(graphTest, layoutNumber, currentVV);
 		GraphZoomScrollPane scrollPanel = new GraphZoomScrollPane(currentVV);
 		graphFrame.getContentPane().add(scrollPanel);
 		graphFrame.pack();
 		graphFrame.setVisible(true);
+		//******************************************************************************************
 		GraphPersistence.saveGraphInfo("E:\\Relationship\\teste\\graph_info.xml", graphTest);
 		GraphPersistence.saveGraphPositionInTXT(currentVV, "E:\\Relationship\\teste\\graph_persistence.txt");
 		Graph<VertexType, EdgeType> loadedGraphTest = new DirectedSparseMultigraph<>();
@@ -38,5 +41,7 @@ public class Teste {
 		loadedGraphFrame.getContentPane().add(loadedScrollPanel);
 		loadedGraphFrame.pack();
 		loadedGraphFrame.setVisible(true);
+		
+		GraphPersistence.saveGraphInfo("E:\\Relationship\\teste\\aaaaaaaaaaaaaaaaa.xml", loadedGraphTest);
 	}
 }
