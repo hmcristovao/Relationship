@@ -41,7 +41,5 @@ public class Teste {
 		loadedGraphFrame.getContentPane().add(loadedScrollPanel);
 		loadedGraphFrame.pack();
 		loadedGraphFrame.setVisible(true);
-		
-		GraphPersistence.saveGraphInfo("E:\\Relationship\\teste\\aaaaaaaaaaaaaaaaa.xml", loadedGraphTest);
 	}
 }
