@@ -110,7 +110,7 @@ public class DisplayGraph {
 		visualizationServer.getRenderContext().setVertexLabelTransformer(new ToStringLabeller());
 		visualizationServer.getRenderContext().setEdgeLabelTransformer(new EdgeLabelTransformer());
 		visualizationServer.getRenderer().getVertexLabelRenderer().setPosition(Position.CNTR);
-		visualizationServer.setGraphMouse(DisplayGraph.changeMouseMode(0));
+		//visualizationServer.setGraphMouse(DisplayGraph.changeMouseMode(0));
 	}
 
 	public static PersistentLayoutImpl changeLayout(int selectedLayout, Graph<VertexType, EdgeType> graph) {
@@ -130,17 +130,4 @@ public class DisplayGraph {
 		PersistentLayoutImpl persistentLayout = new PersistentLayoutImpl(newLayout);
 		return persistentLayout;
 	}
-
-	public static DefaultModalGraphMouse<VertexType, EdgeType> changeMouseMode(int selectedMouse) {
-		DefaultModalGraphMouse graphMouse = new DefaultModalGraphMouse();
-		if (selectedMouse == 1) {
-			graphMouse.setMode(DefaultModalGraphMouse.Mode.PICKING);
-		} else {
-			graphMouse.setMode(DefaultModalGraphMouse.Mode.TRANSFORMING);
-		}
-		return graphMouse;
-	}
-
-
-	
 }

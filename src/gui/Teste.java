@@ -35,7 +35,7 @@ public class Teste {
 		loadedVV.getRenderContext().setVertexLabelTransformer(new ToStringLabeller());
 		loadedVV.getRenderContext().setEdgeLabelTransformer(new EdgeLabelTransformer());
 		loadedVV.getRenderer().getVertexLabelRenderer().setPosition(Position.CNTR);
-		loadedVV.setGraphMouse(DisplayGraph.changeMouseMode(1));
+		//loadedVV.setGraphMouse(DisplayGraph.changeMouseMode(1));
 		JFrame loadedGraphFrame = new JFrame("Restore Test");
 		loadedGraphFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		loadedGraphFrame.getContentPane().add(loadedScrollPanel);
