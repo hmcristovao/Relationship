@@ -8,7 +8,7 @@ import graph.NodeData;
 import graph.QuantityNodesEdges;
 import graph.StreamGraphData.DeletedStatus;
 import graph.SystemGraphData;
-import gui.DisplayGraph;
+import gui.GenerateGraph;
 import gui.EdgeType;
 
 import java.io.File;

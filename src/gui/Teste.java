@@ -17,9 +17,9 @@ public class Teste {
 		JFrame graphFrame = new JFrame("Graph Frame Test");
 		graphFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Graph<VertexType, EdgeType> graphTest = new DirectedSparseMultigraph<>();
-		DisplayGraph.parseTxtIntoGraph(graphTest);
-		VisualizationViewer<VertexType, EdgeType> currentVV = new VisualizationViewer<VertexType, EdgeType>(DisplayGraph.changeLayout(layoutNumber, graphTest));
-		DisplayGraph.generateVisualGraph(graphTest, layoutNumber, currentVV);
+		GenerateGraph.parseTxtIntoGraph(graphTest);
+		VisualizationViewer<VertexType, EdgeType> currentVV = new VisualizationViewer<VertexType, EdgeType>(GenerateGraph.changeLayout(layoutNumber, graphTest));
+		GenerateGraph.generateVisualGraph(graphTest, layoutNumber, currentVV);
 		GraphZoomScrollPane scrollPanel = new GraphZoomScrollPane(currentVV);
 		graphFrame.getContentPane().add(scrollPanel);
 		graphFrame.pack();

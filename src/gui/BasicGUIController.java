@@ -25,8 +25,11 @@ public class BasicGUIController {
 	private ComboBox<String> mouseModeSelection;
 	@FXML
 	private AnchorPane graphDisplayPane;
+	@FXML
+	private ComboBox<String> layoutSelection;
 
 	ObservableList<String> mouseModeList = FXCollections.observableArrayList("PICKING", "TRANSFORMING");
+	ObservableList<String> layoutList = FXCollections.observableArrayList("Circle", "Kamada Kawai", "Self Organizing Map", "Fruchterman Reingold");
 	VisualizationInstance visualizationObject = new VisualizationInstance();
 	SwingNode swingNode = new SwingNode();
 
@@ -34,6 +37,8 @@ public class BasicGUIController {
 	private void initialize() {
 		mouseModeSelection.setValue("TRANSFORMING");
 		mouseModeSelection.setItems(mouseModeList);
+		layoutSelection.setValue("Circle");
+		layoutSelection.setItems(layoutList);
 	}
 
 	private void updatePane() {
@@ -50,12 +55,29 @@ public class BasicGUIController {
 
 	@FXML
 	private void selectMouseMode() {
-		if (mouseModeSelection.getValue() == "PICKING"){
+		if (mouseModeSelection.getValue().equals("PICKING")){
 			visualizationObject.setMouseMode(1);
 		}
-		if (mouseModeSelection.getValue() == "TRANSFORMING"){
+		if (mouseModeSelection.getValue().equals("TRANSFORMING")){
 			visualizationObject.setMouseMode(0);
 		}
 		updatePane();
+	}
+	@FXML
+	private void selectLayout(){
+		if (layoutSelection.getValue().equals("Circle")) {
+			visualizationObject.setLayoutNumber(0);
+		}
+		if (layoutSelection.getValue().equals("Kamada Kawai")) {
+			visualizationObject.setLayoutNumber(1);
+		}
+		if (layoutSelection.getValue().equals("Self Organizing Map")) {
+			visualizationObject.setLayoutNumber(2);
+		}
+		if (layoutSelection.getValue().equals("Fruchterman Reingold")) {
+			visualizationObject.setLayoutNumber(3);
+		}
+		updatePane();
+		selectMouseMode();	
 	}
 }

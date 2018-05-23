@@ -41,7 +41,7 @@ import main.WholeSystem;
 import edu.uci.ics.jung.visualization.layout.PersistentLayout;
 import edu.uci.ics.jung.visualization.layout.PersistentLayoutImpl;
 
-public class DisplayGraph {
+public class GenerateGraph {
 
 	public static void parseTxtIntoGraph(Graph<VertexType, EdgeType> graphFromTxtFile) {
 		// final String fileName =
@@ -102,15 +102,6 @@ public class DisplayGraph {
 			}
 
 		}
-	}
-
-	public static void generateVisualGraph(Graph<VertexType, EdgeType> receivedGraph,
-			int selectedLayout, VisualizationViewer <VertexType, EdgeType> visualizationServer) {
-
-		visualizationServer.getRenderContext().setVertexLabelTransformer(new ToStringLabeller());
-		visualizationServer.getRenderContext().setEdgeLabelTransformer(new EdgeLabelTransformer());
-		visualizationServer.getRenderer().getVertexLabelRenderer().setPosition(Position.CNTR);
-		//visualizationServer.setGraphMouse(DisplayGraph.changeMouseMode(0));
 	}
 
 	public static PersistentLayoutImpl changeLayout(int selectedLayout, Graph<VertexType, EdgeType> graph) {
