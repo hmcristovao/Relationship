@@ -43,17 +43,12 @@ import edu.uci.ics.jung.visualization.layout.PersistentLayoutImpl;
 
 public class GenerateGraph {
 
-	public static void parseTxtIntoGraph(Graph<VertexType, EdgeType> graphFromTxtFile) {
-		// final String fileName =
-		// WholeSystem.configTable.getString("baseDirectory")+"\\"+WholeSystem.configTable.getString("testName")+"\\"+
-		// WholeSystem.configTable.getString("nameTxtConceptMapFile");
-		String fileName = "E:\\Relationship\\teste\\conceptmap_teste.txt"; // For
-																			// testing
-																			// only
+	public static void parseTxtIntoGraph(Graph<VertexType, EdgeType> graphFromTxtFile, String fileLocation) {
+		
 		BufferedReader bufferedReader = null;
 		FileReader fileReader = null;
 		try {
-			fileReader = new FileReader(fileName);
+			fileReader = new FileReader(fileLocation);
 			bufferedReader = new BufferedReader(fileReader);
 			String sCurrentLine;
 			String composedTermOrigin = "";
@@ -102,23 +97,5 @@ public class GenerateGraph {
 			}
 
 		}
-	}
-
-	public static PersistentLayoutImpl changeLayout(int selectedLayout, Graph<VertexType, EdgeType> graph) {
-
-		AbstractLayout<VertexType, EdgeType> newLayout;
-		newLayout = new CircleLayout<VertexType, EdgeType>(graph);
-		switch (selectedLayout) {
-		case 1:
-			newLayout = new KKLayout<VertexType, EdgeType>(graph);
-		case 2:
-			newLayout = new FRLayout<VertexType, EdgeType>(graph);
-		case 3:
-			newLayout = new SpringLayout<VertexType, EdgeType>(graph);
-		case 4:
-			newLayout = new ISOMLayout<VertexType, EdgeType>(graph);
-		}
-		PersistentLayoutImpl persistentLayout = new PersistentLayoutImpl(newLayout);
-		return persistentLayout;
 	}
 }

@@ -14,6 +14,9 @@ import org.apache.commons.collections15.Transformer;
 
 import edu.uci.ics.jung.algorithms.layout.AbstractLayout;
 import edu.uci.ics.jung.algorithms.layout.CircleLayout;
+import edu.uci.ics.jung.algorithms.layout.FRLayout;
+import edu.uci.ics.jung.algorithms.layout.ISOMLayout;
+import edu.uci.ics.jung.algorithms.layout.KKLayout;
 import edu.uci.ics.jung.algorithms.layout.Layout;
 import edu.uci.ics.jung.graph.DirectedSparseGraph;
 import edu.uci.ics.jung.graph.DirectedSparseMultigraph;
@@ -28,12 +31,12 @@ import edu.uci.ics.jung.io.graphml.NodeMetadata;
 import edu.uci.ics.jung.visualization.GraphZoomScrollPane;
 import edu.uci.ics.jung.visualization.VisualizationViewer;
 import edu.uci.ics.jung.visualization.decorators.ToStringLabeller;
+import edu.uci.ics.jung.visualization.layout.PersistentLayout;
 import edu.uci.ics.jung.visualization.layout.PersistentLayoutImpl;
 import edu.uci.ics.jung.visualization.renderers.Renderer.VertexLabel.Position;
 
 public class GraphPersistence {
-	public static void saveGraphInfo(String fileName, Graph<VertexType, EdgeType> graph) {
-
+	public static void saveGraphInfo(String fileName, Graph<VertexType, EdgeType> graph, AbstractLayout<VertexType, EdgeType> layout) {
 		try {
 			GraphMLWriter<VertexType, EdgeType> graphWriter = new GraphMLWriter<VertexType, EdgeType>();
 			PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(fileName)));
@@ -43,13 +46,25 @@ public class GraphPersistence {
 					return v.toString();
 				}
 			});
+			graphWriter.addVertexData("x", null, "0",new Transformer<VertexType, String>() {
+				        public String transform(VertexType v) {
+				            return Double.toString(layout.getX(v));
+				        }
+				    }
+				); 
+			graphWriter.addVertexData("y", null, "0",
+				    new Transformer<VertexType, String>() {
+				        public String transform(VertexType v) {
+				            return Double.toString(layout.getY(v));
+				       }
+				    }
+				);
 			graphWriter.save(graph, out);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 
 	}
-
 	public static Graph<VertexType, EdgeType> loadGraphInfo(String fileName) {
 		try {
 			BufferedReader fileReader = new BufferedReader(new FileReader(fileName));
@@ -87,9 +102,9 @@ public class GraphPersistence {
 		}
 		return null;
 	}
-	
-	public static void saveGraphPositionInTXT(VisualizationViewer<VertexType, EdgeType> visualizationViewer,
-			String persistenceFileLocation) {
+
+	public static void saveGraphPositionInTXT(String persistenceFileLocation,
+			VisualizationViewer<VertexType, EdgeType> visualizationViewer) {
 		try {
 			PersistentLayoutImpl<VertexType, EdgeType> persistentLayout = new PersistentLayoutImpl<VertexType, EdgeType>(
 					visualizationViewer.getGraphLayout());
@@ -99,15 +114,21 @@ public class GraphPersistence {
 		}
 	}
 
-	public static VisualizationViewer<VertexType, EdgeType> loadGraphPositionFromTXT(String fileName, Graph<VertexType, EdgeType> graphFromXML) {
+	public static VisualizationViewer<VertexType, EdgeType> loadGraphPositionFromTXT(String fileName,
+			Graph<VertexType, EdgeType> graphFromXML) {
 
 		try {
-			//Graph<VertexType, EdgeType> graph = new DirectedSparseMultigraph<>();
-			AbstractLayout<VertexType, EdgeType> layout = new CircleLayout<VertexType, EdgeType>(graphFromXML);
-			PersistentLayoutImpl<VertexType, EdgeType> restoredLayout = new PersistentLayoutImpl(layout);
-			restoredLayout.restore(fileName);
-			
-			VisualizationViewer<VertexType, EdgeType> visualizationViewer = new VisualizationViewer<VertexType, EdgeType>(restoredLayout);
+			// AbstractLayout<VertexType, EdgeType> layout = new CircleLayout<VertexType,
+			// EdgeType>(graphFromXML);
+			// PersistentLayoutImpl<VertexType, EdgeType> restoredLayout = new
+			// PersistentLayoutImpl(layout);
+			PersistentLayout<VertexType, EdgeType> persistentLayout;
+			persistentLayout = new PersistentLayoutImpl<VertexType, EdgeType>(
+					new FRLayout<VertexType, EdgeType>(graphFromXML));
+			persistentLayout.restore(fileName);
+			VisualizationViewer<VertexType, EdgeType> visualizationViewer = new VisualizationViewer<VertexType, EdgeType>(
+					persistentLayout);
+
 			return visualizationViewer;
 
 		} catch (ClassNotFoundException e) {
