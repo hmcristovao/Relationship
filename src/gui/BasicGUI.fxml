@@ -20,7 +20,7 @@
                   <Label layoutX="14.0" layoutY="148.0" text="Mouse Mode:" />
                   <Label layoutX="14.0" layoutY="220.0" text="Vertex Color:" />
                   <ComboBox fx:id="mouseModeSelection" layoutX="11.0" layoutY="165.0" onAction="#selectMouseMode" prefHeight="25.0" prefWidth="125.0" />
-                  <Label layoutX="14.0" layoutY="76.0" text="Layout" />
+                  <Label layoutX="14.0" layoutY="76.0" text="Layout:" />
                   <ComboBox fx:id="layoutSelection" layoutX="13.0" layoutY="93.0" onAction="#selectLayout" prefHeight="25.0" prefWidth="125.0" />
                </children>
             </AnchorPane>

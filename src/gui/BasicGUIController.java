@@ -7,6 +7,7 @@ import edu.uci.ics.jung.algorithms.layout.CircleLayout;
 import edu.uci.ics.jung.algorithms.layout.FRLayout;
 import edu.uci.ics.jung.algorithms.layout.ISOMLayout;
 import edu.uci.ics.jung.algorithms.layout.KKLayout;
+import edu.uci.ics.jung.algorithms.layout.StaticLayout;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.embed.swing.SwingNode;
@@ -36,8 +37,8 @@ public class BasicGUIController {
 	private ComboBox<String> layoutSelection;
 
 	ObservableList<String> mouseModeList = FXCollections.observableArrayList("PICKING", "TRANSFORMING");
-	ObservableList<String> layoutList = FXCollections.observableArrayList("Circle", "Kamada Kawai",
-			"Self Organizing Map", "Fruchterman Reingold");
+	ObservableList<String> layoutList = FXCollections.observableArrayList("Static", "Circle", "Kamada Kawai",
+			 "Fruchterman Reingold", "Self Organizing Map");
 	VisualizationInstance visualizationObject = new VisualizationInstance();
 	SwingNode swingNode = new SwingNode();
 
@@ -45,7 +46,7 @@ public class BasicGUIController {
 	private void initialize() {
 		mouseModeSelection.setValue("TRANSFORMING");
 		mouseModeSelection.setItems(mouseModeList);
-		layoutSelection.setValue("Circle");
+		layoutSelection.setValue("Static");
 		layoutSelection.setItems(layoutList);
 	}
 
@@ -69,44 +70,50 @@ public class BasicGUIController {
 		if (mouseModeSelection.getValue().equals("TRANSFORMING")) {
 			visualizationObject.setMouseMode(0);
 		}
-		updatePane();
+		//updatePane();
 	}
 
 	@FXML
 	private void selectLayout() {
-		if (layoutSelection.getValue().equals("Circle")) {
+		if (layoutSelection.getValue().equals("Static")) {
 			visualizationObject.setLayoutNumber(0);
 		}
-		if (layoutSelection.getValue().equals("Kamada Kawai")) {
+		if (layoutSelection.getValue().equals("Circle")) {
 			visualizationObject.setLayoutNumber(1);
 		}
-		if (layoutSelection.getValue().equals("Self Organizing Map")) {
+		if (layoutSelection.getValue().equals("Kamada Kawai")) {
 			visualizationObject.setLayoutNumber(2);
 		}
-		if (layoutSelection.getValue().equals("Fruchterman Reingold")) {
+		if (layoutSelection.getValue().equals("Self Organizing Map")) {
 			visualizationObject.setLayoutNumber(3);
 		}
-		updatePane();
-		selectMouseMode();
+		if (layoutSelection.getValue().equals("Fruchterman Reingold")) {
+			visualizationObject.setLayoutNumber(4);
+		}
 	}
 
 	@FXML
 	private void save() {
-		AbstractLayout<VertexType, EdgeType> layout;
-		switch(visualizationObject.getLayoutNumber()) {
+		/*AbstractLayout<VertexType, EdgeType> layout;
+		switch (visualizationObject.getLayoutNumber()) {
 		case 1:
-			layout = new KKLayout<VertexType, EdgeType>(visualizationObject.getGraph());
+			layout = new CircleLayout<VertexType, EdgeType>(visualizationObject.getGraph());
+			break;
 		case 2:
-			layout = new FRLayout<VertexType, EdgeType>(visualizationObject.getGraph());
+			layout = new KKLayout<VertexType, EdgeType>(visualizationObject.getGraph());
+			break;
 		case 3:
 			layout = new ISOMLayout<VertexType, EdgeType>(visualizationObject.getGraph());
+			break;
+		case 4:
+			layout = new FRLayout<VertexType, EdgeType>(visualizationObject.getGraph());
+			break;
 		default:
-			layout = new CircleLayout<VertexType, EdgeType>(visualizationObject.getGraph());
+			layout = new StaticLayout<VertexType, EdgeType>(visualizationObject.getGraph());
+			break;
 		}
-		layout.setSize(visualizationObject.getDimension());
-		GraphPersistence.saveGraphInfo("E:\\Relationship\\teste\\graph_info.xml", visualizationObject.getGraph(), layout);
-		GraphPersistence.saveGraphPositionInTXT("E:\\Relationship\\teste\\graph_persistence.txt",
-				visualizationObject.getCurrentVV());
+		layout.setSize(visualizationObject.getDimension());*/
+		GraphPersistence.saveGraphInfo("E:\\Relationship\\teste\\graph_info.xml", visualizationObject.getGraph());
 		Alert alert = new Alert(AlertType.INFORMATION);
 		alert.setTitle("Saving Process");
 		alert.setHeaderText("The graph was successfully saved.");
@@ -114,10 +121,8 @@ public class BasicGUIController {
 	}
 
 	@FXML
-	private void load() {;
-		visualizationObject.setGraph(GraphPersistence.loadGraphInfo("E:\\Relationship\\teste\\graph_info.xml"));
-		visualizationObject.setCurrentVV(GraphPersistence.loadGraphPositionFromTXT(
-				"E:\\Relationship\\teste\\graph_persistence.txt", visualizationObject.getGraph()));
+	private void load() {
+		visualizationObject.loadGraph();
 		updatePane();
 	}
 }
