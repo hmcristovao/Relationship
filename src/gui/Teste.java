@@ -53,7 +53,7 @@ public class Teste {
 		graphFrame.getContentPane().add(scrollPanel);
 		graphFrame.pack();
 		graphFrame.setVisible(true);
-		GraphPersistence.saveGraphInfo("E:\\Relationship\\teste\\graph_info.xml", graph, cl);
+		//GraphPersistence.saveGraphInfo("E:\\Relationship\\teste\\graph_info.xml", graph, cl);
 		
 		JFrame graphFrame2 = new JFrame("Graph Frame Test");
 		graphFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

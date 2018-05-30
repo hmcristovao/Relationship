@@ -94,26 +94,8 @@ public class BasicGUIController {
 
 	@FXML
 	private void save() {
-		/*AbstractLayout<VertexType, EdgeType> layout;
-		switch (visualizationObject.getLayoutNumber()) {
-		case 1:
-			layout = new CircleLayout<VertexType, EdgeType>(visualizationObject.getGraph());
-			break;
-		case 2:
-			layout = new KKLayout<VertexType, EdgeType>(visualizationObject.getGraph());
-			break;
-		case 3:
-			layout = new ISOMLayout<VertexType, EdgeType>(visualizationObject.getGraph());
-			break;
-		case 4:
-			layout = new FRLayout<VertexType, EdgeType>(visualizationObject.getGraph());
-			break;
-		default:
-			layout = new StaticLayout<VertexType, EdgeType>(visualizationObject.getGraph());
-			break;
-		}
-		layout.setSize(visualizationObject.getDimension());*/
-		GraphPersistence.saveGraphInfo("E:\\Relationship\\teste\\graph_info.xml", visualizationObject.getGraph());
+		layoutSelection.setValue("Static");
+		visualizationObject.saveGraph();
 		Alert alert = new Alert(AlertType.INFORMATION);
 		alert.setTitle("Saving Process");
 		alert.setHeaderText("The graph was successfully saved.");

@@ -8,17 +8,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-import javax.swing.JFrame;
-
 import org.apache.commons.collections15.Transformer;
 
-import edu.uci.ics.jung.algorithms.layout.AbstractLayout;
-import edu.uci.ics.jung.algorithms.layout.CircleLayout;
-import edu.uci.ics.jung.algorithms.layout.FRLayout;
-import edu.uci.ics.jung.algorithms.layout.ISOMLayout;
-import edu.uci.ics.jung.algorithms.layout.KKLayout;
-import edu.uci.ics.jung.algorithms.layout.Layout;
-import edu.uci.ics.jung.graph.DirectedSparseGraph;
+import edu.uci.ics.jung.algorithms.layout.StaticLayout;
 import edu.uci.ics.jung.graph.DirectedSparseMultigraph;
 import edu.uci.ics.jung.graph.Graph;
 import edu.uci.ics.jung.io.GraphIOException;
@@ -28,15 +20,9 @@ import edu.uci.ics.jung.io.graphml.GraphMLReader2;
 import edu.uci.ics.jung.io.graphml.GraphMetadata;
 import edu.uci.ics.jung.io.graphml.HyperEdgeMetadata;
 import edu.uci.ics.jung.io.graphml.NodeMetadata;
-import edu.uci.ics.jung.visualization.GraphZoomScrollPane;
-import edu.uci.ics.jung.visualization.VisualizationViewer;
-import edu.uci.ics.jung.visualization.decorators.ToStringLabeller;
-import edu.uci.ics.jung.visualization.layout.PersistentLayout;
-import edu.uci.ics.jung.visualization.layout.PersistentLayoutImpl;
-import edu.uci.ics.jung.visualization.renderers.Renderer.VertexLabel.Position;
 
 public class GraphPersistence {
-	public static void saveGraphInfo(String fileName, Graph<VertexType, EdgeType> graph) {
+	public static void saveGraphInfo(String fileName, Graph<VertexType, EdgeType> graph, StaticLayout<VertexType, EdgeType> sLayout) {
 		try {
 			GraphMLWriter<VertexType, EdgeType> graphWriter = new GraphMLWriter<VertexType, EdgeType>();
 			PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(fileName)));
@@ -48,12 +34,12 @@ public class GraphPersistence {
 			});
 			graphWriter.addVertexData("x", null, "0", new Transformer<VertexType, String>() {
 				public String transform(VertexType v) {
-					return Double.toString(v.getX());
+					return Double.toString(sLayout.getX(v));
 				}
 			});
 			graphWriter.addVertexData("y", null, "0", new Transformer<VertexType, String>() {
 				public String transform(VertexType v) {
-					return Double.toString(v.getY());
+					return Double.toString(sLayout.getY(v));
 				}
 			});
 			graphWriter.save(graph, out);

@@ -34,6 +34,8 @@ public class VisualizationInstance {
 	private int mouseMode = 0;
 	private DefaultModalGraphMouse<VertexType, EdgeType> graphMouse;
 	private AbstractLayout<VertexType, EdgeType> layout;
+	private StaticLayout<VertexType, EdgeType> sLayout;
+
 	private Dimension dimension;
 
 
@@ -91,18 +93,7 @@ public class VisualizationInstance {
 			currentVV.setGraphLayout(layout);
 			break;
 		default:
-			StaticLayout<VertexType, EdgeType> sLayout = new StaticLayout<VertexType, EdgeType>(graph,
-					new Transformer<VertexType, Point2D>() {
-						public Point2D transform(VertexType vertex) {
-							vertex.setX(layout.getX(vertex));
-							vertex.setY(layout.getY(vertex));
-							System.out.println(vertex.toString());
-							System.out.println(vertex.getX());
-							System.out.println(vertex.getY());
-							Point2D p = new Point2D.Double(vertex.getX(), vertex.getY());
-							return p;
-						}
-					}, dimension);
+			sLayout = new StaticLayout<VertexType, EdgeType>(graph, layout);
 			currentVV.setGraphLayout(sLayout);
 			break;
 		}
@@ -127,7 +118,10 @@ public class VisualizationInstance {
 			e.printStackTrace();
 		}
 	}*/
-
+	public void saveGraph() {
+		setLayoutNumber(0);
+		GraphPersistence.saveGraphInfo("E:\\Relationship\\teste\\graph_info.xml", getGraph(), getsLayout());
+	}
 	public void loadGraph() {
 		graph = GraphPersistence.loadGraphInfo("E:\\Relationship\\teste\\graph_info.xml");
 		StaticLayout<VertexType, EdgeType> sLayout = new StaticLayout<VertexType, EdgeType>(graph,
@@ -203,5 +197,11 @@ public class VisualizationInstance {
 	public void setDimension(Dimension dimension) {
 		this.dimension = dimension;
 	}
+	public StaticLayout<VertexType, EdgeType> getsLayout() {
+		return sLayout;
+	}
 
+	public void setsLayout(StaticLayout<VertexType, EdgeType> sLayout) {
+		this.sLayout = sLayout;
+	}
 }
