@@ -16,7 +16,7 @@
                   <Button fx:id="saveButton" layoutX="14.0" layoutY="334.0" mnemonicParsing="false" onAction="#save" prefWidth="125.0" text="Save Graph" />
                   <Button fx:id="loadButton" layoutX="14.0" layoutY="365.0" mnemonicParsing="false" onAction="#load" prefWidth="125.0" text="Load Graph" />
                   <Button fx:id="startButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#startGraph" prefHeight="25.0" prefWidth="125.0" text="Start" />
-                  <ColorPicker fx:id="selectColor" layoutX="13.0" layoutY="237.0" />
+                  <ColorPicker fx:id="selectColor" layoutX="13.0" layoutY="237.0" onAction="#changeColor" />
                   <Label layoutX="14.0" layoutY="148.0" text="Mouse Mode:" />
                   <Label layoutX="14.0" layoutY="220.0" text="Vertex Color:" />
                   <ComboBox fx:id="mouseModeSelection" layoutX="11.0" layoutY="165.0" onAction="#selectMouseMode" prefHeight="25.0" prefWidth="125.0" />

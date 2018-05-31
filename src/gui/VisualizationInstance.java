@@ -1,17 +1,15 @@
 package gui;
 
-import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.geom.Point2D;
-import java.lang.reflect.Constructor;
 
 import org.apache.commons.collections15.Transformer;
 
 import edu.uci.ics.jung.algorithms.layout.AbstractLayout;
 import edu.uci.ics.jung.algorithms.layout.CircleLayout;
-import edu.uci.ics.jung.algorithms.layout.KKLayout;
 import edu.uci.ics.jung.algorithms.layout.FRLayout;
 import edu.uci.ics.jung.algorithms.layout.ISOMLayout;
+import edu.uci.ics.jung.algorithms.layout.KKLayout;
 import edu.uci.ics.jung.algorithms.layout.Layout;
 import edu.uci.ics.jung.algorithms.layout.StaticLayout;
 import edu.uci.ics.jung.graph.DirectedSparseMultigraph;
@@ -20,11 +18,8 @@ import edu.uci.ics.jung.visualization.GraphZoomScrollPane;
 import edu.uci.ics.jung.visualization.VisualizationViewer;
 import edu.uci.ics.jung.visualization.control.DefaultModalGraphMouse;
 import edu.uci.ics.jung.visualization.decorators.ToStringLabeller;
-import edu.uci.ics.jung.visualization.layout.LayoutTransition;
-import edu.uci.ics.jung.visualization.renderers.GradientVertexRenderer;
+import edu.uci.ics.jung.visualization.picking.PickedState;
 import edu.uci.ics.jung.visualization.renderers.Renderer.VertexLabel.Position;
-import edu.uci.ics.jung.visualization.util.Animator;
-import main.WholeSystem;
 
 public class VisualizationInstance {
 	private Graph<VertexType, EdgeType> graph;
@@ -35,9 +30,9 @@ public class VisualizationInstance {
 	private DefaultModalGraphMouse<VertexType, EdgeType> graphMouse;
 	private AbstractLayout<VertexType, EdgeType> layout;
 	private StaticLayout<VertexType, EdgeType> sLayout;
+	private javafx.scene.paint.Color vertexColor;
 
 	private Dimension dimension;
-
 
 	VisualizationInstance() {
 		graph = new DirectedSparseMultigraph<>();
@@ -55,14 +50,20 @@ public class VisualizationInstance {
 		scrollPanel = new GraphZoomScrollPane(currentVV);
 		graphMouse = new DefaultModalGraphMouse<VertexType, EdgeType>();
 		changeMouseMode();
+		vertexColor = javafx.scene.paint.Color.RED;
 	}
 
 	private void applyVVRenderer() {
 		currentVV.getRenderContext().setVertexLabelTransformer(new ToStringLabeller());
 		currentVV.getRenderContext().setEdgeLabelTransformer(new EdgeLabelTransformer());
 		currentVV.getRenderer().getVertexLabelRenderer().setPosition(Position.CNTR);
-		currentVV.getRenderer().setVertexRenderer(new GradientVertexRenderer<VertexType, EdgeType>(Color.white,
-				Color.red, Color.white, Color.orange, currentVV.getPickedVertexState(), false));
+		// currentVV.getRenderer().setVertexRenderer(new
+		// GradientVertexRenderer<VertexType, EdgeType>(Color.white,
+		// Color.red, Color.white, Color.orange, currentVV.getPickedVertexState(),
+		// false));
+		currentVV.getRenderContext().setVertexFillPaintTransformer(new VertexColorTransformer());
+		// currentVV.getRenderContext().setVertexDrawPaintTransformer(new
+		// VertexColorTransformer());
 	}
 
 	private void changeMouseMode() {
@@ -74,6 +75,7 @@ public class VisualizationInstance {
 			currentVV.setGraphMouse(graphMouse);
 		}
 	}
+
 	private void changeLayout2() {
 		switch (layoutNumber) {
 		case 1:
@@ -98,30 +100,27 @@ public class VisualizationInstance {
 			break;
 		}
 	}/*
-	private void changeLayout() {
-		Class<? extends Layout<VertexType, EdgeType>> layoutC = (Class<? extends Layout<VertexType, EdgeType>>) getSelectedLayout();
-		try {
-			Constructor<? extends Layout<VertexType, EdgeType>> constructor = layoutC
-					.getConstructor(new Class[] { Graph.class });
-			Object o = constructor.newInstance(graph);
-			Layout<VertexType, EdgeType> l = (Layout<VertexType, EdgeType>) o;
-			l.setInitializer(currentVV.getGraphLayout());
-			l.setSize(currentVV.getSize());
+		 * private void changeLayout() { Class<? extends Layout<VertexType, EdgeType>>
+		 * layoutC = (Class<? extends Layout<VertexType, EdgeType>>)
+		 * getSelectedLayout(); try { Constructor<? extends Layout<VertexType,
+		 * EdgeType>> constructor = layoutC .getConstructor(new Class[] { Graph.class
+		 * }); Object o = constructor.newInstance(graph); Layout<VertexType, EdgeType> l
+		 * = (Layout<VertexType, EdgeType>) o;
+		 * l.setInitializer(currentVV.getGraphLayout()); l.setSize(currentVV.getSize());
+		 * 
+		 * LayoutTransition<VertexType, EdgeType> layoutTransition = new
+		 * LayoutTransition<VertexType, EdgeType>( currentVV,
+		 * currentVV.getGraphLayout(), l); Animator animator = new
+		 * Animator(layoutTransition); animator.start();
+		 * currentVV.getRenderContext().getMultiLayerTransformer().setToIdentity();
+		 * currentVV.repaint(); } catch (Exception e) { e.printStackTrace(); } }
+		 */
 
-			LayoutTransition<VertexType, EdgeType> layoutTransition = new LayoutTransition<VertexType, EdgeType>(
-					currentVV, currentVV.getGraphLayout(), l);
-			Animator animator = new Animator(layoutTransition);
-			animator.start();
-			currentVV.getRenderContext().getMultiLayerTransformer().setToIdentity();
-			currentVV.repaint();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}*/
 	public void saveGraph() {
 		setLayoutNumber(0);
 		GraphPersistence.saveGraphInfo("E:\\Relationship\\teste\\graph_info.xml", getGraph(), getsLayout());
 	}
+
 	public void loadGraph() {
 		graph = GraphPersistence.loadGraphInfo("E:\\Relationship\\teste\\graph_info.xml");
 		StaticLayout<VertexType, EdgeType> sLayout = new StaticLayout<VertexType, EdgeType>(graph,
@@ -147,6 +146,13 @@ public class VisualizationInstance {
 		default:
 			return StaticLayout.class;
 		}
+	}
+
+	public void changePickedVertexColor() {
+		PickedState<VertexType> picked = currentVV.getPickedVertexState();
+		currentVV.getRenderContext().setVertexFillPaintTransformer(
+				new PaintPickedVertexTransformer(picked, ColorHandler.convertJavaFXColorToAWTColor(vertexColor)));
+		
 	}
 
 	public int getLayoutNumber() {
@@ -190,6 +196,7 @@ public class VisualizationInstance {
 	public void setScrollPanel(GraphZoomScrollPane scrollPanel) {
 		this.scrollPanel = scrollPanel;
 	}
+
 	public Dimension getDimension() {
 		return dimension;
 	}
@@ -197,11 +204,21 @@ public class VisualizationInstance {
 	public void setDimension(Dimension dimension) {
 		this.dimension = dimension;
 	}
+
 	public StaticLayout<VertexType, EdgeType> getsLayout() {
 		return sLayout;
 	}
 
 	public void setsLayout(StaticLayout<VertexType, EdgeType> sLayout) {
 		this.sLayout = sLayout;
+	}
+
+	public javafx.scene.paint.Color getVertexColor() {
+		return vertexColor;
+	}
+
+	public void setVertexColor(javafx.scene.paint.Color vertexColor) {
+		this.vertexColor = vertexColor;
+		changePickedVertexColor();
 	}
 }

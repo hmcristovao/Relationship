@@ -1,13 +1,5 @@
 package gui;
 
-import javax.swing.JPanel;
-
-import edu.uci.ics.jung.algorithms.layout.AbstractLayout;
-import edu.uci.ics.jung.algorithms.layout.CircleLayout;
-import edu.uci.ics.jung.algorithms.layout.FRLayout;
-import edu.uci.ics.jung.algorithms.layout.ISOMLayout;
-import edu.uci.ics.jung.algorithms.layout.KKLayout;
-import edu.uci.ics.jung.algorithms.layout.StaticLayout;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.embed.swing.SwingNode;
@@ -15,7 +7,6 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
-import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.ColorPicker;
 import javafx.scene.control.ComboBox;
 import javafx.scene.layout.AnchorPane;
@@ -28,7 +19,7 @@ public class BasicGUIController {
 	@FXML
 	private Button loadButton;
 	@FXML
-	private ColorPicker selectCollor;
+	private ColorPicker selectColor;
 	@FXML
 	private ComboBox<String> mouseModeSelection;
 	@FXML
@@ -42,12 +33,15 @@ public class BasicGUIController {
 	VisualizationInstance visualizationObject = new VisualizationInstance();
 	SwingNode swingNode = new SwingNode();
 
+
 	@FXML
 	private void initialize() {
 		mouseModeSelection.setValue("TRANSFORMING");
 		mouseModeSelection.setItems(mouseModeList);
 		layoutSelection.setValue("Static");
 		layoutSelection.setItems(layoutList);
+		//javafx.scene.paint.Color fxColor = new javafx.scene.paint.Color(255.0,0.0,0.0,0.0); //Red as deafult
+		selectColor.setValue(javafx.scene.paint.Color.RED);
 	}
 
 	private void updatePane() {
@@ -70,7 +64,6 @@ public class BasicGUIController {
 		if (mouseModeSelection.getValue().equals("TRANSFORMING")) {
 			visualizationObject.setMouseMode(0);
 		}
-		//updatePane();
 	}
 
 	@FXML
@@ -106,5 +99,10 @@ public class BasicGUIController {
 	private void load() {
 		visualizationObject.loadGraph();
 		updatePane();
+	}
+	
+	@FXML
+	private void changeColor() {
+		visualizationObject.setVertexColor(selectColor.getValue()); 
 	}
 }

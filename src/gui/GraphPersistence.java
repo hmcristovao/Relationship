@@ -42,6 +42,11 @@ public class GraphPersistence {
 					return Double.toString(sLayout.getY(v));
 				}
 			});
+			graphWriter.addVertexData("color", null, "0", new Transformer<VertexType, String>() {
+				public String transform(VertexType v) {
+					return v.getColor().toString();
+				}
+			});
 			graphWriter.save(graph, out);
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -62,6 +67,7 @@ public class GraphPersistence {
 					VertexType vertex = new VertexType(metaData.getId());
 					vertex.setX(Double.parseDouble(metaData.getProperty("x")));
 					vertex.setY(Double.parseDouble(metaData.getProperty("y")));
+					vertex.setColor(ColorHandler.stringToColor(metaData.getProperty("color")));
 					return vertex;
 				}
 			};
