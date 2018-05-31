@@ -2,13 +2,21 @@ package gui;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Properties;
+
+import javax.swing.JPanel;
 
 import org.apache.commons.collections15.Transformer;
+import org.freehep.graphics2d.VectorGraphics;
+import org.freehep.graphicsio.pdf.PDFGraphics2D;
+import org.freehep.graphicsio.ps.PSGraphics2D;
+import org.freehep.graphicsio.svg.SVGGraphics2D;
 
 import edu.uci.ics.jung.algorithms.layout.StaticLayout;
 import edu.uci.ics.jung.graph.DirectedSparseMultigraph;
@@ -20,9 +28,11 @@ import edu.uci.ics.jung.io.graphml.GraphMLReader2;
 import edu.uci.ics.jung.io.graphml.GraphMetadata;
 import edu.uci.ics.jung.io.graphml.HyperEdgeMetadata;
 import edu.uci.ics.jung.io.graphml.NodeMetadata;
+import edu.uci.ics.jung.visualization.VisualizationViewer;
 
 public class GraphPersistence {
-	public static void saveGraphInfo(String fileName, Graph<VertexType, EdgeType> graph, StaticLayout<VertexType, EdgeType> sLayout) {
+	public static void saveGraphInfo(String fileName, Graph<VertexType, EdgeType> graph,
+			StaticLayout<VertexType, EdgeType> sLayout) {
 		try {
 			GraphMLWriter<VertexType, EdgeType> graphWriter = new GraphMLWriter<VertexType, EdgeType>();
 			PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(fileName)));
@@ -94,5 +104,40 @@ public class GraphPersistence {
 			e.printStackTrace();
 		}
 		return null;
+	}
+
+	public static void savePDF(VisualizationViewer<VertexType, EdgeType> vv, JPanel panel) {
+		try {
+			Properties p = new Properties();
+			p.setProperty("PageSize", "A4");
+			VectorGraphics g;
+			g = new PDFGraphics2D(new File("E:\\Relationship\\teste\\Graph.pdf"), vv);
+			g.setProperties(p);
+			g.startExport();
+			panel.print(g);
+			g.endExport();
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	public static void saveSVG(VisualizationViewer<VertexType, EdgeType> vv, JPanel panel) {
+		try {
+			Properties p = new Properties();
+			p.setProperty("PageSize", "A4");
+			VectorGraphics g;
+			g = new SVGGraphics2D(new File("E:\\Relationship\\teste\\Graph.svg"), vv);
+			g.setProperties(p);
+			g.startExport();
+			panel.print(g);
+			g.endExport();
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 }

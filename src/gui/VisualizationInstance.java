@@ -154,6 +154,13 @@ public class VisualizationInstance {
 				new PaintPickedVertexTransformer(picked, ColorHandler.convertJavaFXColorToAWTColor(vertexColor)));
 		
 	}
+	public void saveInPDF() {
+		GraphPersistence.savePDF(currentVV, scrollPanel);
+	}
+	
+	public void saveInSVG() {
+		GraphPersistence.saveSVG(currentVV, scrollPanel);
+	}
 
 	public int getLayoutNumber() {
 		return layoutNumber;

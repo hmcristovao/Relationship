@@ -19,6 +19,10 @@ public class BasicGUIController {
 	@FXML
 	private Button loadButton;
 	@FXML
+	private Button savePDF;
+	@FXML
+	private Button saveSVG;
+	@FXML
 	private ColorPicker selectColor;
 	@FXML
 	private ComboBox<String> mouseModeSelection;
@@ -104,5 +108,21 @@ public class BasicGUIController {
 	@FXML
 	private void changeColor() {
 		visualizationObject.setVertexColor(selectColor.getValue()); 
+	}
+	@FXML
+	private void saveGraphInPDF() {
+		visualizationObject.saveInPDF();
+		Alert alert = new Alert(AlertType.INFORMATION);
+		alert.setTitle("Saving in PDF Process");
+		alert.setHeaderText("The graph was successfully saved.");
+		alert.show();
+	}
+	@FXML
+	private void saveGraphInSVG() {
+		visualizationObject.saveInSVG();
+		Alert alert = new Alert(AlertType.INFORMATION);
+		alert.setTitle("Saving in SVG Process");
+		alert.setHeaderText("The graph was successfully saved.");
+		alert.show();
 	}
 }
