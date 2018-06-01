@@ -24,8 +24,6 @@ public class BasicGUIController {
 	@FXML
 	private Button saveSVG;
 	@FXML
-	private Button delete;
-	@FXML
 	private ColorPicker selectColor;
 	@FXML
 	private ComboBox<String> mouseModeSelection;
@@ -37,6 +35,16 @@ public class BasicGUIController {
 	private CheckBox highlight;
 	@FXML
 	private CheckBox keepPainting;
+	@FXML
+	private CheckBox gradientEdges;
+	@FXML
+	private CheckBox qCurve;
+	@FXML
+	private CheckBox cCurve;
+	@FXML
+	private CheckBox oCurve;
+	@FXML
+	private CheckBox sCurve;
 
 	ObservableList<String> mouseModeList = FXCollections.observableArrayList("PICKING", "TRANSFORMING");
 	ObservableList<String> layoutList = FXCollections.observableArrayList("Static", "Circle", "Kamada Kawai",
@@ -53,6 +61,7 @@ public class BasicGUIController {
 		// javafx.scene.paint.Color fxColor = new
 		// javafx.scene.paint.Color(255.0,0.0,0.0,0.0); //Red as deafult
 		selectColor.setValue(javafx.scene.paint.Color.RED);
+		qCurve.setSelected(true);
 	}
 
 	private void updatePane() {
@@ -114,8 +123,6 @@ public class BasicGUIController {
 
 	@FXML
 	private void changeColor() {
-		System.out.println(selectColor.getValue().toString());
-		System.out.println(keepPainting.isSelected());
 		visualizationObject.setVertexColor(selectColor.getValue(), keepPainting.isSelected());
 	}
 
@@ -138,17 +145,48 @@ public class BasicGUIController {
 	}
 
 	@FXML
-	private void deleteVertex() {
-		visualizationObject.deleteVertex();
-		Alert alert = new Alert(AlertType.INFORMATION);
-		alert.setTitle("Delete Vertex");
-		alert.setHeaderText("Deleting a Vertex is permanent.");
-		alert.show();
-	}
-
-	@FXML
 	private void highlight() {
 		visualizationObject.highlightRelations(highlight.isSelected());
 	}
 
+	@FXML
+	private void applyGradientEdges() {
+		visualizationObject.gradientEdges(gradientEdges.isSelected());
+	}
+
+	@FXML
+	private void changeEdgeShapeQ() {
+		cCurve.setSelected(false);
+		oCurve.setSelected(false);
+		sCurve.setSelected(false);
+		visualizationObject.changeEdgeShape(qCurve.isSelected(), cCurve.isSelected(), oCurve.isSelected(),
+				sCurve.isSelected());
+	}
+
+	@FXML
+	private void changeEdgeShapeC() {
+		qCurve.setSelected(false);
+		oCurve.setSelected(false);
+		sCurve.setSelected(false);
+		visualizationObject.changeEdgeShape(qCurve.isSelected(), cCurve.isSelected(), oCurve.isSelected(),
+				sCurve.isSelected());
+	}
+
+	@FXML
+	private void changeEdgeShapeO() {
+		qCurve.setSelected(false);
+		cCurve.setSelected(false);
+		sCurve.setSelected(false);
+		visualizationObject.changeEdgeShape(qCurve.isSelected(), cCurve.isSelected(), oCurve.isSelected(),
+				sCurve.isSelected());
+	}
+
+	@FXML
+	private void changeEdgeShapeS() {
+		qCurve.setSelected(false);
+		cCurve.setSelected(false);
+		oCurve.setSelected(false);
+		visualizationObject.changeEdgeShape(qCurve.isSelected(), cCurve.isSelected(), oCurve.isSelected(),
+				sCurve.isSelected());
+	}
 }

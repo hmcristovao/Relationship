@@ -1,5 +1,6 @@
 package gui;
 
+import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.geom.Point2D;
 
@@ -17,6 +18,8 @@ import edu.uci.ics.jung.graph.Graph;
 import edu.uci.ics.jung.visualization.GraphZoomScrollPane;
 import edu.uci.ics.jung.visualization.VisualizationViewer;
 import edu.uci.ics.jung.visualization.control.DefaultModalGraphMouse;
+import edu.uci.ics.jung.visualization.decorators.EdgeShape;
+import edu.uci.ics.jung.visualization.decorators.GradientEdgePaintTransformer;
 import edu.uci.ics.jung.visualization.decorators.ToStringLabeller;
 import edu.uci.ics.jung.visualization.picking.PickedState;
 import edu.uci.ics.jung.visualization.renderers.Renderer.VertexLabel.Position;
@@ -34,7 +37,6 @@ public class VisualizationInstance {
 	private PickedState<VertexType> picked;
 	private VertexStrokeHighlightTransformer vsh;
 	private Dimension dimension;
-	// private PaintPickedVertexTransformer paintPicked;
 
 	VisualizationInstance() {
 		graph = new DirectedSparseMultigraph<>();
@@ -182,9 +184,28 @@ public class VisualizationInstance {
 		GraphPersistence.saveSVG(currentVV, scrollPanel);
 	}
 
-	public void deleteVertex() {
-		// PickedState<VertexType> picked = currentVV.getPickedVertexState();
+	public void gradientEdges(boolean apply) {
+		if (apply) {
+			currentVV.getRenderContext().setEdgeDrawPaintTransformer(
+					new GradientEdgePaintTransformer<>(Color.WHITE, Color.BLACK, currentVV));
+		} else {
+			currentVV.getRenderContext().setEdgeDrawPaintTransformer(
+					new GradientEdgePaintTransformer<>(Color.BLACK, Color.BLACK, currentVV));
+		}
+		currentVV.repaint();
+	}
 
+	public void changeEdgeShape(boolean qCurve, boolean cCurve, boolean oCurve, boolean sCurve) {
+		if (qCurve) {
+			currentVV.getRenderContext().setEdgeShapeTransformer(new EdgeShape.QuadCurve());
+		} else if (cCurve) {
+			currentVV.getRenderContext().setEdgeShapeTransformer(new EdgeShape.CubicCurve());
+		} else if (oCurve) {
+			currentVV.getRenderContext().setEdgeShapeTransformer(new EdgeShape.Orthogonal());
+		} else {
+			currentVV.getRenderContext().setEdgeShapeTransformer(new EdgeShape.Line());
+		}
+		currentVV.repaint();
 	}
 
 	public int getLayoutNumber() {
