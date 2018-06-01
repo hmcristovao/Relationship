@@ -1,11 +1,14 @@
 package gui;
 
+import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Paint;
+import java.awt.Stroke;
 import java.io.Serializable;
 
 import org.apache.commons.collections15.Transformer;
 
+import edu.uci.ics.jung.graph.Graph;
 import edu.uci.ics.jung.visualization.picking.PickedInfo;
 
 public class VertexType implements Serializable {
@@ -72,22 +75,67 @@ class VertexColorTransformer implements Transformer<VertexType, Paint> {
 		return vertex.getColor();
 	}
 }
+
 class PaintPickedVertexTransformer implements Transformer<VertexType, Paint> {
 	private PickedInfo<VertexType> pi;
 	private Color color;
-	public PaintPickedVertexTransformer(PickedInfo<VertexType> pi, Color color)
-	       {
-	            this.pi = pi;
-	            this.color = color;
-	        }
+	private boolean painting = false;
+
+	public PaintPickedVertexTransformer(PickedInfo<VertexType> pi, Color color) {
+		this.pi = pi;
+		this.color = color;
+	}
+
+	public void setPainting(boolean painting) {
+		this.painting = painting;
+	}
 
 	@Override
 	public Paint transform(VertexType vertex) {
-		if (pi.isPicked(vertex)) {
-			vertex.setColor(color);
-			System.out.printf("Vertex: %s Cor: %s", vertex.toString(), vertex.getColor().toString());
-			return this.color;
+		if (painting) {
+			if (pi.isPicked(vertex)) {
+				vertex.setColor(color);
+				return this.color;
+			} else {
+				return vertex.getColor();
+			}
 		}
 		return vertex.getColor();
 	}
-}	
+}
+
+class VertexStrokeHighlightTransformer implements Transformer<VertexType, Stroke> {
+	protected Stroke heavy = new BasicStroke(5);
+	protected Stroke medium = new BasicStroke(3);
+	protected Stroke light = new BasicStroke(1);
+	protected PickedInfo<VertexType> pi;
+	protected Graph<VertexType, EdgeType> graph;
+	protected boolean highlight = false;
+
+	public VertexStrokeHighlightTransformer(Graph<VertexType, EdgeType> graph, PickedInfo<VertexType> pi) {
+		this.graph = graph;
+		this.pi = pi;
+	}
+
+	public void setHighlight(boolean highlight) {
+		this.highlight = highlight;
+	}
+
+	@Override
+	public Stroke transform(VertexType v) {
+		if (highlight) {
+			if (pi.isPicked(v)) {
+				return heavy;
+			} else {
+				for (VertexType w : graph.getNeighbors(v)) {
+					if (pi.isPicked(w)) {
+						return medium;
+					}
+				}
+				return light;
+			}
+		} else {
+			return light;
+		}
+	}
+}

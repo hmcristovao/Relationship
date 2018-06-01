@@ -31,8 +31,10 @@ public class VisualizationInstance {
 	private AbstractLayout<VertexType, EdgeType> layout;
 	private StaticLayout<VertexType, EdgeType> sLayout;
 	private javafx.scene.paint.Color vertexColor;
-
+	private PickedState<VertexType> picked;
+	private VertexStrokeHighlightTransformer vsh;
 	private Dimension dimension;
+	// private PaintPickedVertexTransformer paintPicked;
 
 	VisualizationInstance() {
 		graph = new DirectedSparseMultigraph<>();
@@ -51,6 +53,10 @@ public class VisualizationInstance {
 		graphMouse = new DefaultModalGraphMouse<VertexType, EdgeType>();
 		changeMouseMode();
 		vertexColor = javafx.scene.paint.Color.RED;
+		picked = currentVV.getPickedVertexState();
+		vsh = new VertexStrokeHighlightTransformer(graph, picked);
+		// paintPicked = new PaintPickedVertexTransformer(picked,
+		// ColorHandler.convertJavaFXColorToAWTColor(vertexColor));
 	}
 
 	private void applyVVRenderer() {
@@ -148,18 +154,37 @@ public class VisualizationInstance {
 		}
 	}
 
-	public void changePickedVertexColor() {
-		PickedState<VertexType> picked = currentVV.getPickedVertexState();
-		currentVV.getRenderContext().setVertexFillPaintTransformer(
-				new PaintPickedVertexTransformer(picked, ColorHandler.convertJavaFXColorToAWTColor(vertexColor)));
-		
+	public void changePickedVertexColor(boolean keepPainting) {
+		PaintPickedVertexTransformer paintPicked = new PaintPickedVertexTransformer(picked,
+				ColorHandler.convertJavaFXColorToAWTColor(vertexColor));
+		if (keepPainting) {
+			paintPicked.setPainting(true);
+		} else {
+			paintPicked.setPainting(false);
+		}
+		currentVV.getRenderContext().setVertexFillPaintTransformer(paintPicked);
 	}
+
+	public void highlightRelations(boolean selected) {
+		if (selected) {
+			vsh.setHighlight(true);
+		} else {
+			vsh.setHighlight(false);
+		}
+		currentVV.getRenderContext().setVertexStrokeTransformer(vsh);
+	}
+
 	public void saveInPDF() {
 		GraphPersistence.savePDF(currentVV, scrollPanel);
 	}
-	
+
 	public void saveInSVG() {
 		GraphPersistence.saveSVG(currentVV, scrollPanel);
+	}
+
+	public void deleteVertex() {
+		// PickedState<VertexType> picked = currentVV.getPickedVertexState();
+
 	}
 
 	public int getLayoutNumber() {
@@ -224,8 +249,8 @@ public class VisualizationInstance {
 		return vertexColor;
 	}
 
-	public void setVertexColor(javafx.scene.paint.Color vertexColor) {
+	public void setVertexColor(javafx.scene.paint.Color vertexColor, boolean keepPainting) {
 		this.vertexColor = vertexColor;
-		changePickedVertexColor();
+		changePickedVertexColor(keepPainting);
 	}
 }

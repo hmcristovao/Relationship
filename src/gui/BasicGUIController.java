@@ -7,6 +7,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
+import javafx.scene.control.CheckBox;
 import javafx.scene.control.ColorPicker;
 import javafx.scene.control.ComboBox;
 import javafx.scene.layout.AnchorPane;
@@ -23,6 +24,8 @@ public class BasicGUIController {
 	@FXML
 	private Button saveSVG;
 	@FXML
+	private Button delete;
+	@FXML
 	private ColorPicker selectColor;
 	@FXML
 	private ComboBox<String> mouseModeSelection;
@@ -30,13 +33,16 @@ public class BasicGUIController {
 	private AnchorPane graphDisplayPane;
 	@FXML
 	private ComboBox<String> layoutSelection;
+	@FXML
+	private CheckBox highlight;
+	@FXML
+	private CheckBox keepPainting;
 
 	ObservableList<String> mouseModeList = FXCollections.observableArrayList("PICKING", "TRANSFORMING");
 	ObservableList<String> layoutList = FXCollections.observableArrayList("Static", "Circle", "Kamada Kawai",
-			 "Fruchterman Reingold", "Self Organizing Map");
+			"Fruchterman Reingold", "Self Organizing Map");
 	VisualizationInstance visualizationObject = new VisualizationInstance();
 	SwingNode swingNode = new SwingNode();
-
 
 	@FXML
 	private void initialize() {
@@ -44,7 +50,8 @@ public class BasicGUIController {
 		mouseModeSelection.setItems(mouseModeList);
 		layoutSelection.setValue("Static");
 		layoutSelection.setItems(layoutList);
-		//javafx.scene.paint.Color fxColor = new javafx.scene.paint.Color(255.0,0.0,0.0,0.0); //Red as deafult
+		// javafx.scene.paint.Color fxColor = new
+		// javafx.scene.paint.Color(255.0,0.0,0.0,0.0); //Red as deafult
 		selectColor.setValue(javafx.scene.paint.Color.RED);
 	}
 
@@ -104,11 +111,14 @@ public class BasicGUIController {
 		visualizationObject.loadGraph();
 		updatePane();
 	}
-	
+
 	@FXML
 	private void changeColor() {
-		visualizationObject.setVertexColor(selectColor.getValue()); 
+		System.out.println(selectColor.getValue().toString());
+		System.out.println(keepPainting.isSelected());
+		visualizationObject.setVertexColor(selectColor.getValue(), keepPainting.isSelected());
 	}
+
 	@FXML
 	private void saveGraphInPDF() {
 		visualizationObject.saveInPDF();
@@ -117,6 +127,7 @@ public class BasicGUIController {
 		alert.setHeaderText("The graph was successfully saved.");
 		alert.show();
 	}
+
 	@FXML
 	private void saveGraphInSVG() {
 		visualizationObject.saveInSVG();
@@ -125,4 +136,19 @@ public class BasicGUIController {
 		alert.setHeaderText("The graph was successfully saved.");
 		alert.show();
 	}
+
+	@FXML
+	private void deleteVertex() {
+		visualizationObject.deleteVertex();
+		Alert alert = new Alert(AlertType.INFORMATION);
+		alert.setTitle("Delete Vertex");
+		alert.setHeaderText("Deleting a Vertex is permanent.");
+		alert.show();
+	}
+
+	@FXML
+	private void highlight() {
+		visualizationObject.highlightRelations(highlight.isSelected());
+	}
+
 }
