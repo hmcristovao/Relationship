@@ -106,37 +106,34 @@ public class GraphPersistence {
 		return null;
 	}
 
-	public static void savePDF(VisualizationViewer<VertexType, EdgeType> vv, JPanel panel) {
+	public static void savePDF(VisualizationViewer<VertexType, EdgeType> vv, JPanel panel, String filePath) {
 		try {
 			Properties p = new Properties();
 			p.setProperty("PageSize", "A4");
 			VectorGraphics g;
-			g = new PDFGraphics2D(new File("E:\\Relationship\\teste\\Graph.pdf"), vv);
+			g = new PDFGraphics2D(new File(filePath), vv);
 			g.setProperties(p);
 			g.startExport();
 			panel.print(g);
 			g.endExport();
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
 	
-	public static void saveSVG(VisualizationViewer<VertexType, EdgeType> vv, JPanel panel) {
+	public static void saveSVG(VisualizationViewer<VertexType, EdgeType> vv, JPanel panel, String filePath) {
 		try {
 			Properties p = new Properties();
 			p.setProperty("PageSize", "A4");
 			VectorGraphics g;
-			g = new SVGGraphics2D(new File("E:\\Relationship\\teste\\Graph.svg"), vv);
+			g = new SVGGraphics2D(new File(filePath), vv);
 			g.setProperties(p);
 			g.startExport();
 			panel.print(g);
 			g.endExport();
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

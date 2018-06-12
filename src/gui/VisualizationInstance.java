@@ -38,9 +38,9 @@ public class VisualizationInstance {
 	private VertexStrokeHighlightTransformer vsh;
 	private Dimension dimension;
 
-	VisualizationInstance() {
+	VisualizationInstance(String comceptMapTXTFile) {
 		graph = new DirectedSparseMultigraph<>();
-		GenerateGraph.parseTxtIntoGraph(graph, "E:\\Relationship\\teste\\conceptmap_teste.txt"); // For Testing only
+		GenerateGraph.parseTxtIntoGraph(graph, comceptMapTXTFile); // For Testing only
 		/*
 		 * GenerateGraph.parseTxtIntoGraph(graph,
 		 * WholeSystem.configTable.getString("baseDirectory") + "\\" +
@@ -124,13 +124,13 @@ public class VisualizationInstance {
 		 * currentVV.repaint(); } catch (Exception e) { e.printStackTrace(); } }
 		 */
 
-	public void saveGraph() {
+	public void saveGraph(String filePath) {
 		setLayoutNumber(0);
-		GraphPersistence.saveGraphInfo("E:\\Relationship\\teste\\graph_info.xml", getGraph(), getsLayout());
+		GraphPersistence.saveGraphInfo(filePath, getGraph(), getsLayout());
 	}
 
-	public void loadGraph() {
-		graph = GraphPersistence.loadGraphInfo("E:\\Relationship\\teste\\graph_info.xml");
+	public void loadGraph(String filePath) {
+		graph = GraphPersistence.loadGraphInfo(filePath);
 		StaticLayout<VertexType, EdgeType> sLayout = new StaticLayout<VertexType, EdgeType>(graph,
 				new Transformer<VertexType, Point2D>() {
 					public Point2D transform(VertexType vertex) {
@@ -176,12 +176,12 @@ public class VisualizationInstance {
 		currentVV.getRenderContext().setVertexStrokeTransformer(vsh);
 	}
 
-	public void saveInPDF() {
-		GraphPersistence.savePDF(currentVV, scrollPanel);
+	public void saveInPDF(String filePath) {
+		GraphPersistence.savePDF(currentVV, scrollPanel, filePath);
 	}
 
-	public void saveInSVG() {
-		GraphPersistence.saveSVG(currentVV, scrollPanel);
+	public void saveInSVG(String filePath) {
+		GraphPersistence.saveSVG(currentVV, scrollPanel, filePath);
 	}
 
 	public void gradientEdges(boolean apply) {

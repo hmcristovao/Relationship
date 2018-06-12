@@ -1,5 +1,7 @@
 package gui;
 
+import java.io.File;
+
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.embed.swing.SwingNode;
@@ -10,7 +12,10 @@ import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.ColorPicker;
 import javafx.scene.control.ComboBox;
+import javafx.scene.control.Menu;
+import javafx.scene.control.MenuBar;
 import javafx.scene.layout.AnchorPane;
+import javafx.stage.FileChooser;
 
 public class BasicGUIController {
 	@FXML
@@ -45,11 +50,14 @@ public class BasicGUIController {
 	private CheckBox oCurve;
 	@FXML
 	private CheckBox sCurve;
-
+	@FXML
+	private MenuBar menuBar;
+	
+	VisualizationInstance visualizationObject;
 	ObservableList<String> mouseModeList = FXCollections.observableArrayList("PICKING", "TRANSFORMING");
 	ObservableList<String> layoutList = FXCollections.observableArrayList("Static", "Circle", "Kamada Kawai",
 			"Fruchterman Reingold", "Self Organizing Map");
-	VisualizationInstance visualizationObject = new VisualizationInstance();
+	//VisualizationInstance visualizationObject = new VisualizationInstance();
 	SwingNode swingNode = new SwingNode();
 
 	@FXML
@@ -69,9 +77,26 @@ public class BasicGUIController {
 		swingNode.setContent(visualizationObject.getScrollPanel());
 		graphDisplayPane.getChildren().add(swingNode);
 	}
-
+	@FXML
+	private void openGraph() {
+		FileChooser fc = new FileChooser();
+		File selectedFile = fc.showOpenDialog(null);
+		if (selectedFile != null) {
+			
+		} else {
+			Alert alert = new Alert(AlertType.INFORMATION);
+			alert.setTitle("Open File");
+			alert.setHeaderText("You must select a TXT file.");
+			alert.show();
+		}
+	}
 	@FXML
 	private void startGraph() {
+		FileChooser fileChooser = new FileChooser();
+		FileChooser.ExtensionFilter fileExtension = new FileChooser.ExtensionFilter("Concept Map TXT", "*.txt");
+		fileChooser.getExtensionFilters().add(fileExtension);
+		File selectedFile = fileChooser.showOpenDialog(null);
+		visualizationObject = new VisualizationInstance(selectedFile.getAbsolutePath());
 		swingNode.setContent(visualizationObject.getScrollPanel());
 		graphDisplayPane.getChildren().add(swingNode);
 	}
@@ -108,7 +133,11 @@ public class BasicGUIController {
 	@FXML
 	private void save() {
 		layoutSelection.setValue("Static");
-		visualizationObject.saveGraph();
+		FileChooser fileChooser = new FileChooser();
+		FileChooser.ExtensionFilter fileExtension = new FileChooser.ExtensionFilter("XML", "*.xml");
+		fileChooser.getExtensionFilters().add(fileExtension);
+		File selectedFile = fileChooser.showSaveDialog(null);
+		visualizationObject.saveGraph(selectedFile.getAbsolutePath());
 		Alert alert = new Alert(AlertType.INFORMATION);
 		alert.setTitle("Saving Process");
 		alert.setHeaderText("The graph was successfully saved.");
@@ -117,7 +146,11 @@ public class BasicGUIController {
 
 	@FXML
 	private void load() {
-		visualizationObject.loadGraph();
+		FileChooser fileChooser = new FileChooser();
+		FileChooser.ExtensionFilter fileExtension = new FileChooser.ExtensionFilter("XML", "*.xml");
+		fileChooser.getExtensionFilters().add(fileExtension);
+		File selectedFile = fileChooser.showOpenDialog(null);
+		visualizationObject.loadGraph(selectedFile.getAbsolutePath());
 		updatePane();
 	}
 
@@ -128,7 +161,11 @@ public class BasicGUIController {
 
 	@FXML
 	private void saveGraphInPDF() {
-		visualizationObject.saveInPDF();
+		FileChooser fileChooser = new FileChooser();
+		FileChooser.ExtensionFilter fileExtension = new FileChooser.ExtensionFilter("PDF", "*.pdf");
+		fileChooser.getExtensionFilters().add(fileExtension);
+		File selectedFile = fileChooser.showSaveDialog(null);
+		visualizationObject.saveInPDF(selectedFile.getAbsolutePath());
 		Alert alert = new Alert(AlertType.INFORMATION);
 		alert.setTitle("Saving in PDF Process");
 		alert.setHeaderText("The graph was successfully saved.");
@@ -137,7 +174,11 @@ public class BasicGUIController {
 
 	@FXML
 	private void saveGraphInSVG() {
-		visualizationObject.saveInSVG();
+		FileChooser fileChooser = new FileChooser();
+		FileChooser.ExtensionFilter fileExtension = new FileChooser.ExtensionFilter("SVG", "*.svg");
+		fileChooser.getExtensionFilters().add(fileExtension);
+		File selectedFile = fileChooser.showSaveDialog(null);
+		visualizationObject.saveInSVG(selectedFile.getAbsolutePath());
 		Alert alert = new Alert(AlertType.INFORMATION);
 		alert.setTitle("Saving in SVG Process");
 		alert.setHeaderText("The graph was successfully saved.");
