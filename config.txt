@@ -4,13 +4,13 @@
 //================================================================================
 	
 // Current test name 
-testName = teste2
+testName = teste10
 
 // Knowledge base local (1 = DBpedia; 2 = my knowledge base)
 knowledgeBasePlace = 1
 
 // Base directory to creation of output files: absolut path 'C:\\path\\results' or relative path 'path\\results' or current path '.'
-baseDirectory = C:\\Users\\Iago\\git\\Relationship
+baseDirectory = C:\\Users\\Henrique\\Documents\\Relationship
 //baseDirectory = C:\\documentos\\Doutorado\\Tese\\my_knowledge_base
 
 // minimum quantity of iterations to get out of loop when connected component = 1 (good value: 6) 
@@ -20,7 +20,7 @@ minIterationToVerifyUniqueConnectedComponent = 4
 minIterationToVerifyRelationshipBetweenOriginalConcepts = 8
 
 // maximum quantity of iterations to get out of loop (good value: 50)  
-maxIteration = 10  
+maxIteration = 50  
 
 // N-degree filter used in all system (good value: 2)
 nDegreeFilter = 2
@@ -135,10 +135,9 @@ graphStreamVisualization = 	false
 
 // to fix a bug in Gephi Tool Kit - calculate wrong the quantity of connected component
 // turn the flag to true and put original concepts that is getting alone (put '.' to empty)
-// Attention: do not put '.' in the final of concept  
 isFixBugInGephiToolKit = true
-originalConceptWithGephiToolKitBug0 = .
-originalConceptWithGephiToolKitBug1 = .
+originalConceptWithGephiToolKitBug0 = Knowledge organization.
+originalConceptWithGephiToolKitBug1 = Tim Berners-Lee.
 originalConceptWithGephiToolKitBug2 = .
 originalConceptWithGephiToolKitBug3 = .
 originalConceptWithGephiToolKitBug4 = .

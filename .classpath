@@ -11,17 +11,18 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Gephi Toolkit"/>
-	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/GraphStream"/>
-	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/Jena"/>
-	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/Json-Gephi"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JUNG 2.0.1"/>
-	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/API GephiToolKit"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/API GraphStream"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/API Jena"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/API Json-Gephi"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JUNG"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/FreeHEP VectorGraphics"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/freeHeap"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JsonGephi"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -9,3 +9,6 @@ Open the config.txt file and make the settings
 3. Run
 Open the system console and run the following line:
 java - jar relationship.jar
+
+
+

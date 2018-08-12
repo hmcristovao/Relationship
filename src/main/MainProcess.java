@@ -8,7 +8,6 @@ import graph.NodeData;
 import graph.QuantityNodesEdges;
 import graph.StreamGraphData.DeletedStatus;
 import graph.SystemGraphData;
-import gui.GenerateGraph;
 import gui.EdgeType;
 
 import java.io.File;
@@ -18,6 +17,10 @@ import java.io.IOException;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
+
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
+import javafx.scene.layout.Pane;
 
 import javax.swing.JFrame;
 
@@ -220,15 +223,16 @@ public class MainProcess {
             
 			buildGexfGraphFileFromConceptMap();
 			buildTxtFileFromConceptMap();
+			
+			
 			//--------------------Inserting code to test the DisplayGraph class -------------------------------------
-			//JFrame graphFrame = new JFrame("Graph Frame Test");
-			//graphFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-			//Graph<String, EdgeType> graphTest = new DirectedSparseMultigraph<>();
-			//graphTest = DisplayGraph.parseTxtIntoGraph();
-			//graphFrame.getContentPane().add(DisplayGraph.GenerateVisualGraph(graphTest, 0));
-			//graphFrame.pack();
-			//graphFrame.setVisible(true);
+			Pane root = FXMLLoader.load(getClass().getResource("BasicGUI.fxml"));
+			Scene scene = new Scene(root, 1280, 720);
+			primaryStage.setScene(scene);
+			primaryStage.show();
 			//-------------------------------------End Test Code---------------------------------------
+			
+			
 			upgradeConceptMap_heuristic_08_changeAmpersandCharacterInCxlFile();
 			upgradeConceptMap_heuristic_09_putNewLineInCategory();
 			upgradeConceptMap_heuristic_10_putNewLineInLongSentence();

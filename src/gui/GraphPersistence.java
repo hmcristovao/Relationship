@@ -111,7 +111,11 @@ public class GraphPersistence {
 			Properties p = new Properties();
 			p.setProperty("PageSize", "A4");
 			VectorGraphics g;
+<<<<<<< Upstream, based on origin/tccIagoMaster
 			g = new PDFGraphics2D(new File(filePath), vv);
+=======
+			g = new PDFGraphics2D(new File("C:\\Users\\Henrique\\Documents\\Relationship\\teste10\\Graph.pdf"), vv);
+>>>>>>> b4488db Inserção das bibliotecas (path lib)
 			g.setProperties(p);
 			g.startExport();
 			panel.print(g);
@@ -126,7 +130,11 @@ public class GraphPersistence {
 			Properties p = new Properties();
 			p.setProperty("PageSize", "A4");
 			VectorGraphics g;
+<<<<<<< Upstream, based on origin/tccIagoMaster
 			g = new SVGGraphics2D(new File(filePath), vv);
+=======
+			g = new SVGGraphics2D(new File("C:\\Users\\Henrique\\Documents\\Relationship\\teste10\\Graph.svg"), vv);
+>>>>>>> b4488db Inserção das bibliotecas (path lib)
 			g.setProperties(p);
 			g.startExport();
 			panel.print(g);
