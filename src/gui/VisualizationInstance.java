@@ -40,11 +40,8 @@ public class VisualizationInstance {
 
 	VisualizationInstance(String comceptMapTXTFile) {
 		graph = new DirectedSparseMultigraph<>();
-<<<<<<< Upstream, based on origin/tccIagoMaster
 		GenerateGraph.parseTxtIntoGraph(graph, comceptMapTXTFile); // For Testing only
-=======
 		GenerateGraph.parseTxtIntoGraph(graph, "C:\\Users\\Henrique\\Documents\\Relationship\\teste10\\conceptmap_teste10.txt"); // For Testing only
->>>>>>> b4488db Inserção das bibliotecas (path lib)
 		/*
 		 * GenerateGraph.parseTxtIntoGraph(graph,
 		 * WholeSystem.configTable.getString("baseDirectory") + "\\" +
@@ -130,20 +127,15 @@ public class VisualizationInstance {
 
 	public void saveGraph(String filePath) {
 		setLayoutNumber(0);
-<<<<<<< Upstream, based on origin/tccIagoMaster
 		GraphPersistence.saveGraphInfo(filePath, getGraph(), getsLayout());
-=======
 		GraphPersistence.saveGraphInfo("C:\\Users\\Henrique\\Documents\\Relationship\\teste10\\graph_info.xml", getGraph(), getsLayout());
->>>>>>> b4488db Inserção das bibliotecas (path lib)
 	}
 
-<<<<<<< Upstream, based on origin/tccIagoMaster
 	public void loadGraph(String filePath) {
 		graph = GraphPersistence.loadGraphInfo(filePath);
-=======
+	}
 	public void loadGraph() {
 		graph = GraphPersistence.loadGraphInfo("C:\\Users\\Henrique\\Documents\\Relationship\\teste10\\graph_info.xml");
->>>>>>> b4488db Inserção das bibliotecas (path lib)
 		StaticLayout<VertexType, EdgeType> sLayout = new StaticLayout<VertexType, EdgeType>(graph,
 				new Transformer<VertexType, Point2D>() {
 					public Point2D transform(VertexType vertex) {

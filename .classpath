@@ -33,29 +33,14 @@
 	<classpathentry kind="lib" path="lib/FreeHEP VectorGraphics/junit-3.8.2.jar"/>
 	<classpathentry kind="lib" path="lib/FreeHEP VectorGraphics/openide-lookup-1.9-patched-1.0.jar"/>
 	<classpathentry kind="lib" path="lib/GraphStream/gs-algo-1.3/gs-algo-1.3-javadoc.jar"/>
-	<classpathentry kind="lib" path="lib/GraphStream/gs-algo-1.3/gs-algo-1.3-javadoc.jar.asc"/>
 	<classpathentry kind="lib" path="lib/GraphStream/gs-algo-1.3/gs-algo-1.3-sources.jar"/>
-	<classpathentry kind="lib" path="lib/GraphStream/gs-algo-1.3/gs-algo-1.3-sources.jar.asc"/>
 	<classpathentry kind="lib" path="lib/GraphStream/gs-algo-1.3/gs-algo-1.3.jar"/>
-	<classpathentry kind="lib" path="lib/GraphStream/gs-algo-1.3/gs-algo-1.3.jar.asc"/>
-	<classpathentry kind="lib" path="lib/GraphStream/gs-algo-1.3/gs-algo-1.3.pom"/>
-	<classpathentry kind="lib" path="lib/GraphStream/gs-algo-1.3/gs-algo-1.3.pom.asc"/>
 	<classpathentry kind="lib" path="lib/GraphStream/gs-core-1.3/gs-core-1.3-javadoc.jar"/>
-	<classpathentry kind="lib" path="lib/GraphStream/gs-core-1.3/gs-core-1.3-javadoc.jar.asc"/>
 	<classpathentry kind="lib" path="lib/GraphStream/gs-core-1.3/gs-core-1.3-sources.jar"/>
-	<classpathentry kind="lib" path="lib/GraphStream/gs-core-1.3/gs-core-1.3-sources.jar.asc"/>
 	<classpathentry kind="lib" path="lib/GraphStream/gs-core-1.3/gs-core-1.3.jar"/>
-	<classpathentry kind="lib" path="lib/GraphStream/gs-core-1.3/gs-core-1.3.jar.asc"/>
-	<classpathentry kind="lib" path="lib/GraphStream/gs-core-1.3/gs-core-1.3.pom"/>
-	<classpathentry kind="lib" path="lib/GraphStream/gs-core-1.3/gs-core-1.3.pom.asc"/>
 	<classpathentry kind="lib" path="lib/GraphStream/gs-ui-1.3/gs-ui-1.3-javadoc.jar"/>
-	<classpathentry kind="lib" path="lib/GraphStream/gs-ui-1.3/gs-ui-1.3-javadoc.jar.asc"/>
 	<classpathentry kind="lib" path="lib/GraphStream/gs-ui-1.3/gs-ui-1.3-sources.jar"/>
-	<classpathentry kind="lib" path="lib/GraphStream/gs-ui-1.3/gs-ui-1.3-sources.jar.asc"/>
 	<classpathentry kind="lib" path="lib/GraphStream/gs-ui-1.3/gs-ui-1.3.jar"/>
-	<classpathentry kind="lib" path="lib/GraphStream/gs-ui-1.3/gs-ui-1.3.jar.asc"/>
-	<classpathentry kind="lib" path="lib/GraphStream/gs-ui-1.3/gs-ui-1.3.pom"/>
-	<classpathentry kind="lib" path="lib/GraphStream/gs-ui-1.3/gs-ui-1.3.pom.asc"/>
 	<classpathentry kind="lib" path="lib/Jena/apache-jena-3.2.0/lib/collection-0.6.jar"/>
 	<classpathentry kind="lib" path="lib/Jena/apache-jena-3.2.0/lib/commons-cli-1.3.jar"/>
 	<classpathentry kind="lib" path="lib/Jena/apache-jena-3.2.0/lib/commons-codec-1.10.jar"/>
