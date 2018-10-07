@@ -609,7 +609,7 @@ public class StreamGraphData {
 		str.append("\nID: ");
 		str.append(node.toString());
 		str.append(" - Full name: ");
-		str.append(node.getAttribute("fullname"));
+		str.append((StringBuilder)node.getAttribute("fullname"));
 		str.append("\n[Degree: ");
 		str.append(node.getDegree());
 		str.append("] [In degree: ");
@@ -619,30 +619,30 @@ public class StreamGraphData {
 		str.append("]");
 		if(node.getAttribute("label") != null) {
 			str.append("\nLabel: ");
-			str.append(node.getAttribute("label"));
+			str.append((StringBuilder)node.getAttribute("label"));
 		}
 		if(node.getAttribute("homepage") != null) {
 			str.append("\nHomepage: ");
-			str.append(node.getAttribute("homepage"));
+			str.append((StringBuilder)node.getAttribute("homepage"));
 		}
 		if(node.getAttribute("abstract") != null) {
 			str.append("\nAbstract: ");
-			str.append(node.getAttribute("abstract"));
+			str.append((StringBuilder)node.getAttribute("abstract"));
 		}
 		if(node.getAttribute("comment") != null) {
 			str.append("\nComment: ");
-			str.append(node.getAttribute("comment"));
+			str.append((StringBuilder)node.getAttribute("comment"));
 		}
 		if(node.getAttribute("image") != null) {
 			str.append("\nImage: ");
-			str.append(node.getAttribute("image"));
+			str.append((StringBuilder)node.getAttribute("image"));
 		}
 		str.append("\nEdges:\n");
 		for( Edge edge : node.getEachEdge()) {
 			str.append("      ");
 			str.append(edge.toString());
 			str.append(" (times: ");
-			str.append(edge.getAttribute("repeatedTimes"));
+			str.append((StringBuilder)edge.getAttribute("repeatedTimes"));
 			str.append(")\n");
 			for(int numberExtraEdge = 0; ; numberExtraEdge++) {
 				if(edge.getAttribute("nextedge"+numberExtraEdge) == null) 
@@ -651,7 +651,7 @@ public class StreamGraphData {
 					str.append("         extra edge ");
 					str.append(numberExtraEdge);
 					str.append(": ");
-					str.append(edge.getAttribute("nextedge"+numberExtraEdge));
+					str.append((StringBuilder)edge.getAttribute("nextedge"+numberExtraEdge));
 					str.append("\n");
 				}
 			}
