@@ -223,16 +223,7 @@ public class MainProcess {
             
 			buildGexfGraphFileFromConceptMap();
 			buildTxtFileFromConceptMap();
-			
-			
-			//--------------------Inserting code to test the DisplayGraph class -------------------------------------
-			Pane root = FXMLLoader.load(getClass().getResource("BasicGUI.fxml"));
-			Scene scene = new Scene(root, 1280, 720);
-			primaryStage.setScene(scene);
-			primaryStage.show();
-			//-------------------------------------End Test Code---------------------------------------
-			
-			
+						
 			upgradeConceptMap_heuristic_08_changeAmpersandCharacterInCxlFile();
 			upgradeConceptMap_heuristic_09_putNewLineInCategory();
 			upgradeConceptMap_heuristic_10_putNewLineInLongSentence();
